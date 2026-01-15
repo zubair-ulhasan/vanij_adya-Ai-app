@@ -1,0 +1,1707 @@
+openapi: 3.0.3
+info:
+  title: webengage App
+  version: 1.0.0
+servers:
+  - url: https://dashboard.webengage.com
+tags:
+  - name: api
+paths:
+  /api/v1/accounts:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/accounts
+      operationId: post_api_v1_accounts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  name: Ghouse1
+                  alias: ""
+                  categories:
+                    - name: E-Commerce
+                      description: E-Commerce
+                      categoryId: 16h72e8e
+                  timeZone: Etc/GMT+11
+                  language: en
+                  debugFlag: false
+                  planId: 3rlammo
+                  planDuration: annual
+      responses:
+        "200":
+          description: Success
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts
+      operationId: get_api_v1_accounts
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023
+      operationId: get_api_v1_accounts__15ba1d023
+      responses:
+        "200":
+          description: Success
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/accounts/~15ba1d023
+      operationId: post_api_v1_accounts__15ba1d023
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  name: Ghouse1
+                  alias: ""
+                  categories:
+                    - name: Travel/Hotel
+                      description: Travel/Hotel
+                      categoryId: h160dhg
+                  timeZone: Pacific/Niue
+                  language: en
+                  debugFlag: false
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/js-config:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/js-config
+      operationId: get_api_v1_accounts__15ba1d023_js_config
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/android-config:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/android-config
+      operationId: get_api_v1_accounts__15ba1d023_android_config
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/ios-config:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/ios-config
+      operationId: get_api_v1_accounts__15ba1d023_ios_config
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/users/searches:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/accounts/~15ba1d023/users/searches
+      operationId: post_api_v1_accounts__15ba1d023_users_searches
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  pageNo: 1
+                  filter:
+                    userAttribute:
+                      expressions:
+                        - name: cuid
+                          type: string
+                          category: system
+                          operator: EXISTS
+                          values:
+                            - "true"
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/events:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/events
+      operationId: get_api_v1_accounts__15ba1d023_id_events
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+          example: analytics
+        - name: analyticsChannel
+          in: query
+          required: false
+          schema:
+            type: string
+          example: EVENTS
+        - name: origin
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ANALYTICS
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}
+      operationId: get_api_v1_accounts__15ba1d023_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: sdks
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "2"
+        - name: ""
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: isCountRequired
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: useCache
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: visibility
+          in: query
+          required: false
+          schema:
+            type: string
+          example: visible
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: propertyNames
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: properties
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/notifications:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/notifications
+      operationId: get_api_v1_accounts__15ba1d023_notifications
+      parameters:
+        - name: sdks
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "3"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: propertyNames
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: properties
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/emails:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/emails
+      operationId: get_api_v1_accounts__15ba1d023_emails
+      parameters:
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: propertyNames
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: properties
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/sms-messages:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/sms-messages
+      operationId: get_api_v1_accounts__15ba1d023_sms_messages
+      parameters:
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: propertyNames
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: properties
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/journeys:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/journeys
+      operationId: get_api_v1_accounts__15ba1d023_journeys
+      parameters:
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: q
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/user:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/user
+      operationId: get_api_v1_user
+      parameters:
+        - name: licenseCode
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ~15ba1d023
+      responses:
+        "200":
+          description: Success
+  /api/v1/demo-accounts:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/demo-accounts
+      operationId: get_api_v1_demo_accounts
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/tags:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/tags
+      operationId: get_api_v2_accounts__15ba1d023_tags
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/admins:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/admins
+      operationId: get_api_v1_accounts__15ba1d023_admins
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/dashboard:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/dashboard
+      operationId: get_api_v1_accounts__15ba1d023_dashboard
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/dashboard/usage:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/dashboard/usage
+      operationId: get_api_v1_accounts__15ba1d023_dashboard_usage
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/{id2}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/{id2}
+      operationId: get_api_v1_accounts__15ba1d023_id_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: max-available-date
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: publisher-metrics
+        - name: metrics
+          in: query
+          required: false
+          schema:
+            type: string
+          example: MAU
+      responses:
+        "200":
+          description: Success
+  /api/v3/accounts/~15ba1d023/{id}/count:
+    post:
+      tags:
+        - api
+      summary: POST /api/v3/accounts/~15ba1d023/{id}/count
+      operationId: post_api_v3_accounts__15ba1d023_id_count
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: userTypes
+          in: query
+          required: false
+          schema:
+            type: string
+          example: all,known,unknown
+        - name: sdks
+          in: query
+          required: false
+          schema:
+            type: string
+          example: all
+        - name: onlyReachableCount
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  licenseCode: ~15ba1d023
+                  productType: WEB_PUSH
+                  sdks:
+                    - "1"
+                  appIds: {}
+                  campaignType: null
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/reachability:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/accounts/~15ba1d023/reachability
+      operationId: post_api_v1_accounts__15ba1d023_reachability
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  users: {}
+                  channels:
+                    - PUSH_NOTIFICATION
+                    - SMS
+                    - EMAIL
+                    - WEB_PUSH
+                    - IN_APP
+                    - ON_SITE
+                    - WHATSAPP
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/active-users/timeseries:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/active-users/timeseries
+      operationId: get_api_v1_accounts__15ba1d023_active_users_timeseries
+      parameters:
+        - name: from
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 2026-01-10T00:00:00.000-11:00
+        - name: to
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 2026-01-10T23:59:59.999-11:00
+        - name: userType
+          in: query
+          required: false
+          schema:
+            type: string
+          example: all
+        - name: metric
+          in: query
+          required: false
+          schema:
+            type: string
+          example: platform
+      responses:
+        "200":
+          description: Success
+  /api/accounts/~15ba1d023/control-group:
+    get:
+      tags:
+        - api
+      summary: GET /api/accounts/~15ba1d023/control-group
+      operationId: get_api_accounts__15ba1d023_control_group
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/user-attributes:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/user-attributes
+      operationId: get_api_v1_accounts__15ba1d023_id_user_attributes
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: excludeTypes
+          in: query
+          required: false
+          schema:
+            type: string
+          example: array,map
+        - name: fetchForUserPlusEvents
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/all:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/all
+      operationId: get_api_v1_accounts__15ba1d023_id_all
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: intelligentAttribute
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: includeUserRollingFlag
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: optimizedContent
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: optimizePausedLoad
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/userlist:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/userlist
+      operationId: get_api_v2_accounts__15ba1d023_userlist
+      parameters:
+        - name: status
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ACTIVE
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "2000"
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: attachTagsName
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: attachRefreshSchedules
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: optimizedContent
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/{id}/{id2}:
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/{id}/{id2}
+      operationId: post_api_v2_accounts__15ba1d023_id_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: event-attributes
+        - name: excludeTypes
+          in: query
+          required: false
+          schema:
+            type: string
+          example: array,map
+        - name: fetchAll
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: filterPrivateData
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: category
+          in: query
+          required: false
+          schema:
+            type: string
+          example: system
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  eventName: goal_accomplish
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/revenue/mapping:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/revenue/mapping
+      operationId: get_api_v2_accounts__15ba1d023_revenue_mapping
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/funnels:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/funnels
+      operationId: get_api_v2_accounts__15ba1d023_funnels
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: query
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/cohorts/stats:
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/cohorts/stats
+      operationId: post_api_v2_accounts__15ba1d023_cohorts_stats
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  first_event: {}
+                  returning_event: {}
+                  period: day
+                  first_time_only: "false"
+                  from: 2026-01-05T00:00:00.000-11:00
+                  to: 2026-01-11T23:59:59.999-11:00
+                  interval_threshold: 45
+                  dimensions:
+                    - - {}
+                  limit: 500
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/campaigns/uninstall-stats:
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/campaigns/uninstall-stats
+      operationId: post_api_v2_accounts__15ba1d023_campaigns_uninstall_stats
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: query
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  campaignStatType: CAMPAIGNS_BEFORE_UNINSTALL
+                  channels:
+                    - PUSH_NOTIFICATION
+                  startTime: 2026-01-05T00:00:00.000-11:00
+                  endTime: 2026-01-11T23:59:59.999-11:00
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/events/a-stats:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/accounts/~15ba1d023/events/a-stats
+      operationId: post_api_v1_accounts__15ba1d023_events_a_stats
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  startTime: 2026-01-05T00:00:00.000-11:00
+                  endTime: 2026-01-11T23:59:59.999-11:00
+                  source: big_query
+                  metrics:
+                    - COUNT
+                  events:
+                    - name: app_uninstalled
+                      category: system
+                  dimensions:
+                    - - type: date
+                        name: day
+                        attr-category: system
+                      - type: number
+                        name: sdk_id
+                        attr-category: system
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/limits:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/limits
+      operationId: get_api_v1_accounts__15ba1d023_id_limits
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/{id}/usage-status:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/{id}/usage-status
+      operationId: get_api_v1_accounts__15ba1d023_id_usage_status
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: traffic-segments
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/segments:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/segments
+      operationId: get_api_v1_accounts__15ba1d023_segments
+      parameters:
+        - name: states
+          in: query
+          required: false
+          schema:
+            type: string
+          example: REFRESHING,LIST
+        - name: excludeSource
+          in: query
+          required: false
+          schema:
+            type: string
+          example: PREDICTIVE_SEGMENT
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/{id}
+      operationId: get_api_v2_accounts__15ba1d023_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: integration-status
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/system/attribute/state:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/system/attribute/state
+      operationId: get_api_v2_accounts__15ba1d023_system_attribute_state
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/users/uploads:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/users/uploads
+      operationId: get_api_v1_accounts__15ba1d023_users_uploads
+      parameters:
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/stats:
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/stats
+      operationId: post_api_v2_accounts__15ba1d023_stats
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  campaignStatType: CHANNEL_STATS_OVERVIEW
+                  startTime: 2026-01-05T00:00:00.000-11:00
+                  endTime: 2026-01-11T23:59:59.999-11:00
+                  containerTypes:
+                    - ALL
+                    - ONETIME
+                    - TRIGGERED
+                    - RECURRING
+                    - TRANSACTION
+                    - JOURNEY
+                    - RELAY
+                  channels:
+                    - PUSH_NOTIFICATION
+                    - IN_APP_NOTIFICATION
+                    - SMS
+                    - ON_SITE_NOTIFICATION
+                    - WEB_PUSH
+                    - EMAIL
+                    - WHATSAPP
+                  splitBy: CAMPAIGN_CHANNEL
+                  tags: []
+                  isFunnelView: false
+      responses:
+        "200":
+          description: Success
+  /api/accounts/~15ba1d023/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/accounts/~15ba1d023/{id}
+      operationId: get_api_accounts__15ba1d023_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: filter-push-config-packages
+        - name: sdkId
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "3"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/web-push:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/web-push
+      operationId: get_api_v1_accounts__15ba1d023_web_push
+      parameters:
+        - name: noView
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: propertyNames
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+        - name: properties
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ""
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/web-push:
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/web-push
+      operationId: post_api_v2_accounts__15ba1d023_web_push
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  title: kjhjk
+                  sdks: null
+                  container: ONETIME
+                  tags: []
+                  experimentMetaData: {}
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/web-push/~n553j8:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/web-push/~n553j8
+      operationId: get_api_v1_accounts__15ba1d023_web_push__n553j8
+      responses:
+        "200":
+          description: Success
+  /api/v2/experiment/~15ba1d023/abWinnerConfig/~n553j8:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/experiment/~15ba1d023/abWinnerConfig/~n553j8
+      operationId: get_api_v2_experiment__15ba1d023_abWinnerConfig__n553j8
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/web-push/~n553j8/targetingRule/schedule:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/web-push/~n553j8/targetingRule/schedule
+      operationId: get_api_v1_accounts__15ba1d023_web_push__n553j8_targetingRule_schedule
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/campaigns/~n553j8/throttle:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/campaigns/~n553j8/throttle
+      operationId: get_api_v2_accounts__15ba1d023_campaigns__n553j8_throttle
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/dnd:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/dnd
+      operationId: get_api_v1_accounts__15ba1d023_dnd
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/fb-adAccounts/status:
+    put:
+      tags:
+        - api
+      summary: PUT /api/v2/accounts/~15ba1d023/fb-adAccounts/status
+      operationId: put_api_v2_accounts__15ba1d023_fb_adAccounts_status
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/fb-audiences:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/fb-audiences
+      operationId: get_api_v2_accounts__15ba1d023_fb_audiences
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/gAd-audiences:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/gAd-audiences
+      operationId: get_api_v2_accounts__15ba1d023_gAd_audiences
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/journeysCount:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/journeysCount
+      operationId: get_api_v1_accounts__15ba1d023_journeysCount
+      parameters:
+        - name: journeyType
+          in: query
+          required: false
+          schema:
+            type: string
+          example: JOURNEY
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/reports:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/reports
+      operationId: get_api_v2_accounts__15ba1d023_reports
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1000"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/report/subscribe:
+    put:
+      tags:
+        - api
+      summary: PUT /api/v2/accounts/~15ba1d023/report/subscribe
+      operationId: put_api_v2_accounts__15ba1d023_report_subscribe
+      parameters:
+        - name: reportTemplateEncodedId
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 12ecg562
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPutRequest"
+            examples:
+              fromHar:
+                value:
+                  recipients:
+                    - mohammedghouse86.backup@gmail.com
+                  ccs: null
+                  bccs: null
+                  type: EMAIL
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/report:
+    delete:
+      tags:
+        - api
+      summary: DELETE /api/v2/accounts/~15ba1d023/report
+      operationId: delete_api_v2_accounts__15ba1d023_report
+      parameters:
+        - name: reportTemplateEncodedId
+          in: query
+          required: false
+          schema:
+            type: string
+          example: e53g72b
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/report/schedule:
+    put:
+      tags:
+        - api
+      summary: PUT /api/v2/accounts/~15ba1d023/report/schedule
+      operationId: put_api_v2_accounts__15ba1d023_report_schedule
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPutRequest"
+            examples:
+              fromHar:
+                value:
+                  reportConfig:
+                    channel: WEB_PUSH
+                    period: LAST_X_DAYS
+                    lastXDays: 1
+                    identifier: null
+                    splitByVariation: false
+                    reportFrequency: DAILY
+                  renderFormat: CSV
+                  scheduler:
+                    identifier: null
+                    startDate: 2026-01-11T03:10:50.985-11:00
+                    endDate: null
+                    interval: []
+                    timezone: -39600
+                    sendNow: null
+                    sendInTz: null
+                    id: null
+                    time: 11:00
+                    schedule: DAILY
+                  deliveryConfig:
+                    recipients:
+                      - mohammedghouse86.backup@gmail.com
+                    ccs: null
+                    bccs: null
+                    type: EMAIL
+                  reportTemplateEncodedId: e53g72b
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/campaign-list:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/campaign-list
+      operationId: get_api_v2_accounts__15ba1d023_campaign_list
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: channels
+          in: query
+          required: false
+          schema:
+            type: string
+          example: NOTIFICATION
+        - name: sdks
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/~15ba1d023/in-app/priority:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/~15ba1d023/in-app/priority
+      operationId: get_api_v1_accounts__15ba1d023_in_app_priority
+      responses:
+        "200":
+          description: Success
+  /api/v1/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/{id}
+      operationId: get_api_v1_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: account-categories
+      responses:
+        "200":
+          description: Success
+  /api/v1/accounts/time-zones:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/accounts/time-zones
+      operationId: get_api_v1_accounts_time_zones
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/audit-log:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/audit-log
+      operationId: get_api_v2_accounts__15ba1d023_audit_log
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: from
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 2026-01-05T00:00:00.000-11:00
+        - name: to
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 2026-01-11T23:59:59.999-11:00
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/administration/team-members:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/administration/team-members
+      operationId: get_api_v2_accounts__15ba1d023_administration_team_members
+      parameters:
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: status
+          in: query
+          required: false
+          schema:
+            type: string
+          example: ACTIVE
+      responses:
+        "200":
+          description: Success
+    post:
+      tags:
+        - api
+      summary: POST /api/v2/accounts/~15ba1d023/administration/team-members
+      operationId: post_api_v2_accounts__15ba1d023_administration_team_members
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  firstName: jack
+                  lastName: ""
+                  email: jack@tester.com
+                  roleId: c47j16
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/administration/roles:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/administration/roles
+      operationId: get_api_v2_accounts__15ba1d023_administration_roles
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/administration/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/administration/{id}
+      operationId: get_api_v2_accounts__15ba1d023_administration_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: permissionRoleMap
+        - name: pageNo
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: pageSize
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v2/accounts/~15ba1d023/administration/{id}/{id2}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v2/accounts/~15ba1d023/administration/{id}/{id2}
+      operationId: get_api_v2_accounts__15ba1d023_administration_id_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: service-account-roles
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: permissionRoleMap
+      responses:
+        "200":
+          description: Success
+components:
+  schemas:
+    ApiPostRequest:
+      type: object
+      properties:
+        name:
+          type: string
+        alias:
+          type: string
+        categories:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              description:
+                type: string
+              categoryId:
+                type: string
+            required:
+              - name
+              - description
+              - categoryId
+        timeZone:
+          type: string
+        language:
+          type: string
+        debugFlag:
+          type: boolean
+        planId:
+          type: string
+        planDuration:
+          type: string
+      required:
+        - name
+        - alias
+        - categories
+        - timeZone
+        - language
+        - debugFlag
+        - planId
+        - planDuration
+    ApiPutRequest:
+      type: object
+      properties:
+        recipients:
+          type: array
+          items:
+            type: string
+        ccs:
+          nullable: true
+        bccs:
+          nullable: true
+        type:
+          type: string
+      required:
+        - recipients
+        - ccs
+        - bccs
+        - type

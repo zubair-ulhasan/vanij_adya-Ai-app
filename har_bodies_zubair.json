@@ -1,0 +1,2640 @@
+[
+  {
+    "id": "1",
+    "url": "https://webengage.zendesk.com/frontendevents/dl?client=1B752747-577B-429A-A0E0-83861AF69088",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1768387604556,
+    "requestBody": {
+      "events": [
+        {
+          "analytics": {
+            "action": "universal",
+            "category": "googleanalyticsused"
+          },
+          "buid": "e108e34e4180454d82ddc19f4d47af8c",
+          "suid": "8b999830f681420e8876ea020dde9f81",
+          "version": "afd1ce4"
+        },
+        {
+          "settings": {
+            "webWidget": {
+              "contactForm": {
+                "subject": true,
+                "title": {
+                  "*": "Raise a Ticket"
+                }
+              }
+            }
+          },
+          "buid": "e108e34e4180454d82ddc19f4d47af8c",
+          "suid": "8b999830f681420e8876ea020dde9f81",
+          "version": "afd1ce4"
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9bdc8d1f5c1e2e9c-HYD"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 14 Jan 2026 10:46:44 GMT"
+      },
+      {
+        "name": "nel",
+        "value": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=BbZRGKacrvOiq7fvOq6tYofqYO%2FgkpcR9EV2%2FZH8Ziw9NWkq3XRGgpsTDedV790rOZTD9QJUC0rzHA0Uey70%2BjtX7mcRs4BFSeBgiExz8NQeDX5aU%2FsbibxHrO9TjYzNgAjZPywPqw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      },
+      {
+        "name": "via",
+        "value": "zorg"
+      },
+      {
+        "name": "x-envoy-decorator-operation",
+        "value": "/frontendevents/dl"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "1"
+      },
+      {
+        "name": "x-request-id",
+        "value": "9bdc8d1f5c1e2e9c-NRT"
+      },
+      {
+        "name": "x-zendesk-zorg",
+        "value": "yes"
+      },
+      {
+        "name": "zendesk-service",
+        "value": "frontend-event-ingestor"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=dashboard.webengage.com&dl=https%3A%2F%2Fdashboard.webengage.com%2Fuser%2Faccount.html&scrsrc=www.googletagmanager.com&rnd=2109703729.1768387607&dt=Sign%20In%20%7C%20WebEngage&auid=659275046.1768277181&navt=n&npa=0&gtm=45He61c1v6863294za200zd6863294xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616986~115938465~115938469~117041588&tft=1768387606870&tfd=2304&apve=1&apvf=f",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1768387606871,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": []
+  },
+  {
+    "id": "3",
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=108844&time=1768387607292&url=https%3A%2F%2Fdashboard.webengage.com%2Fuser%2Faccount.html%3Faction%3DviewLogin",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387607302,
+    "requestBody": null,
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "4",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-3NGD3E18DP&gtm=45je61c1v874573356z86863294za20gzb6863294zd6863294&_p=1768387606327&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1614989590.1768277183&ul=en-gb&sr=1366x768&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B143.0.7499.171%7CChromium%3B143.0.7499.171%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115938465~115938469~117041588&sid=1768386085&sct=5&seg=1&dl=https%3A%2F%2Fdashboard.webengage.com%2Fuser%2Faccount.html%3Faction%3DviewLogin&dr=https%3A%2F%2Fdashboard.webengage.com%2Faccounts%2F~9919797a%2Fchannels%2Fweb-push&dt=Sign%20In%20%7C%20WebEngage&en=page_view&tfd=3189",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1768387607756,
+    "requestBody": null,
+    "status": 204,
+    "statusText": "H3 204",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://dashboard.webengage.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:170:0"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=ascnsrsggc:170:0"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 14 Jan 2026 10:46:47 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"ascnsrsggc:170:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:170:0\"}],}"
+      },
+      {
+        "name": "server",
+        "value": "Golfe2"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "url": "https://cdn.cookielaw.org/consent//.json",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387607837,
+    "requestBody": null,
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "6",
+    "url": "https://wa.sprouts.ai:3000/v1/iplookups/autoCapture",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387607845,
+    "requestBody": {
+      "pageId": "Sign In | WebEngage",
+      "pageName": "Sign In | WebEngage",
+      "pageUrl": "https://dashboard.webengage.com/user/account.html",
+      "urlParameters": "action=viewLogin",
+      "pixelVersion": "v2.3"
+    },
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "7",
+    "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=884610425&t=pageview&_s=1&dl=https%3A%2F%2Fdashboard.webengage.com%2Fuser%2Faccount.html%3Faction%3DviewLogin&ul=en-gb&dt=Sign%20In%20%7C%20WebEngage&sr=1366x768&vp=1028x599&_u=QACAAEABAAAAACAAI~&jid=303060916&gjid=1658256520&cid=1614989590.1768277183&tid=UA-28285682-1&_gid=847087266.1768379078&_r=1&_slc=1&gtm=45He61c1n71PF79RCv6863294za200zd6863294&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115616986~115938465~115938469~117041588&z=706123188",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387608097,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://dashboard.webengage.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "3"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:211:0"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=ascnsrsgac:211:0"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 14 Jan 2026 10:46:47 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "last-modified",
+        "value": "Sun, 17 May 1998 03:00:00 GMT"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"ascnsrsgac:211:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:211:0\"}],}"
+      },
+      {
+        "name": "server",
+        "value": "Golfe2"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "url": "https://s.clarity.ms/collect",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387608264,
+    "requestBody": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\n­RMOÛ@\u0010ý+«94Øûå]\u001bTU\u0014U\u0014\u0001½\u0004)\u0007ËAk{ã¬âØil¶üöjÛs\u000fÕ^æó½73û\u0003<\\æÀ£4Ò\u0016P Gh\u0004³idu\u0018\u001bµ\u0006éðm\n[@\u0010ÛW£wâ½\u001elÆq?\\ÆqíMÙ»C\u001d\u001d}é»Æ5>ªú]<\rþ\u0010»ªê§n6ã®ýèª1ôÝà\u000f}\u0013:(\u0010\u001c\\æ¹Á\u0014\u0005)Z+\nÌµD!Þ\u0003IQ@¡LR\"Q¨4ÂóäÇP\u0003æ ²ÚÙó5W\u0010keÎ\u001a«J«\u0013WZ\u0012ËsÕV[*~g%WÜ¯øJJ®)ó|· 4\u0007\u0004\u000eÅHFÍá±\rmëâ$âìl\u0019ºº?\u000eìë\u0013\u0013<âWl\u0019:£¯Øw£ÏÙõ~ßú¥/ïÃ\u0018'ÊFÊ°³û/O\u000fÈÚ°õìÖWÛþÝl\u000eýÎÇB«Óc\u000b·v0·@\u0002óÿ³]ù\u000f@3Æ\u0010¿eÈlf]\\m\\×ùv¾¼ØOÃ\u0006\nTÃ\"4\u001d»ëØO¶ôåç\u0013\u0004\u0014a\u000e¾»¸ýDÊ\u0013Ìaÿ\u0012:Gk\u0017æ\"!¤dÞ\u001d¹&\u0012\u001a<Méj¿\u000e¯ßVôñþú.$\tJa1\u0007Ýb\u000eó\u0001% JEX×Cpñk«i\u001c\u001d\u0005IÕRD¦f ùÄô5©J­á©àöttJ¢Fm0A\u0006EJ\bB\u0019CSZÒxR£L¨È 'i\u001c@AÝ\u001cBMzRâç32hÈÈÿHÐÔ&P\u0014Å¯ßáõ,\u0003\u0000\u0000",
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "9",
+    "url": "https://forms.hscollectedforms.net/collected-forms/v1/config/json?portalId=23429454&utk=a1aa7c9a56cb3393526417bfeaa82c1d",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387608574,
+    "requestBody": null,
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "10",
+    "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=23429454",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387609193,
+    "requestBody": null,
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "11",
+    "url": "https://dashboard.webengage.com/api/v1/user",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387658412,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "url": "https://dashboard.webengage.com/api/v1/accounts",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387658413,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "url": "https://dashboard.webengage.com/api/v1/demo-accounts",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387658414,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/undefined/default-dashboard",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387658415,
+    "requestBody": null,
+    "status": 0,
+    "statusText": "HTTP/1.1 0",
+    "responseHeaders": []
+  },
+  {
+    "id": "15",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/default-dashboard",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387659023,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387659041,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/max-available-date/publisher-metrics?metrics=MAU",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387659781,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:39 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/dashboard",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387659783,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:39 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/dashboard/usage",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387659787,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:39 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "url": "https://ekr.zdassets.com/compose/da793009-b305-43eb-abd9-24461854e512",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1768387661736,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, POST, OPTIONS"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": ""
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "7200"
+      },
+      {
+        "name": "cache-control",
+        "value": "max-age=300, public, stale-while-revalidate=300, stale-if-error=21600"
+      },
+      {
+        "name": "cdn-cache-control",
+        "value": "max-age=60"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "REVALIDATED"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9bdc8e84987b2e96-HYD"
+      },
+      {
+        "name": "content-encoding",
+        "value": "br"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 14 Jan 2026 10:47:41 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "W/\"4acd7375dce0e41265c4693b78f9e52c\""
+      },
+      {
+        "name": "nel",
+        "value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "referrer-policy",
+        "value": "strict-origin-when-cross-origin"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=f51jnJKLwjAsnm1taj8jnUXpYTFiSyGhmfn3pQEnFYLOfdfGtc5iyB8XRRszhTxl3Arhz9sHzwkYk5ykDoTnUxJb6fcOCMqUUaZcDnixlDUQr1wjaWnYUWIJG4aDrwxUraA%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=0"
+      },
+      {
+        "name": "vary",
+        "value": "Accept,Origin, Accept-Encoding"
+      },
+      {
+        "name": "via",
+        "value": "zorg"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-download-options",
+        "value": "noopen"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "11"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-permitted-cross-domain-policies",
+        "value": "none"
+      },
+      {
+        "name": "x-request-id",
+        "value": "9bcc5fb4d85417aa-SEA"
+      },
+      {
+        "name": "x-runtime",
+        "value": "0.009686"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "1; mode=block"
+      },
+      {
+        "name": "x-zendesk-zorg",
+        "value": "yes"
+      },
+      {
+        "name": "zendesk-service",
+        "value": "embed-key-registry"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "url": "https://dashboard.webengage.com/api/v3/accounts/~9919797a/traffic-segments/count?userTypes=all,known,unknown&sdks=all",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387662025,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:42 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      },
+      {
+        "name": "X-RateLimit-Limit",
+        "value": "400"
+      },
+      {
+        "name": "X-RateLimit-Remaining",
+        "value": "397"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/reachability",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387662026,
+    "requestBody": {
+      "users": {},
+      "channels": [
+        "PUSH_NOTIFICATION",
+        "SMS",
+        "EMAIL",
+        "WEB_PUSH",
+        "IN_APP",
+        "ON_SITE",
+        "WHATSAPP"
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:42 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      },
+      {
+        "name": "X-RateLimit-Limit",
+        "value": "400"
+      },
+      {
+        "name": "X-RateLimit-Remaining",
+        "value": "396"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/active-users/timeseries?from=2026-01-12T00:00:00.000-12:00&to=2026-01-12T23:59:59.999-12:00&userType=all",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387662027,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:47:42 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      },
+      {
+        "name": "X-RateLimit-Limit",
+        "value": "400"
+      },
+      {
+        "name": "X-RateLimit-Remaining",
+        "value": "399"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "url": "https://webengage.zendesk.com/embeddable/config",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1768387663592,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": ""
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "7200"
+      },
+      {
+        "name": "age",
+        "value": "466"
+      },
+      {
+        "name": "cache-control",
+        "value": "public, max-age=60, stale-while-revalidate=600, stale-if-error=3600"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "UPDATING"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9bdc8e8f8bff2e9c-HYD"
+      },
+      {
+        "name": "content-encoding",
+        "value": "br"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 14 Jan 2026 10:47:43 GMT"
+      },
+      {
+        "name": "last-modified",
+        "value": "Wed, 14 Jan 2026 10:39:57 GMT"
+      },
+      {
+        "name": "nel",
+        "value": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=cpDZDkjFINx5xlfKVa1J14cZHOUcDUp7lkq4NY%2FYY2nw94teiGkudpxvcm4KFFrp2WuOhFAo9DLG4TotKWpS4TEadfMAPTVHj4xL4TzEKzjxcHysEY8FnelJraGXk%2FmX6Tq8rPAdXA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "vary",
+        "value": "Origin, Accept-Encoding"
+      },
+      {
+        "name": "via",
+        "value": "zorg"
+      },
+      {
+        "name": "x-cache-status",
+        "value": "MISS"
+      },
+      {
+        "name": "x-envoy-decorator-operation",
+        "value": "/embeddable"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "5"
+      },
+      {
+        "name": "x-request-id",
+        "value": "9bdc832d4f6f48ec-NRT"
+      },
+      {
+        "name": "x-runtime",
+        "value": "0.001618"
+      },
+      {
+        "name": "x-zendesk-origin-server",
+        "value": "embeddable-app-server-58874ff678-9ztt2"
+      },
+      {
+        "name": "x-zendesk-zorg",
+        "value": "yes"
+      },
+      {
+        "name": "zendesk-service",
+        "value": "embeddable"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "url": "https://dashboard.webengage.com/api/v2/accounts/~9919797a/tags",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387707409,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "max-age=300, must-revalidate, public"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/x-javascript; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:48:27 GMT"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/admins",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387707411,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:48:27 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments/user-attributes?excludeTypes=array,map&filterPrivateData=true&fetchAll=true",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387717305,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:48:37 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/users/a-stats",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387717307,
+    "requestBody": {
+      "users": {
+        "userIds": {}
+      },
+      "metrics": [
+        "COUNT"
+      ],
+      "dimensions": [
+        [
+          {
+            "name": "country",
+            "attr-category": "system",
+            "type": "string"
+          }
+        ]
+      ],
+      "limit": 50
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:48:37 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      },
+      {
+        "name": "X-RateLimit-Limit",
+        "value": "400"
+      },
+      {
+        "name": "X-RateLimit-Remaining",
+        "value": "393"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "url": "https://dashboard.webengage.com/api/v3/accounts/~9919797a/users/searches?attributes=userId,username,email,phone,country,sessionCount,createdOn,lastActivityOn&pageSize=100",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387718134,
+    "requestBody": null,
+    "status": 502,
+    "statusText": "Bad Gateway",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:48:38 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      },
+      {
+        "name": "X-RateLimit-Limit",
+        "value": "400"
+      },
+      {
+        "name": "X-RateLimit-Remaining",
+        "value": "392"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "url": "https://dashboard.webengage.com/api/accounts/~9919797a/control-group",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387762729,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:49:22 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments/all?intelligentAttribute=true&includeUserRollingFlag=true",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387762731,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:49:22 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "url": "https://dashboard.webengage.com/api/v2/accounts/~9919797a/userlist?status=ACTIVE&pageSize=2000",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387762732,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:49:22 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments/events?type=analytics&analyticsChannel=EVENTS&origin=ANALYTICS",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387762732,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:49:22 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments/limits",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387856767,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:50:56 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments/usage-status",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387856768,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:50:56 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/traffic-segments?noView=true&pageNo=1&pageSize=10&isCountRequired=true&useCache=true&visibility=visible&visibility=archived",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387856770,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:50:56 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/js-config",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934437,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/android-config",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934439,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/ios-config",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934440,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/users/searches",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934443,
+    "requestBody": {
+      "pageNo": 1,
+      "filter": {
+        "userAttribute": {
+          "expressions": [
+            {
+              "name": "cuid",
+              "type": "string",
+              "category": "system",
+              "operator": "EXISTS",
+              "values": [
+                "true"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/push-notifications?pageSize=10&pageNo=1&sdks=2&sdks=3&",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934447,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/notifications?sdks=2&sdks=3&pageSize=10&pageNo=1",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934449,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/emails?pageSize=10&pageNo=1",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934457,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:15 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/sms-messages?pageSize=10&pageNo=1",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934459,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:15 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/journeys?pageSize=10&pageNo=1",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387934460,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:15 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "url": "https://dashboard.webengage.com/api/v1/account-categories",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387935685,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:15 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/time-zones",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768387935687,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:52:15 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388085204,
+    "requestBody": {
+      "name": "abc solutions",
+      "alias": "abc alias1",
+      "categories": [
+        {
+          "name": "Listing/Classifieds/Marketplace",
+          "description": "Listing/Classifieds/Marketplace",
+          "categoryId": "1306ae46"
+        }
+      ],
+      "timeZone": "Etc/GMT+11",
+      "language": "en",
+      "debugFlag": false
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:54:45 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "url": "https://dashboard.webengage.com/api/v2/accounts/~9919797a/integration-status",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388112649,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:55:14 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/integrations/shopify/status",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388112651,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:55:12 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/integrations/zid/status",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388112652,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:55:13 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/js-config",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388379130,
+    "requestBody": {
+      "siteConfigList": [
+        {
+          "matchType": "DOMAIN",
+          "site": "www.google.com"
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:59:40 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/js-config/~2j1ck3l/amp?enableAMP=true",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768388396843,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 10:59:56 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "url": "https://dashboard.webengage.com/api/v1/accounts/~9919797a/channel-throttle",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1768411834544,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 14 Jan 2026 17:30:34 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Server",
+        "value": "WebEngage-Server/1.0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  }
+]
