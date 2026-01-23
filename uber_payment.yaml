@@ -1,0 +1,10 @@
+openapi: 3.0.3
+info:
+  title: Uber  payment
+  version: 1.0.0
+servers:
+  - url: https://www.uber.com
+tags: []
+paths: {}
+components:
+  schemas: {}
