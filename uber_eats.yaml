@@ -1,0 +1,356 @@
+openapi: 3.0.3
+info:
+  title: Uber Eats App
+  version: 1.0.0
+servers:
+  - url: https://www.uber.com
+tags:
+  - name: getCurrentUser
+  - name: getExperiments
+  - name: isWebview
+  - name: v3
+  - name: "{id}"
+paths:
+  /api/getCurrentUser:
+    post:
+      tags:
+        - getCurrentUser
+      summary: POST /api/getCurrentUser
+      operationId: post_api_getCurrentUser
+      parameters:
+        - name: localeCode
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GetCurrentUserPostRequest"
+            examples:
+              fromHar:
+                value: {}
+      responses:
+        "200":
+          description: Success
+  /api/v3/ip.json:
+    post:
+      tags:
+        - v3
+      summary: POST /api/v3/ip.json
+      operationId: post_api_v3_ip_json
+      parameters:
+        - name: referrer
+          in: query
+          required: false
+          schema:
+            type: string
+          example: https://www.google.com/
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: https://www.uber.com/in/en/business/onboarding-add-payment/?_csid=Q3RQ89mSlDMg336s2Ss9Yw&sm_flow_id=fRalarrD&state=8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%3D
+        - name: page_title
+          in: query
+          required: false
+          schema:
+            type: string
+          example: Uber for Business
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/V3PostRequest"
+            examples:
+              fromHar:
+                value:
+                  src: tag
+                  auth: Gn2j2pH6gQMe8QbWD4lHwFapdb4Gxd6lWTnoK7RX
+      responses:
+        "200":
+          description: Success
+  /api/getExperiments:
+    post:
+      tags:
+        - getExperiments
+      summary: POST /api/getExperiments
+      operationId: post_api_getExperiments
+      parameters:
+        - name: localeCode
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GetExperimentsPostRequest"
+            examples:
+              fromHar:
+                value:
+                  xpParameter:
+                    defaultValue: control
+                    key: loggedin_redirect_xp
+                    namespace: chameleon-experiments
+      responses:
+        "200":
+          description: Success
+  /api/{id}:
+    post:
+      tags:
+        - "{id}"
+      summary: POST /api/{id}
+      operationId: post_api_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: getBlockExperiments
+        - name: localeCode
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/{id}PostRequest"
+            examples:
+              fromHar:
+                value:
+                  geo:
+                    best:
+                      localeCode: en
+                      countryCode: IN
+                      territoryGeoPoint:
+                        latitude: 17.385
+                        longitude: 78.4867
+                      territoryId: 203
+                      territoryName: Hyderabad
+                      territorySlug: hyderabad
+                    url:
+                      localeCode: en
+                      countryCode: IN
+                    user:
+                      geoIpCoordinates:
+                        lat: 17.3843
+                        lng: 78.4583
+                      expiresAt: 2026-01-23T07:14:09.036Z
+                      countryCode: IN
+                      territoryId: 203
+                      productGeofenceUUID: e0d12793-ba8c-46d5-8fc6-8841a3ed6153
+                      territoryGeoJson:
+                        - - lat: 20.0226402
+                            lng: 75.578537
+                          - lat: 20.0226402
+                            lng: 81.5788888
+                          - lat: 14.8923912
+                            lng: 81.5788888
+                          - lat: 14.8923912
+                            lng: 75.578537
+                      territoryGeoPoint:
+                        latitude: 17.385
+                        longitude: 78.4867
+                      territorySlug: hyderabad
+                      territoryName: Hyderabad
+                      localeCode: en
+                  xpBlockKeys: []
+      responses:
+        "200":
+          description: Success
+  /api/isWebview:
+    post:
+      tags:
+        - isWebview
+      summary: POST /api/isWebview
+      operationId: post_api_isWebview
+      parameters:
+        - name: localeCode
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IsWebviewPostRequest"
+            examples:
+              fromHar:
+                value: {}
+      responses:
+        "200":
+          description: Success
+components:
+  schemas:
+    GetCurrentUserPostRequest:
+      type: object
+      properties: {}
+      
+    V3PostRequest:
+      type: object
+      properties:
+        src:
+          type: string
+        auth:
+          type: string
+      required:
+        - src
+        - auth
+    GetExperimentsPostRequest:
+      type: object
+      properties:
+        xpParameter:
+          type: object
+          properties:
+            defaultValue:
+              type: string
+            key:
+              type: string
+            namespace:
+              type: string
+          required:
+            - defaultValue
+            - key
+            - namespace
+      required:
+        - xpParameter
+    "{id}PostRequest":
+      type: object
+      properties:
+        geo:
+          type: object
+          properties:
+            best:
+              type: object
+              properties:
+                localeCode:
+                  type: string
+                countryCode:
+                  type: string
+                territoryGeoPoint:
+                  type: object
+                  properties:
+                    latitude:
+                      type: number
+                    longitude:
+                      type: number
+                  required:
+                    - latitude
+                    - longitude
+                territoryId:
+                  type: integer
+                territoryName:
+                  type: string
+                territorySlug:
+                  type: string
+              required:
+                - localeCode
+                - countryCode
+                - territoryGeoPoint
+                - territoryId
+                - territoryName
+                - territorySlug
+            url:
+              type: object
+              properties:
+                localeCode:
+                  type: string
+                countryCode:
+                  type: string
+              required:
+                - localeCode
+                - countryCode
+            user:
+              type: object
+              properties:
+                geoIpCoordinates:
+                  type: object
+                  properties:
+                    lat:
+                      type: number
+                    lng:
+                      type: number
+                  required:
+                    - lat
+                    - lng
+                expiresAt:
+                  type: string
+                countryCode:
+                  type: string
+                territoryId:
+                  type: integer
+                productGeofenceUUID:
+                  type: string
+                territoryGeoJson:
+                  type: array
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        lat:
+                          type: number
+                        lng:
+                          type: number
+                      required:
+                        - lat
+                        - lng
+                territoryGeoPoint:
+                  type: object
+                  properties:
+                    latitude:
+                      type: number
+                    longitude:
+                      type: number
+                  required:
+                    - latitude
+                    - longitude
+                territorySlug:
+                  type: string
+                territoryName:
+                  type: string
+                localeCode:
+                  type: string
+              required:
+                - geoIpCoordinates
+                - expiresAt
+                - countryCode
+                - territoryId
+                - productGeofenceUUID
+                - territoryGeoJson
+                - territoryGeoPoint
+                - territorySlug
+                - territoryName
+                - localeCode
+          required:
+            - best
+            - url
+            - user
+        xpBlockKeys:
+          type: array
+          items:
+            type: string
+      required:
+        - geo
+        - xpBlockKeys
+    IsWebviewPostRequest:
+      type: object
+      properties: {}
+      

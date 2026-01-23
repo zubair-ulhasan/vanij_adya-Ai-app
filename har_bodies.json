@@ -1,49 +1,450 @@
 [
   {
     "id": "1",
-    "url": "https://client-eventing-production01.cengage.info/v1/activity",
+    "url": "https://s.clarity.ms/collect",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888298046,
+    "timeStamp": 1769139231273,
+    "requestBody": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\nM_kÛ@\u0010Ä¿ËAó4¶înoïÁô!~iB\u000bv !\ba$KÈcÉ8¦ô»\u0017)M\\îeçÇÜîÀü\u0016ÅBNý¥$AVjÜ\\vªóen\u0005D]y\u001a\u0001ñúÂ\u001bU\n\u0004Èñ]ß\u001fºY\u0014Ïçé)+ÓM»ª&*(;uUSt]Ô6Y\u001eóª)'iO\u000eée_4}ô}½éª|¾¤ÕÒýC½øY\u0012ÙN?táù|Óí×Ûº=¯«|¾]¥uz<.nº>í¹_½¾«êÞ\u001dÝ\u001b·O·ÙÝãéÙ\u0017OÉé>+\u001fÝ{YÝÝÿêK·üF\u000b@¤b\u0016ÇÆ\u0018\u0007\tb\nÞBi(Í\f&\u0007æ 6\t\u001eA\u0012n$Î\\\t$¸+¡8ÍW¢\u0013ÄV\u0006R#â0lf­ÌpÐ\u0018\u000bï5(\f14+\u0003­a<\u0004½¹m\u001f\u000eMÍKQ\u001cÙ]¶\u0002¤\u0003´÷Pcê±\u001d\u0003\u0005E¬ÀVSø¨ãË-=AbÜN^B[\u000feÿ\u0012½ÿm£hNu v4\u0014\fb1´[¶mY\u0017´IëK_mº¡i\u001cb1Q\"ùü!¡ÁäA ;¤\u000e\u0000\u0007\rÍÐ\nz8ã>ída\u0011\u001bÖ\u0004ö0\f$¬d3°\u001d|$þ\u0002YA½\u0015«\u0002\u0000\u0000",
+    "status": 204,
+    "statusText": "No Content",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "value": "true"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://www.uber.com"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 23 Jan 2026 03:33:50 GMT"
+      },
+      {
+        "name": "Request-Context",
+        "value": "appId=cid-v1:b1d896b3-bec7-448b-b764-240152e813e8"
+      },
+      {
+        "name": "Server",
+        "value": "nginx"
+      },
+      {
+        "name": "Vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "url": "https://api-v2.mutinyhq.io/v2/b",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769139236238,
     "requestBody": {
-      "records": [
+      "events": [
         {
-          "messageFormatVersion": 1,
-          "messageType": "ClientEventingActivity",
-          "eventTime": "2026-01-20T11:21:38.044+05:30",
-          "productEnvironment": "production",
-          "productPlatform": "iam-alfred",
-          "sessionId": "247b7d97-1849-4ac1-ad8f-0bd109921ce6",
-          "eventId": "77782f52-2624-4eba-808b-b45f3f22f56f",
-          "eventCategory": "UNLOAD",
-          "eventAction": "UNLOAD",
-          "eventUri": "https://account.cengage.com/welcome/iBxTrreMLrkbEJ-JYfVa?email=zubair1digital@gmail.com",
-          "tags": []
+          "event_type": "metric",
+          "payload": {
+            "metric_key": "client.detached",
+            "metric_type": "increment",
+            "tags": {
+              "client_version": "5.6.3"
+            }
+          }
         }
-      ]
+      ],
+      "metadata": {
+        "client_version": "5.6.3"
+      },
+      "token": "e44f19331b3938d9",
+      "visitor_token": "9b31cce4-25de-4cfd-b70f-1383b3490416"
     },
     "status": 0,
     "statusText": "HTTP/1.1 0",
     "responseHeaders": []
   },
   {
-    "id": "2",
-    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1Z1VMVSHXM&gtm=45je61e1v872219106za200zd872219106&_p=1768888264960&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dYWJhMj&cid=892353451.1768888266&ul=en-us&sr=1366x768&ir=1&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&are=1&frm=0&pscdl=noapi&_eu=EAAAAAQ&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938469~116744867~117041587&dl=https%3A%2F%2Faccount.cengage.com%2Fwelcome%2FiBxTrreMLrkbEJ-JYfVa%3Femail%3D&dr=&dt=&sid=1768888265&sct=1&seg=1&_tu=QA&_s=2&tfd=36629",
+    "id": "3",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-W3V99WJNZ7&gtm=45je61m0v9103516189za200zd9103516189&_p=1769139221271&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dYmQxMT&cid=47448000.1768983985&ul=en-gb&sr=1366x768&lps=1&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115495940~115938466~115938468~116682876~117041588&sid=1769138051&sct=2&seg=1&dl=https%3A%2F%2Fwww.uber.com%2Fin%2Fen%2Fbusiness%2Fonboarding-add-payment%2F%3F_csid%3DQ3RQ89mSlDMg336s2Ss9Yw%26sm_flow_id%3DfRalarrD%26state%3D8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%253D&dr=https%3A%2F%2Fwww.google.com%2F&dt=Uber%20for%20Business&_tu=CA&en=user_engagement&_et=5704&tfd=17165",
     "method": "POST",
     "type": "fetch",
-    "timeStamp": 1768888299205,
-    "requestBody": "en=trackOptanonEvent&_ee=1&ep.content_group=Login&ep.page_type=Login&ep.page_name=&ep.page_environment=production&ep.page_path_no_query=%2Fwelcome%2FiBxTrreMLrkbEJ-JYfVa&ep.gtm_container_id=hard-coded%20GA&ep.optanonCategory=OneTrust%20Cookie%20Consent&ep.optanonAction=Click&ep.optanonLabel=No%20interaction&_et=14714\r\nen=user_engagement&ep.content_group=Login&ep.page_type=Login&ep.page_name=&ep.page_environment=production&ep.page_path_no_query=%2Fwelcome%2FiBxTrreMLrkbEJ-JYfVa&ep.gtm_container_id=hard-coded%20GA&_et=1141",
+    "timeStamp": 1769139236289,
+    "requestBody": null,
     "status": 0,
     "statusText": "HTTP/1.1 0",
     "responseHeaders": []
   },
   {
-    "id": "3",
-    "url": "https://cengagelearning.us-5.evergage.com/api2/event/cengage_com?event=eyJzb3VyY2UiOnsicGFnZVR5cGUiOiJBY2NvdW50IFBhZ2UiLCJ1cmwiOiJodHRwczovL2FjY291bnQuY2VuZ2FnZS5jb20vd2VsY29tZS9pQnhUcnJlTUxya2JFSi1KWWZWYT9lbWFpbD16dWJhaXIxZGlnaXRhbEBnbWFpbC5jb20iLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjYyIiwiY29udGVudFpvbmVzIjpbXX0sInVzZXIiOnsiYW5vbnltb3VzSWQiOiJiZDlkYjQxZGM1N2U0YWU5IiwiaWRlbnRpdGllcyI6e30sImF0dHJpYnV0ZXMiOnsiY29va2llVVVJRCI6ImJkOWRiNDFkYzU3ZTRhZTkifX0sImludGVyYWN0aW9uIjp7Im5hbWUiOiJWaWV3ZWQgQWNjb3VudCBQYWdlIn0sInBhZ2VWaWV3Ijp0cnVlLCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjU3NDY2NzA3MTAwOTA5OTUiLCJleHBsYWluIjp0cnVlfQ%3D%3D",
+    "id": "4",
+    "url": "https://client-registry.mutinycdn.com/personalize/user_data/6fa4395572284151.json?async=false&session_token=b2c163d5-dfc0-45a5-ab9c-bab3e063311c&token=e44f19331b3938d9&visitor_token=9b31cce4-25de-4cfd-b70f-1383b3490416",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139236428,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ranges",
+        "value": "bytes"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, HEAD"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "x-cache, x-cache-hits, age"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "3000"
+      },
+      {
+        "name": "age",
+        "value": "1185"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-store"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "564"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:55 GMT"
+      },
+      {
+        "name": "server",
+        "value": "Cowboy"
+      },
+      {
+        "name": "vary",
+        "value": "X-Continent-Code, Accept-Encoding"
+      },
+      {
+        "name": "via",
+        "value": "1.1 varnish"
+      },
+      {
+        "name": "x-async-user-data",
+        "value": "false"
+      },
+      {
+        "name": "x-cache",
+        "value": "HIT"
+      },
+      {
+        "name": "x-cache-hits",
+        "value": "1"
+      },
+      {
+        "name": "x-connection-speed",
+        "value": "broadband"
+      },
+      {
+        "name": "x-continent-code",
+        "value": "AS"
+      },
+      {
+        "name": "x-country-code",
+        "value": "IN"
+      },
+      {
+        "name": "x-edge-datacenter",
+        "value": "HYD"
+      },
+      {
+        "name": "x-edge-region",
+        "value": "Asia-South"
+      },
+      {
+        "name": "x-served-by",
+        "value": "cache-hyd1500030-HYD"
+      },
+      {
+        "name": "x-visitor-token",
+        "value": "9b31cce4-25de-4cfd-b70f-1383b3490416"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "url": "https://client-registry.mutinycdn.com/personalize/client_data/6fa4395572284151.json",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139236429,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ranges",
+        "value": "bytes"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, HEAD"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "3000"
+      },
+      {
+        "name": "age",
+        "value": "3208"
+      },
+      {
+        "name": "cache-control",
+        "value": "s-maxage=3600, max-age=0"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "17808"
+      },
+      {
+        "name": "content-type",
+        "value": "application/javascript"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:55 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"b7ac8f7b2a2752112a0e9319f5dbc0c5\""
+      },
+      {
+        "name": "last-modified",
+        "value": "Mon, 05 Jan 2026 19:19:51 GMT"
+      },
+      {
+        "name": "server",
+        "value": "AmazonS3"
+      },
+      {
+        "name": "vary",
+        "value": "X-Continent-Code, Accept-Encoding"
+      },
+      {
+        "name": "via",
+        "value": "1.1 varnish"
+      },
+      {
+        "name": "x-amz-id-2",
+        "value": "2HdobJUY8Gjw36QLPfb5ixLHjOeud/+I4i+DNRrHTV7DAD9uuNYOBhb06LudkdOsUnNVchXOa4E="
+      },
+      {
+        "name": "x-amz-request-id",
+        "value": "DJG9NNA6E5B0PQH7"
+      },
+      {
+        "name": "x-amz-server-side-encryption",
+        "value": "AES256"
+      },
+      {
+        "name": "x-amz-version-id",
+        "value": "56xY4P5jJGvWM3oLKN1GFsbWfCfis7ji"
+      },
+      {
+        "name": "x-cache",
+        "value": "HIT"
+      },
+      {
+        "name": "x-cache-hits",
+        "value": "1"
+      },
+      {
+        "name": "x-connection-speed",
+        "value": "broadband"
+      },
+      {
+        "name": "x-continent-code",
+        "value": "AS"
+      },
+      {
+        "name": "x-country-code",
+        "value": "IN"
+      },
+      {
+        "name": "x-edge-datacenter",
+        "value": "HYD"
+      },
+      {
+        "name": "x-edge-region",
+        "value": "Asia-South"
+      },
+      {
+        "name": "x-served-by",
+        "value": "cache-hyd1500030-HYD"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "url": "https://www.uber.com/api/getCurrentUser",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769139236439,
+    "requestBody": {},
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "max-age=0"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243b807f1f2e96-HYD"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:56 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "38"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca23:w:1062372452,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "url": "https://www.uber.com/_uwa",
     "method": "GET",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888301972,
+    "timeStamp": 1769139238408,
     "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "max-age=0"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "BYPASS"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243b8ccaff2e96-HYD"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:58 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "37"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca24:w:1261845035,ufe:production-cloudflare:compute-0:dca23,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "url": "https://api.company-target.com/api/v3/ip.json?referrer=https%3A%2F%2Fwww.google.com%2F&page=https%3A%2F%2Fwww.uber.com%2Fin%2Fen%2Fbusiness%2Fonboarding-add-payment%2F%3F_csid%3DQ3RQ89mSlDMg336s2Ss9Yw%26sm_flow_id%3DfRalarrD%26state%3D8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%253D&page_title=Uber%20for%20Business",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139238758,
+    "requestBody": {
+      "src": "tag",
+      "auth": "Gn2j2pH6gQMe8QbWD4lHwFapdb4Gxd6lWTnoK7RX"
+    },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
@@ -52,12 +453,74 @@
         "value": "true"
       },
       {
-        "name": "access-control-allow-origin",
-        "value": "https://account.cengage.com"
+        "name": "access-control-allow-headers",
+        "value": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type"
       },
       {
+        "name": "access-control-allow-origin",
+        "value": "https://www.uber.com"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "x-amz-cf-id"
+      },
+      {
+        "name": "content-length",
+        "value": "1965"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:58 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains; preload"
+      },
+      {
+        "name": "via",
+        "value": "1.1 3f1993afa92d45de4d6fa8968b86a848.cloudfront.net (CloudFront)"
+      },
+      {
+        "name": "x-amz-cf-id",
+        "value": "_0yPhLvUbAu5Kd0TPSfGn3J1fuoKXVzwLcLsEl-7hOe_GOOhqQXi_Q=="
+      },
+      {
+        "name": "x-amz-cf-pop",
+        "value": "HYD57-P1"
+      },
+      {
+        "name": "x-cache",
+        "value": "Miss from cloudfront"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "url": "https://www.uber.com/_track?_csid=Q3RQ89mSlDMg336s2Ss9Yw&sm_flow_id=fRalarrD&state=8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%3D",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139238792,
+    "requestBody": {
+      "referrer": "https://www.google.com/"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
         "name": "cache-control",
-        "value": "no-cache, no-store"
+        "value": "max-age=0"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243b8f3d632e96-HYD"
       },
       {
         "name": "content-encoding",
@@ -65,32 +528,48 @@
       },
       {
         "name": "content-type",
-        "value": "application/json;charset=UTF-8"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:41 GMT"
+        "value": "Fri, 23 Jan 2026 03:33:58 GMT"
       },
       {
-        "name": "timing-allow-origin",
-        "value": "*"
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
       },
       {
         "name": "vary",
-        "value": "accept-encoding"
+        "value": "Accept-Encoding"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "17"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca52:w:1539924545,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
       }
     ]
   },
   {
-    "id": "4",
-    "url": "https://cdn.cookielaw.org/consent/c8ff7feb-5a3d-4687-96ed-57769a480d29/c8ff7feb-5a3d-4687-96ed-57769a480d29.json",
+    "id": "10",
+    "url": "https://tag-logger.demandbase.com/bg9s?x-amz-cf-id=_0yPhLvUbAu5Kd0TPSfGn3J1fuoKXVzwLcLsEl-7hOe_GOOhqQXi_Q==&api-version=v3",
     "method": "GET",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888301985,
+    "timeStamp": 1769139239047,
     "requestBody": null,
     "status": 200,
     "statusText": "HTTP/2.0 200",
@@ -104,218 +583,128 @@
         "value": "*"
       },
       {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "X-OneTrust-IsBot"
-      },
-      {
         "name": "age",
-        "value": "40073"
+        "value": "22930"
       },
       {
-        "name": "cache-control",
-        "value": "public, max-age=86400"
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=86400"
       },
       {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d2a8e434e87-HYD"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-md5",
-        "value": "QcCzte4ayYSM5BynWISXFQ=="
+        "name": "content-length",
+        "value": "0"
       },
       {
         "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
+        "value": "text/html"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:41 GMT"
+        "value": "Thu, 22 Jan 2026 22:13:57 GMT"
       },
       {
         "name": "etag",
-        "value": "0x8DE4D62AA221F76"
-      },
-      {
-        "name": "expires",
-        "value": "Wed, 21 Jan 2026 05:51:41 GMT"
+        "value": "\"d41d8cd98f00b204e9800998ecf8427e\""
       },
       {
         "name": "last-modified",
-        "value": "Tue, 06 Jan 2026 20:32:08 GMT"
+        "value": "Tue, 07 Mar 2023 20:47:02 GMT"
       },
       {
         "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
+        "value": "AmazonS3"
       },
       {
         "name": "vary",
-        "value": "Accept-Encoding"
+        "value": "accept-encoding"
       },
       {
-        "name": "x-content-type-options",
-        "value": "nosniff"
+        "name": "via",
+        "value": "1.1 ab890eecede0a892ffd84c7723317d1c.cloudfront.net (CloudFront)"
       },
       {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
+        "name": "x-amz-cf-id",
+        "value": "yYPjyC-hV4lDsJ_dh7ZzM9CrwcJYh94Hv4MSb_lNVqgKoU7bnqaRFQ=="
       },
       {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
+        "name": "x-amz-cf-pop",
+        "value": "HYD57-P5"
       },
       {
-        "name": "x-ms-request-id",
-        "value": "9f555880-c01e-00ff-454b-7fae12000000"
+        "name": "x-amz-server-side-encryption",
+        "value": "AES256"
       },
       {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
+        "name": "x-amz-version-id",
+        "value": "8SdDCdpJvGjkSiMFPv08XcVSgwOMVVmH"
       },
       {
-        "name": "x-onetrust-isbot",
-        "value": "false"
+        "name": "x-cache",
+        "value": "Error from cloudfront"
       }
     ]
   },
   {
-    "id": "5",
-    "url": "https://auth.cengage.com/api/v1/authn/recovery/token",
-    "method": "POST",
-    "type": "fetch",
-    "timeStamp": 1768888302091,
-    "requestBody": {
-      "recoveryToken": "iBxTrreMLrkbEJ-JYfVa"
-    },
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "accept-ch",
-        "value": "Sec-CH-UA-Platform-Version"
-      },
-      {
-        "name": "access-control-allow-credentials",
-        "value": "true"
-      },
-      {
-        "name": "access-control-allow-headers",
-        "value": "Content-Type"
-      },
-      {
-        "name": "access-control-allow-origin",
-        "value": "https://account.cengage.com"
-      },
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-security-policy-report-only",
-        "value": "default-src 'self' cengage-ciam.okta.com auth.cengage.com *.oktacdn.com; connect-src 'self' cengage-ciam.okta.com cengage-ciam-admin.okta.com auth.cengage.com *.oktacdn.com *.mixpanel.com *.mapbox.com cengage-ciam.kerberos.okta.com cengage-ciam.mtls.okta.com https://oinmanager.okta.com data: *.ingest.sentry.io; script-src 'unsafe-inline' 'self' 'report-sample' cengage-ciam.okta.com auth.cengage.com *.oktacdn.com; style-src 'unsafe-inline' 'self' 'report-sample' cengage-ciam.okta.com auth.cengage.com *.oktacdn.com; frame-src 'self' cengage-ciam.okta.com cengage-ciam-admin.okta.com auth.cengage.com login.okta.com *.vidyard.com; img-src 'self' cengage-ciam.okta.com auth.cengage.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com *.vidyard.com data: blob:; font-src 'self' cengage-ciam.okta.com auth.cengage.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:44 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "p3p",
-        "value": "CP=\"HONK\""
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "referrer-policy",
-        "value": "strict-origin-when-cross-origin"
-      },
-      {
-        "name": "server",
-        "value": "nginx"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=315360000; includeSubDomains"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding,Origin"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-okta-request-id",
-        "value": "aW8X8NrgF1ER2oRE45jPaQALLIw"
-      },
-      {
-        "name": "x-rate-limit-limit",
-        "value": "5400"
-      },
-      {
-        "name": "x-rate-limit-remaining",
-        "value": "5382"
-      },
-      {
-        "name": "x-rate-limit-reset",
-        "value": "1768888322"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "id": "11",
+    "url": "https://pixel-config.reddit.com/pixels/a2_h2jhf4rsojth/config",
     "method": "GET",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888302300,
+    "timeStamp": 1769139239202,
     "requestBody": null,
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
+        "name": "accept-ranges",
+        "value": "bytes"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "cache-control",
+        "value": "max-age=14400"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "48"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:33:58 GMT"
+      },
+      {
+        "name": "server",
+        "value": "snooserv"
+      },
+      {
+        "name": "via",
+        "value": "1.1 varnish"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=69483&time=1769139239846&url=https%3A%2F%2Fwww.uber.com%2Fin%2Fen%2Fbusiness%2Fonboarding-add-payment%2F%3F_csid%3DQ3RQ89mSlDMg336s2Ss9Yw%26sm_flow_id%3DfRalarrD%26state%3D8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%253D",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139239847,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
         "name": "access-control-allow-headers",
-        "value": "Content-Type"
+        "value": "*"
       },
       {
         "name": "access-control-allow-methods",
@@ -326,8 +715,8 @@
         "value": "*"
       },
       {
-        "name": "cf-ray",
-        "value": "9c0c4d2c98f69a7d-NAG"
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=86400"
       },
       {
         "name": "content-encoding",
@@ -339,604 +728,61 @@
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:41 GMT"
+        "value": "Fri, 23 Jan 2026 03:33:58 GMT"
       },
       {
-        "name": "server",
-        "value": "cloudflare"
+        "name": "x-cache",
+        "value": "CONFIG_NOCACHE"
       },
       {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
+        "name": "x-fs-uuid",
+        "value": "00064905d3ec7a971703028e9af15753"
       },
       {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "url": "https://cdn.cookielaw.org/consent/c8ff7feb-5a3d-4687-96ed-57769a480d29/019b94d4-84fc-70fd-89d7-6e2565138bdb/en.json",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888303591,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "accept-ranges",
-        "value": "bytes"
-      },
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,Cache-Control,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "X-OneTrust-IsBot"
-      },
-      {
-        "name": "age",
-        "value": "40074"
-      },
-      {
-        "name": "cache-control",
-        "value": "public, max-age=86400"
-      },
-      {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d34babf4e87-HYD"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-md5",
-        "value": "OmXNrq0X8b45fXsyzMw5pg=="
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:42 GMT"
-      },
-      {
-        "name": "etag",
-        "value": "0x8DE4D62AB543E74"
-      },
-      {
-        "name": "expires",
-        "value": "Wed, 21 Jan 2026 05:51:42 GMT"
-      },
-      {
-        "name": "last-modified",
-        "value": "Tue, 06 Jan 2026 20:32:10 GMT"
-      },
-      {
-        "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
-      },
-      {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
-      },
-      {
-        "name": "x-ms-request-id",
-        "value": "8d69a9fe-601e-0071-804c-7fe1b3000000"
-      },
-      {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
-      },
-      {
-        "name": "x-onetrust-isbot",
-        "value": "false"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "url": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/otFlat.json",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888304191,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "accept-ranges",
-        "value": "bytes"
-      },
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "age",
-        "value": "33565"
-      },
-      {
-        "name": "cache-control",
-        "value": "max-age=86400"
-      },
-      {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d38b8814e87-HYD"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-length",
-        "value": "3142"
-      },
-      {
-        "name": "content-md5",
-        "value": "ckTslRSutbrMzAGGcfSvqA=="
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:43 GMT"
-      },
-      {
-        "name": "etag",
-        "value": "0x8DE4D0A1A230BFF"
-      },
-      {
-        "name": "last-modified",
-        "value": "Tue, 06 Jan 2026 09:58:11 GMT"
-      },
-      {
-        "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
-      },
-      {
-        "name": "vary",
-        "value": "accept-encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
-      },
-      {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
-      },
-      {
-        "name": "x-ms-request-id",
-        "value": "9f9a818d-801e-00bc-5d4b-7f84fb000000"
-      },
-      {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "url": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/v2/otPcCenter.json",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888304200,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "accept-ranges",
-        "value": "bytes"
-      },
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,Content-Encoding,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "age",
-        "value": "33565"
-      },
-      {
-        "name": "cache-control",
-        "value": "max-age=86400"
-      },
-      {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d38b8834e87-HYD"
+        "name": "x-li-fabric",
+        "value": "prod-lva1"
       },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-length",
-        "value": "13411"
-      },
-      {
-        "name": "content-md5",
-        "value": "PkR2eGgyM/UYnFypqDJyxQ=="
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:43 GMT"
-      },
-      {
-        "name": "etag",
-        "value": "0x8DE4D0A1B738DEF"
-      },
-      {
-        "name": "last-modified",
-        "value": "Tue, 06 Jan 2026 09:58:13 GMT"
-      },
-      {
-        "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
-      },
-      {
-        "name": "vary",
-        "value": "accept-encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
-      },
-      {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
-      },
-      {
-        "name": "x-ms-request-id",
-        "value": "dcccb4c0-f01e-00f7-144b-7fb561000000"
-      },
-      {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "url": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/otCommonStyles.css",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888304204,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "age",
-        "value": "33565"
-      },
-      {
-        "name": "cache-control",
-        "value": "max-age=86400"
-      },
-      {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d38b8854e87-HYD"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-md5",
-        "value": "zV7jmhB1bV4YO+ND9W4g0w=="
-      },
-      {
-        "name": "content-type",
-        "value": "text/css"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:43 GMT"
-      },
-      {
-        "name": "last-modified",
-        "value": "Tue, 06 Jan 2026 09:58:22 GMT"
-      },
-      {
-        "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
-      },
-      {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
-      },
-      {
-        "name": "x-ms-request-id",
-        "value": "bf4929f7-d01e-004a-714b-7fa3ed000000"
-      },
-      {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "url": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888305126,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding"
-      },
-      {
-        "name": "age",
-        "value": "74363"
-      },
-      {
-        "name": "cache-control",
-        "value": "max-age=86400"
-      },
-      {
-        "name": "cf-cache-status",
-        "value": "HIT"
-      },
-      {
-        "name": "cf-ray",
-        "value": "9c0c4d3e3ae84e87-HYD"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-md5",
-        "value": "tXyZydHjxQshFMbbBT1/8A=="
-      },
-      {
-        "name": "content-type",
-        "value": "image/svg+xml"
-      },
-      {
-        "name": "cross-origin-resource-policy",
-        "value": "cross-origin"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:44 GMT"
-      },
-      {
-        "name": "last-modified",
-        "value": "Mon, 12 Jan 2026 03:40:59 GMT"
-      },
-      {
-        "name": "server",
-        "value": "cloudflare"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-ms-blob-type",
-        "value": "BlockBlob"
-      },
-      {
-        "name": "x-ms-lease-status",
-        "value": "unlocked"
-      },
-      {
-        "name": "x-ms-request-id",
-        "value": "99c52ee8-201e-00ba-14a3-837383000000"
-      },
-      {
-        "name": "x-ms-version",
-        "value": "2009-09-19"
-      }
-    ]
-  },
-  {
-    "id": "12",
-    "url": "https://account.cengage.com/rb_bf72382oux?type=js3&sn=v_4_srv_3_sn_FAD80A7BDAE3ABCD41CE18294A39A53E_perc_100000_ol_0_mul_1_app-3A818d0b5f388185b0_1&svrid=3&flavor=post&vi=RRQCKNUOIVWHHFFAVCEIJJHPILBDRCPF-0&modifiedSince=1767979364555&bp=3&app=818d0b5f388185b0&crc=2428776803&en=w8dugclo&end=1",
-    "method": "POST",
-    "type": "fetch",
-    "timeStamp": 1768888308105,
-    "requestBody": "$a=1%7C1%7C_load_%7C_load_%7C-%7C1768888298047%7C0%7Cdn%7C201%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%2C2%7C2%7Cx%7Cxhr%7Cx%7C1768888301968%7C1768888302677%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fcengagelearning.us-5.evergage.com%2Fapi2%2Fevent%2Fcengage_com%3Fevent%3DeyJzb3VyY2UiOnsicGFnZVR5cGUiOiJBY2NvdW50IFBhZ2UiLCJ1cmwiOiJodHRwczovL2FjY291bnQuY2VuZ2FnZS5jb20vd2VsY29tZS9pQnhUcnJlTUxya2JFSi1KWWZWYT9lbWFpbD16dWJhaXIxZGlnaXRhbEBnbWFpbC5jb20iLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjYyIiwiY29udGVudFpvbmVzIjpbXX0sInVzZXIiOnsiYW5vbnltb3VzSWQiOiJiZDlkYjQxZGM1N2U0YWU5IiwiaWRlbnRpdGllcyI6e30sImF0dHJpYnV0ZXMiOnsiY29va2llVVVJRCI6ImJkOWRiNDFkYz...%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxcs%7C709%7Cxce%7C709%2C2%7C3%7Cx%7Cxhr%7Cx%7C1768888301981%7C1768888302294%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Fconsent%2Fc8ff7feb-5a3d-4687-96ed-57769a480d29%2Fc8ff7feb-5a3d-4687-96ed-57769a480d29.json%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888301985e0m303X200T-7z11I1%7Cxcs%7C312%7Cxce%7C312%2C2%7C4%7Cfetch%7Cxhr%7Cfetch%7C1768888302089%7C0%7Cdn%7C-1%7Cxu%7Chttps%3A%2F%2Fauth.cengage.com%2Fapi%2Fv1%2Fauthn%2Frecovery%2Ftoken%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxcs%7C6004%7Cxce%7C6004%2C2%7C5%7Cx%7Cxhr%7Cx%7C1768888302298%7C1768888302878%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fgeolocation.onetrust.com%2Fcookieconsentpub%2Fv1%2Fgeo%2Flocation%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888302301e0m575X200T-8z11I1%7Cxcs%7C580%7Cxce%7C580%2C2%7C6%7Cfetch%7Cxhr%7Cfetch%7C1768888303588%7C1768888304117%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Fconsent%2Fc8ff7feb-5a3d-4687-96ed-57769a480d29%2F019b94d4-84fc-70fd-89d7-6e2565138bdb%2Fen.json%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888303592e0m540X200T-1z11I2%7Cxcs%7C528%7Cxce%7C529%2C2%7C7%7Cfetch%7Cxhr%7Cfetch%7C1768888304187%7C1768888305023%7Cdn%7C199%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Fscripttemplates%2F202512.1.0%2Fassets%2FotFlat.json%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888304191e0m869X200T-4z11I2%7Cxcs%7C835%7Cxce%7C836%2C2%7C8%7Cfetch%7Cxhr%7Cfetch%7C1768888304192%7C1768888304981%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Fscripttemplates%2F202512.1.0%2Fassets%2Fv2%2FotPcCenter.json%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888304200e0m813X200T-3z11I2%7Cxcs%7C788%7Cxce%7C789%2C2%7C9%7Cfetch%7Cxhr%7Cfetch%7C1768888304201%7C1768888304977%7Cdn%7C43%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Fscripttemplates%2F202512.1.0%2Fassets%2FotCommonStyles.css%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888304204e0m767X200T-2z11I2%7Cxcs%7C774%7Cxce%7C776%2C2%7C10%7C_onload_%7C_load_%7C-%7C1768888304668%7C1768888304669%7Cdn%7C43%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%2C2%7C11%7Cfetch%7Cxhr%7Cfetch%7C1768888305122%7C1768888305449%7Cdn%7C201%7Cxu%7Chttps%3A%2F%2Fcdn.cookielaw.org%2Flogos%2Fstatic%2Fot_guard_logo.svg%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888305127e0m320X200T-5z11I2%7Cxcs%7C327%7Cxce%7C327%2C2%7C12%7Cfetch%7Cxhr%7Cfetch%7C1768888307258%7C1768888307721%7Cdn%7C201%7Cxu%7Chttps%3A%2F%2Fwww.google-analytics.com%2Fg%2Fcollect%3Fv%3D2%26tid%3DG-1Z1VMVSHXM%26gtm%3D45je61e1v872219106za200zd872219106%26_p%3D1768888301900%26gcd%3D13l3l3l3l1l1%26npa%3D0%26dma%3D0%26cid%3D892353451.1768888266%26ul%3Den-us%26sr%3D1366x768%26ir%3D1%26uaa%3Dx86%26uab%3D64%26uafvl%3DNot%28A%25253ABrand%253B8.0.0.0%257CChromium%253B144.0.7559.59%257CGoogle%252520Chrome%253B144.0.7559.59%26uamb%3D0%26uam%3D%26uap%3DWindows%26uapv%3D15.0.0%26uaw%3D1%26are%3D1%26frm%3D0%26pscdl%3Dnoapi%26_eu%3DEAAAAAQ%26_s%3D1%26tag_exp%3D103116026%7E103200004%7E104527906%7E104528500%7E104684208%7E104684211%7E105391253%7E115938466%7E115938469%7E117041...%7Csvtrg%7C1%7Csvm%7Ci1%5Esk0%5Esh0%7Cxrt%7Cb1768888307261e0m458T-6z11I2%7Cxcs%7C463%7Cxce%7C463%7Crc%7C971%7Crm%7CXHR%20Canceled$PV=1$rId=RID_-507467891$rpId=-616441060$url=https%3A%2F%2Faccount.cengage.com%2Fwelcome%2FiBxTrreMLrkbEJ-JYfVa%3Femail%3Dzubair1digital%40gmail.com$title=$latC=0$app=818d0b5f388185b0$vi=RRQCKNUOIVWHHFFAVCEIJJHPILBDRCPF-0$fId=88301030_145$v=10327251022105625$rf=https%3A%2F%2Faccount.cengage.com%2Fwelcome%2FiBxTrreMLrkbEJ-JYfVa%3Femail%3Dzubair1digital%40gmail.com$time=1768888308101",
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
       {
-        "name": "ciam-session-expiration",
-        "value": "-1"
+        "name": "x-li-pop",
+        "value": "afd-prod-lva1-x"
       },
       {
-        "name": "cmp-request-id",
-        "value": "7e944ca8-7b40-435d-b4f8-be829b5da9eb"
+        "name": "x-li-proto",
+        "value": "http/1.1"
       },
       {
-        "name": "content-length",
-        "value": "110"
+        "name": "x-li-uuid",
+        "value": "AAZJBdPsepcXAwKOmvFXUw=="
       },
       {
-        "name": "content-type",
-        "value": "text/plain;charset=utf-8"
+        "name": "x-msedge-ref",
+        "value": "Ref A: 0E38E88737AE45D4901C95CA7525B8D8 Ref B: HYD30EDGE0308 Ref C: 2026-01-23T03:33:59Z"
       },
       {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:47 GMT"
+        "name": "x-restli-protocol-version",
+        "value": "1.0.0"
       }
     ]
   },
   {
     "id": "13",
-    "url": "https://privacyportal.onetrust.com/request/v1/consentreceipts/anonymous",
+    "url": "https://www.uber.com/api/getExperiments?localeCode=en",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888309441,
+    "timeStamp": 1769139240206,
     "requestBody": {
-      "requestInformation": "eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6IjkyMzM0MDQ5LWUyMTAtNGVmNi1iNDI4LTYwYmQwZTg0YzgzYiIsInByb2Nlc3NWZXJzaW9uIjo3LCJpYXQiOiIyMDI1LTA1LTA4VDE1OjE1OjU4LjMwMyIsIm1vYyI6IkNPT0tJRSIsInBvbGljeV91cmkiOiJjZW5nYWdlLmNvbSIsInN1YiI6IkNvb2tpZSBVbmlxdWUgSWQiLCJpc3MiOm51bGwsInRlbmFudElkIjoiZTdlYjcyZTAtMjM2MS00YWQ1LWI1NDgtMjhlN2FhMGQ1YmU4IiwiZGVzY3JpcHRpb24iOiJUaGlzIGNvbGxlY3Rpb24gcG9pbnQgY2FwdHVyZXMgdGhlIGN1cnJlbnQgc2l0ZSB2aXNpdG9yIGNvbnNlbnQgcHJlZmVyZW5jZXMgZm9yIHRoZSBkb21haW46IGNlbmdhZ2UuY29tLWVuIHNwZWNpZmllZC4iLCJjb25zZW50VHlwZSI6IkNPT0tJRUJBTk5FUiIsImFsbG93Tm90R2l2ZW5Db25zZW50cyI6ZmFsc2UsImRvdWJsZU9wdEluIjpmYWxzZSwicHVycG9zZXMiOlt7ImlkIjoiMzVkN2QzMzktNjZiZS00ZjkxLWIxYTktNzQ4YTExYzA5NzZjIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjA2ODQ1OTcxLWJkODQtNDhlMi1hYzZlLTlmMmU0OGQ5OTFjYSIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI3ZTg0ZTMyMC0yMTNjLTRhM2UtOWIxZC00NDA4ZGE2ZWU3ZWMiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMTNkNjE2MzgtN2Q2Ny00ZTY0LWEwMTktMGEwOTEzZDI4MDI0IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjdkMGE5MjU3LTIzZDItNGI4Ni05ZmVmLTdiZTZiZjY5ZjhmOCIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI4MWM1NjZhYi0yYzc2LTQ0YzktOWYwNC1iYzU3NWI0NzM3MzUiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiZTY4ZDhlMTEtODU5NC00NDZmLTgxNGMtMzY0YWU5MDBjM2M5IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjRkMjBhNWMzLTliMzEtNGIwOC05NzExLThiYjYwOWY0ZjM3YSIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiJiYjgzZGZlNS0yM2IzLTQ3MzktOGM3My1mMDMyNmJlZjFhZTUiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMzk0YzVlNTUtOTdjMC00YWFhLThhZmUtZWZkMGRmNmYyOWI5IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjFmZDVhNDgyLTU2ZDctNGNlNS1iMDRiLTc2NmMzNDg0ODEwOSIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI0NThkNjg5NC1hM2FhLTQ2OWUtYWI1My1kMzNmMDNmMzc2M2IiLCJ2ZXJzaW9uIjoyLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiOGE2YzI4ZWQtZWY2Mi00NGZhLTkyYTEtMzI4NGJlZjQ0ZTk2IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6Ijk0NWMzOWM2LWM3ZDEtNDk0Zi05ZmU2LWJjYmZkYTAwMDgxYSIsInZlcnNpb24iOjMsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI4Yzc2MDVlMS0wOTNkLTQyODgtODNmYS0zMjhjY2YxMTk3MTQiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiNjY5M2RiNmQtOWNhMS00OTU4LWI5MjAtNjAyNmVjMmE3MTc2IiwidmVyc2lvbiI6MywicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6ImEwZjFhZDIyLTAxMTUtNGVhYi04MTNiLTJmZTBkMTg2YTM1YyIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiIxNjAyMDllMS02YTZjLTQ2OWEtYTYxNi0wZjMyYjg5ZWY2ZTAiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiZjExMmFiMDctMzFjMS00ZjllLWEwYjAtYTRlZjllOGQyZDA2IiwidmVyc2lvbiI6NSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjBlMTdhMjE4LWYyZDItNGE0NS1iMTU3LWIwYmMzNWU5NThhYiIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiIxNzEwNzhjYi02MGZmLTQwN2ItYTgzOS1lMmQ4MjZmOTBkYzkiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiZTFkNmVhYmMtZjkxNi00NmJhLWI1NGMtZWU4NjBiMjQyYjc3IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjkzZmMyMTYyLTVhNTgtNDJhZi1hNzY5LWE3NjA3NDE0NjkyNCIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiIwMDAyMjBmZS0xYjA4LTQ3OWMtOTU0Zi1kZjU3YzVkMWEwODgiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiN2Q3ZmE4YjgtMjI1My00MjUxLTk0NTMtNmIzOTI1OGM4ZjQwIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjczOTAyMDMwLTYyNTAtNDBhNS1iYzY0LTQzZjVkZWM1ZWIzNSIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiIwOGE2MzM0OS1jOTY1LTQyZmQtYWVhZC1jN2MyZjY1M2I2NmEiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMTQ0NGRmZjctMGQ5Mi00MTdhLWI5ZWEtNzRkYTUxNzY0MWVlIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6ImY2M2FiNzIwLTUzNjAtNDViMC1iMTUwLTNlNzc2ZTA1YTNkMCIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiJiYzZlYTFhMi03YzQ0LTQ4YWMtYjg0Yy03YzAwMDBmZmUyMjMiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMThiNjk5ZDQtMDE2MC00ZWE2LWIwNjctY2UyMGEyOGEyYjVlIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6ImZlMWZkMzJlLTA4YzUtNDRiNS05ZmY4LWQxMDU1ZWYwZDczYyIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiIzNjUyNjg0OC01NjdiLTRiYjMtOGU2NC1kODA0ZGNmN2VjYTYiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMmRiNThmNzEtMTJkNy00ZDZkLWJlNGMtMDg2MTJlMmQ1Y2EwIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjBkYWNkYzI3LWY4NDctNDg4Yy1hMTUwLWRhZjVhYjJjOTQ2YiIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI3MDg2Y2VhYS04NjFmLTRlY2QtOTFlYi0zZjU4OWU2NmY3YjciLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiYzkzMGNhNDMtMDU5Yy00ZmIxLWEyMGItMzM5ZTI2MWMxNjkyIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjdhZWNiM2MyLTE3MDItNGY5ZS04MTI2LWRiYmI1NzZiZjVmMCIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI0ZWJmMjE2NC1hMjZmLTQwYjMtYWZiNC0xMDBkYzgxMDQ1MTciLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiNGYyOGIxZjEtZTFmOC00ZDM0LWE0YjgtZDI4MThjZmI0MjcxIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjRlMjhmZDFiLTAyY2EtNDkyYS1iMTg2LTg4ZWRlZTY1MTkwOSIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI2NjFiNjE0My1jMzExLTRlNzYtODE0ZC0zOTVkNjRlNmY3OTYiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiMjU5MGIyY2ItMjgyNS00MWExLWFmN2ItNzUwNDM0ODA0Y2U3IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6ImNkYTlhY2Y2LWM2NmEtNGVlYy1hZjIwLWM5ZWMyNTdiYTRjOCIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiI5ODg5YWVkZS1lZWY3LTQzN2EtODEzNC00MWZmODVlNTQ0NjQiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiZjI1NTMxODgtYTE0NC00OTdkLWFjNTAtYjkyZGY4MzE3ZjZkIiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH0seyJpZCI6IjgwY2Y5YTE1LTJlNmYtNDQxYy1hNmIyLWYxYTJlMjE3NTBjYyIsInZlcnNpb24iOjEsInBhcmVudElkIjpudWxsLCJ0b3BpY3MiOltdLCJjdXN0b21QcmVmZXJlbmNlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjpmYWxzZSwiaW1wbGljaXRDb25zZW50TGlmZVNwYW4iOjB9LHsiaWQiOiJmZGYwMmQzOC05OTFkLTQ2NTktOTUyNS04MjJkZWI3ZTk3ZDIiLCJ2ZXJzaW9uIjoxLCJwYXJlbnRJZCI6bnVsbCwidG9waWNzIjpbXSwiY3VzdG9tUHJlZmVyZW5jZXMiOltdLCJlbmFibGVHZW9sb2NhdGlvbiI6ZmFsc2UsImltcGxpY2l0Q29uc2VudExpZmVTcGFuIjowfSx7ImlkIjoiYTkyMWRmMDEtYTg4NC00MmNjLThmZmEtN2RmOWI3ZjQ1ZjI1IiwidmVyc2lvbiI6MSwicGFyZW50SWQiOm51bGwsInRvcGljcyI6W10sImN1c3RvbVByZWZlcmVuY2VzIjpbXSwiZW5hYmxlR2VvbG9jYXRpb24iOmZhbHNlLCJpbXBsaWNpdENvbnNlbnRMaWZlU3BhbiI6MH1dLCJub3RpY2VzIjpbXSwiZHNEYXRhRWxlbWVudHMiOlsiVXNlckFnZW50IiwiQ291bnRyeSIsIkludGVyYWN0aW9uVHlwZSIsIkNvbnNlbnRNb2RlbCJdLCJhdXRoZW50aWNhdGlvblJlcXVpcmVkIjpmYWxzZSwicmVjb25maXJtQWN0aXZlUHVycG9zZSI6ZmFsc2UsIm92ZXJyaWRlQWN0aXZlUHVycG9zZSI6dHJ1ZSwiZHluYW1pY0NvbGxlY3Rpb25Qb2ludCI6ZmFsc2UsImFkZGl0aW9uYWxJZGVudGlmaWVycyI6W10sIm11bHRpcGxlSWRlbnRpZmllclR5cGVzIjpmYWxzZSwiZW5hYmxlUGFyZW50UHJpbWFyeUlkZW50aWZpZXJzIjpmYWxzZSwicGFyZW50UHJpbWFyeUlkZW50aWZpZXJzVHlwZSI6bnVsbCwiYWRkaXRpb25hbFBhcmVudElkZW50aWZpZXJUeXBlcyI6W10sImVuYWJsZUdlb2xvY2F0aW9uIjp0cnVlLCJkYXRhRWxlbWVudFR5cGVNYXAiOnsiSW50ZXJhY3Rpb25UeXBlIjoiVVNFUl9JTlBVVCIsIkNvbnNlbnRNb2RlbCI6IlVTRVJfSU5QVVQiLCJVc2VyQWdlbnQiOiJVU0VSX0lOUFVUIiwiQ291bnRyeSI6IlVTRVJfSU5QVVQifX0.KwJMi6-zHkNRkqjLxYCEJn71mt8bF3g0wRgJf5laf1cMGlV2p39bb5Fpl233R_vJONcKY0lnwnmjRiUHx-eLbmWGObBXEWFqFYoN0Jn1msd0jRjFXGPvQ1Yc4GZvxNNz3iX3xo68LHKr3fxFuNUZVE6bYQ9Z544fLseYsYsOCHAmyKur4Vush47NuqYOsEvIMBWHkkx7DBmMR2kjAXGmRJEYE-jpJrg1G2cjajM3N3ANNKmgj9H6UNimk4dyaEXhVSYyzQZsTh-OzMwGE0n-9NLduoQ8vT6bROap6jaLr1g3MWzORYYI46thaw9GIus5k0Xh8Xil1zRGPNp91GRskSl_95B83PodVqxALvokxh0Z7LNPGyj1kvwax0onAGwLC0gNZ45lAg8rGz0aRfX41N-yCJGyaNgLc0RhkqMtQuSxR1QTLtAYL6x7t22NTT8IGeIW_uue3FLBrODoOH9R1xrBSPh5lJDjQ5Jg54cO24OhqRm7goIQY2U7CooNITaH5rDbPEH0ZD_ZEqueg2Sm5oeU7hW24_MUw7ECzJOZP0e0M61tQV8Y68BqlAdKsKI9z7nIUbUEessdLWx3cq1uVR1sJvWi7OtciXZiWwsvXekQauJCYXdMT-tvlLa7PCAZO63AJf2XQMzbjE_T92eXCGp9VLX7uR2uoppCfaobMdY",
-      "identifier": "494e303e-831a-4348-b746-8f3b7dc99629",
-      "identifierType": "Cookie Unique Id",
-      "customPayload": {
-        "Interaction": 2,
-        "AddDefaultInteraction": false
-      },
-      "isAnonymous": true,
-      "test": false,
-      "purposes": [
-        {
-          "Id": "6693DB6D-9CA1-4958-B920-6026EC2A7176",
-          "TransactionType": "NO_CHOICE"
-        },
-        {
-          "Id": "945C39C6-C7D1-494F-9FE6-BCBFDA00081A",
-          "TransactionType": "OPT_OUT"
-        },
-        {
-          "Id": "F112AB07-31C1-4F9E-A0B0-A4EF9E8D2D06",
-          "TransactionType": "OPT_OUT"
-        },
-        {
-          "Id": "458D6894-A3AA-469E-AB53-D33F03F3763B",
-          "TransactionType": "OPT_OUT"
-        }
-      ],
-      "dsDataElements": {}
+      "xpParameter": {
+        "defaultValue": "control",
+        "key": "loggedin_redirect_xp",
+        "namespace": "chameleon-experiments"
+      }
     },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
-        "name": "access-control-allow-origin",
-        "value": "*"
+        "name": "cache-control",
+        "value": "max-age=0"
       },
       {
         "name": "cf-cache-status",
@@ -944,19 +790,19 @@
       },
       {
         "name": "cf-ray",
-        "value": "9c0c4d5d4fd721ba-HYD"
+        "value": "9c243b980df32e96-HYD"
       },
       {
-        "name": "content-encoding",
-        "value": "gzip"
+        "name": "content-length",
+        "value": "37"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:49 GMT"
+        "value": "Fri, 23 Jan 2026 03:33:59 GMT"
       },
       {
         "name": "server",
@@ -964,271 +810,323 @@
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000; includeSubDomains; preload"
+        "value": "max-age=31536000"
       },
       {
-        "name": "vary",
-        "value": "Origin"
+        "name": "x-content-type-options",
+        "value": "nosniff"
       },
       {
-        "name": "vary",
-        "value": "Access-Control-Request-Method"
+        "name": "x-envoy-upstream-service-time",
+        "value": "28"
       },
       {
-        "name": "vary",
-        "value": "Access-Control-Request-Headers"
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "vary",
-        "value": "Origin"
-      },
-      {
-        "name": "vary",
-        "value": "Access-Control-Request-Method"
-      },
-      {
-        "name": "vary",
-        "value": "Access-Control-Request-Headers"
-      },
-      {
-        "name": "via",
-        "value": "1.1 turnstile"
-      },
-      {
-        "name": "x-onetrust-receiptid",
-        "value": "7ecfc5b2-d84d-4cc6-8f80-1a018e6121c8"
-      },
-      {
-        "name": "x-onetrust-tid",
-        "value": "e7eb72e0-2361-4ad5-b548-28e7aa0d5be8"
+        "name": "x-uber-edge",
+        "value": "e4-dca51:w:529721095,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "14",
-    "url": "https://client-eventing-production01.cengage.info/v1/profile",
+    "url": "https://www.uber.com/api/getBlockExperiments?localeCode=en",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888313701,
+    "timeStamp": 1769139240213,
     "requestBody": {
-      "records": [
-        {
-          "messageFormatVersion": 1,
-          "messageType": "ClientEventingProfile",
-          "productEnvironment": "production",
-          "productPlatform": "iam-alfred",
-          "sessionId": "478852a6-638b-4287-9277-3ac96ecf8e9a",
-          "eventTime": "2026-01-20T11:21:53.700+05:30",
-          "platform": {
-            "userAgentString": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-            "browserFingerprint": "6419da8004f96663795183d397b5dc8d",
-            "browserName": "Chrome",
-            "browserVersion": "144.0.0.0",
-            "osName": "Windows",
-            "osVersion": "NT 10.0",
-            "osVersionName": "10",
-            "engineName": "Blink",
-            "platformType": "desktop",
-            "language": "en-US",
-            "screenResolution": {
-              "width": 1366,
-              "height": 768
-            }
+      "geo": {
+        "best": {
+          "localeCode": "en",
+          "countryCode": "IN",
+          "territoryGeoPoint": {
+            "latitude": 17.385,
+            "longitude": 78.4867
           },
-          "location": {
-            "timeZone": "Asia/Calcutta"
-          }
+          "territoryId": 203,
+          "territoryName": "Hyderabad",
+          "territorySlug": "hyderabad"
+        },
+        "url": {
+          "localeCode": "en",
+          "countryCode": "IN"
+        },
+        "user": {
+          "geoIpCoordinates": {
+            "lat": 17.3843,
+            "lng": 78.4583
+          },
+          "expiresAt": "2026-01-23T07:14:09.036Z",
+          "countryCode": "IN",
+          "territoryId": 203,
+          "productGeofenceUUID": "e0d12793-ba8c-46d5-8fc6-8841a3ed6153",
+          "territoryGeoJson": [
+            [
+              {
+                "lat": 20.0226402,
+                "lng": 75.578537
+              },
+              {
+                "lat": 20.0226402,
+                "lng": 81.5788888
+              },
+              {
+                "lat": 14.8923912,
+                "lng": 81.5788888
+              },
+              {
+                "lat": 14.8923912,
+                "lng": 75.578537
+              }
+            ]
+          ],
+          "territoryGeoPoint": {
+            "latitude": 17.385,
+            "longitude": 78.4867
+          },
+          "territorySlug": "hyderabad",
+          "territoryName": "Hyderabad",
+          "localeCode": "en"
         }
-      ]
+      },
+      "xpBlockKeys": []
     },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
-        "name": "access-control-allow-origin",
-        "value": "*"
+        "name": "cache-control",
+        "value": "max-age=0"
       },
       {
-        "name": "content-encoding",
-        "value": "gzip"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243b981e072e96-HYD"
       },
       {
         "name": "content-length",
-        "value": "291"
+        "value": "30"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:51:54 GMT"
+        "value": "Fri, 23 Jan 2026 03:33:59 GMT"
       },
       {
-        "name": "via",
-        "value": "1.1 dbae6b2ce4cce2f7c1803757a782b3e6.cloudfront.net (CloudFront)"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
-        "name": "x-amz-apigw-id",
-        "value": "XeCvJFlwIAMEslA="
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
       },
       {
-        "name": "x-amz-cf-id",
-        "value": "2ypRnka6XA94PSx8hpqXrt6tU3NUvGQPDvlzfMsVOTSw_H3pciwKvA=="
+        "name": "x-content-type-options",
+        "value": "nosniff"
       },
       {
-        "name": "x-amz-cf-pop",
-        "value": "HYD57-P4"
+        "name": "x-envoy-upstream-service-time",
+        "value": "41"
       },
       {
-        "name": "x-amzn-requestid",
-        "value": "930c78cb-12a9-47dd-bc15-8036d63bfe17"
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "x-amzn-trace-id",
-        "value": "Root=1-696f17fa-51ce3f000cac56974b01b456"
-      },
-      {
-        "name": "x-cache",
-        "value": "Miss from cloudfront"
+        "name": "x-uber-edge",
+        "value": "e4-dca52:w:1530430951,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "15",
-    "url": "https://auth.cengage.com/api/v1/authn/credentials/reset_password",
+    "url": "https://www.uber.com/api/isWebview?localeCode=en",
     "method": "POST",
-    "type": "fetch",
-    "timeStamp": 1768888339613,
-    "requestBody": {
-      "newPassword": "Welcome@1234",
-      "stateToken": "00S3DGQZ2ySIoqF1B7FtzveBUUhDnrhW8NFq21YPvM"
-    },
-    "status": 0,
-    "statusText": "HTTP/1.1 0",
-    "responseHeaders": []
-  },
-  {
-    "id": "16",
-    "url": "https://student.cengage.com/services/stx/bff/context",
-    "method": "GET",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888406355,
-    "requestBody": null,
+    "timeStamp": 1769139240215,
+    "requestBody": {},
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "max-age=0"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "cmp-request-id",
-        "value": "d5f41917-6109-4f5d-a1bf-f206b242fec5"
+        "name": "cf-ray",
+        "value": "9c243b981e0d2e96-HYD"
       },
       {
-        "name": "content-encoding",
-        "value": "gzip"
+        "name": "content-length",
+        "value": "47"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:25 GMT"
+        "value": "Fri, 23 Jan 2026 03:34:00 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
+        "value": "max-age=31536000"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
       },
       {
+        "name": "x-envoy-upstream-service-time",
+        "value": "458"
+      },
+      {
         "name": "x-frame-options",
-        "value": "DENY"
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "x-response-time",
-        "value": "0.001"
+        "name": "x-uber-edge",
+        "value": "e4-dca22:w:1337265537,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "url": "https://35.160.46.251/is?cb=1769139240409",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139240409,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-headers",
+        "value": "Accept, Content-Type, x-requested-with, X-Custom-Header"
       },
       {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "access-control-allow-methods",
+        "value": "GET, POST, OPTIONS"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "32"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain;charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:34:00 GMT"
+      },
+      {
+        "name": "server",
+        "value": "istio-envoy"
+      },
+      {
+        "name": "x-application-context",
+        "value": "application:prod:8080"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "1"
       }
     ]
   },
   {
     "id": "17",
-    "url": "https://student.cengage.com/services/universal-sidebar/bff/version",
+    "url": "https://www.googleadservices.com/pagead/conversion/840270580/?random=1769139240378&cv=11&fst=1769139240378&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be61m0v892114201za200zb9103516189zd9103516189xec&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115938466~115938469~116682875~116992597~117041587~117223559~117223565&u_w=1366&u_h=768&url=https%3A%2F%2Fwww.uber.com%2Fin%2Fen%2Fbusiness%2Fonboarding-add-payment%2F%3F_csid%3DQ3RQ89mSlDMg336s2Ss9Yw%26sm_flow_id%3DfRalarrD%26state%3D8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%253D&ref=https%3A%2F%2Fwww.google.com%2F&label=1&capi=1&gtm_ee=1&frm=0&tiba=Uber%20for%20Business&did=dYmQxMT&gdid=dYmQxMT&oid=5971693544435983&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=586289299.1768984124&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=c&oidsrc=1&ecsid=1375073428.1769138548&_tu=CA&gcl_ctr=5~0&data=event%3Dconversion&em=tv.1&fmt=7",
     "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888406956,
+    "type": "fetch",
+    "timeStamp": 1769139240831,
     "requestBody": null,
     "status": 200,
-    "statusText": "HTTP/2.0 200",
+    "statusText": "H3 200",
     "responseHeaders": [
       {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://www.uber.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "no-cache, must-revalidate"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
+        "name": "content-disposition",
+        "value": "attachment; filename=\"f.txt\""
       },
       {
-        "name": "cmp-request-id",
-        "value": "0af3cc01-6a04-41a8-b064-77ad4b06faf8"
+        "name": "content-encoding",
+        "value": "br"
       },
       {
         "name": "content-length",
-        "value": "5"
+        "value": "1328"
       },
       {
         "name": "content-type",
-        "value": "text/plain;charset=UTF-8"
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:26 GMT"
+        "value": "Fri, 23 Jan 2026 03:34:00 GMT"
       },
       {
         "name": "expires",
-        "value": "0"
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "p3p",
+        "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
       },
       {
         "name": "pragma",
         "value": "no-cache"
       },
       {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "name": "server",
+        "value": "cafe"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "*"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
       },
       {
         "name": "x-xss-protection",
@@ -1238,395 +1136,103 @@
   },
   {
     "id": "18",
-    "url": "https://student.cengage.com/services/universal-sidebar/bff/configs",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888406957,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
+    "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769139240840,
+    "requestBody": "H4sIAAAAAAAACj2PbUvjQBRG/4pcWD8lG5s0bwNFXLsr0V2xTbcispSZzk16cTKJcyfUIv53qe7ux8MDh/O8wkCaQTxm5bRI/gTAW0eDX6Nj6i2IuEgD8NQhiEmelZOkjKdnaZkGoPtOkgUBo0L3ddt3EMDoDAjYeT+wiKJ/Q0Q2Qhupkckic9Rb1Uunybah1Doc5KFD66PzzZZJzxbJclGUXW3mv9okyTiuuXzYn3K3aUy/35CeNUtppHPzU/bS46xYPr1MqIp3Ln9O28v7S3W9Hh8KvD+E441q1/lLS9c3t77NF1+SOQQwyBZX5A2CgN8K3UnTu5Nvf+sggD0qJo81tVaaJT6PyL7SIEDLLEl1hmGDKMO80XGYJhiHWsvmrJxirooCAiBeOWnZSI8aRCMNYwCGfshPCxzhiqT1n9ARb0G8wsCqPh4CEU7fjpafZJ9QV/ZiGP5rdtiBsKMxAfBH3+owHH/cXVx936yrulrB2zuqS57p1AEAAA==",
+    "status": 204,
+    "statusText": "H3 204",
     "responseHeaders": [
       {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "name": "access-control-allow-credentials",
+        "value": "true"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
+        "name": "access-control-allow-origin",
+        "value": "https://www.uber.com"
       },
       {
-        "name": "cmp-request-id",
-        "value": "46209583-1c59-4d0b-9bdb-ee9c0110c887"
-      },
-      {
-        "name": "content-length",
-        "value": "326"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=86400"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:26 GMT"
+        "value": "Fri, 23 Jan 2026 03:33:59 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
+        "name": "linkedin-action",
+        "value": "1"
       },
       {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "vary",
+        "value": "Origin"
       },
       {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "name": "x-cache",
+        "value": "CONFIG_NOCACHE"
       },
       {
-        "name": "x-content-type-options",
-        "value": "nosniff"
+        "name": "x-li-fabric",
+        "value": "prod-lor1"
       },
       {
-        "name": "x-frame-options",
-        "value": "DENY"
+        "name": "x-li-pop",
+        "value": "afd-prod-lor1-x"
       },
       {
-        "name": "x-response-time",
-        "value": "0.000"
+        "name": "x-li-proto",
+        "value": "http/1.1"
       },
       {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-li-uuid",
+        "value": "AAZJBdP7f6hADgX/emS08Q=="
+      },
+      {
+        "name": "x-msedge-ref",
+        "value": "Ref A: E0750AAD7E584954B8C78C56297DC71C Ref B: HYD30EDGE0511 Ref C: 2026-01-23T03:34:00Z"
       }
     ]
   },
   {
     "id": "19",
-    "url": "https://student.cengage.com/services/stx/bff/entitlement-tiles",
-    "method": "GET",
+    "url": "https://insight.adsrvr.org/track/realtimeconversion",
+    "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888406972,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "50d56614-6004-4489-a733-95e770ccf786"
-      },
-      {
-        "name": "content-length",
-        "value": "2"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:26 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.491"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "20",
-    "url": "https://student.cengage.com/services/stx/bff/search/products/config",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888406973,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "8213fb63-6e8d-47fd-b871-4921dc2be30a"
-      },
-      {
-        "name": "content-length",
-        "value": "32"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:26 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.000"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "21",
-    "url": "https://student.cengage.com/services/universal-sidebar/bff/currentUser",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888407216,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "43fe27e7-4c61-421d-97a7-5b67f7f4d26c"
-      },
-      {
-        "name": "content-length",
-        "value": "91"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:26 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.000"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "22",
-    "url": "https://student.cengage.com/services/universal-sidebar/bff/elements",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888407718,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "72dd81dc-b026-454b-8ccf-dc6500acb2ef"
-      },
-      {
-        "name": "content-length",
-        "value": "476"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:27 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.000"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "23",
-    "url": "https://student.cengage.com/services/stx/bff/pin/all",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768888407772,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "73e2a323-0bb0-4691-8694-dd5bdce2c4a0"
-      },
-      {
-        "name": "content-length",
-        "value": "2"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:27 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.010"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "url": "https://data.cengage.com/g/collect?v=2&tid=G-123456789&gtm=45je61e1z876867751za20gzb76867751zd76867751&_p=1768888406962&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=892353451.1768888266&ecid=1810007680&ul=en-us&sr=1366x768&_fplc=0&ur=IN-TS&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&are=1&frm=0&pscdl=noapi&sst.etld=google.co.in&sst.tft=1768888406962&sst.lpc=263914702&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~105391253~115495939~115497442~115616986~115938465~115938469~117041587&sid=1768888407&sct=1&seg=0&dl=https%3A%2F%2Fstudent.cengage.com%2Fdashboard%2Fhome&dt=Cengage%20Learning&_tu=BA&en=page_view&_fv=1&_ss=1&tfd=12927&richsstsse",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888407977,
-    "requestBody": null,
+    "timeStamp": 1769139241591,
+    "requestBody": {
+      "data": [
+        {
+          "0": "t",
+          "1": "t",
+          "2": "d",
+          "3": "U",
+          "4": "n",
+          "5": "i",
+          "6": "v",
+          "7": "e",
+          "8": "r",
+          "9": "s",
+          "10": "a",
+          "11": "l",
+          "12": "P",
+          "13": "i",
+          "14": "x",
+          "15": "e",
+          "16": "l",
+          "17": "T",
+          "18": "a",
+          "19": "g",
+          "adv": "mvbervn",
+          "pixel_ids": [
+            "0jxcz1v"
+          ],
+          "referrer_url": "https://www.uber.com/in/en/business/onboarding-add-payment/?_csid=Q3RQ89mSlDMg336s2Ss9Yw&sm_flow_id=fRalarrD&state=8Rkx1iI2hr7q5gCWCbJVuY8eWy-uKbgV7xgiJKNtg7Q%3D",
+          "data_processing_option": null,
+          "privacy_settings": []
+        }
+      ]
+    },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
@@ -1635,16 +1241,275 @@
         "value": "true"
       },
       {
+        "name": "access-control-allow-headers",
+        "value": "Origin, X-Requested-With, Content-Type, Content-Length, Content-Encoding, Vary, Cache-Control, Accept, x-integration-type"
+      },
+      {
         "name": "access-control-allow-origin",
-        "value": "https://student.cengage.com"
+        "value": "https://www.uber.com"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:34:01 GMT"
+      },
+      {
+        "name": "server",
+        "value": "Kestrel"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "url": "https://www.uber.com/_events",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139243473,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "max-age=0"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243bac9c502e96-HYD"
+      },
+      {
+        "name": "content-length",
+        "value": "2"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:34:03 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "37"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca51:w:525055759,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "url": "https://business.uber.com/_events",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139265286,
+    "requestBody": {
+      "items": [
+        {
+          "type": "__XP_PING__",
+          "payload": {
+            "lemon": "aid"
+          }
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "max-age=0,no-store"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243c34cde52e96-HYD"
+      },
+      {
+        "name": "content-length",
+        "value": "2"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:34:25 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "10"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca51:w:534350659,ufe:production-cloudflare:compute-0:dca23,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "url": "https://logx.optimizely.com/v1/events",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139265850,
+    "requestBody": {
+      "account_id": "745050198",
+      "anonymize_ip": false,
+      "client_name": "js",
+      "client_version": "0.183.0",
+      "enrich_decisions": true,
+      "project_id": "17825981388",
+      "revision": "733",
+      "visitors": [
+        {
+          "visitor_id": "oeu1769138432328r0.7099010617644879",
+          "session_id": "AUTO",
+          "attributes": [
+            {
+              "e": null,
+              "k": "",
+              "t": "first_session",
+              "v": true
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "browserId",
+              "v": "gc"
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "device",
+              "v": "desktop"
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "device_type",
+              "v": "desktop_laptop"
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "referrer",
+              "v": "https://auth.uber.com/"
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "source_type",
+              "v": "referral"
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "currentTimestamp",
+              "v": 1769139264810
+            },
+            {
+              "e": null,
+              "k": "",
+              "t": "offset",
+              "v": -330
+            }
+          ],
+          "snapshots": [
+            {
+              "activationTimestamp": 1769139264772,
+              "decisions": [],
+              "events": [
+                {
+                  "e": null,
+                  "y": "client_activation",
+                  "u": "94d7cf78-9c7a-4f19-8273-8aa858dee333",
+                  "t": 1769139264811
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "status": 204,
+    "statusText": "HTTP/2.0 204",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-headers",
+        "value": "X-Requested-With,Content-Type,Accept,Origin,X-App-Trace-Id,X-Optimizely-Strict"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "POST,OPTIONS"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://business.uber.com"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "X-Requested-With,Content-Type,Accept,Origin,X-App-Trace-Id"
       },
       {
         "name": "alt-svc",
         "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
-      },
-      {
-        "name": "cache-control",
-        "value": "no-cache"
       },
       {
         "name": "content-type",
@@ -1652,187 +1517,265 @@
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:27 GMT"
+        "value": "Fri, 23 Jan 2026 03:34:25 GMT"
       },
       {
-        "name": "server",
-        "value": "Google Frontend"
+        "name": "timing-allow-origin",
+        "value": "*"
       },
       {
         "name": "via",
         "value": "1.1 google"
       },
       {
-        "name": "x-accel-buffering",
-        "value": "no"
+        "name": "x-request-id",
+        "value": "fc1a5252-05f4-44a7-b157-ff446a4281b2"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dr=www.uber.com&dl=https%3A%2F%2Fbusiness.uber.com%2Fselect%2F&scrsrc=www.googletagmanager.com&rnd=1704103534.1769139266&dt=Uber%20for%20Business&auid=586289299.1768984124&navt=n&npa=0&ep.enable_event_matching_conversions=false&did=dYmQxMT&gdid=dYmQxMT&gtm=45be61m0v892114201za200zd892114201xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115938465~115938469~116185181~116185182~116682875~117041588&apve=1&apvf=f&apvc=1&tids=AW-840270580&tid=AW-840270580&tft=1769139266297&tfd=2653",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769139266298,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": []
+  },
+  {
+    "id": "24",
+    "url": "https://business.uber.com/udi-meta",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769139267767,
+    "requestBody": {
+      "meta": "IsOFwpJePcOFw5sVO8KFwoIBb8OWw5QPbMKEw5UFbcOXw5YFe8OLw4NoLcOFw5sVGMKywoUDLsKEwpt6PMKlwrlBasKDwqsCDsKUwrt5CcOQwo1tCMKlwoRTbsKIwpMcA8KXwqdQbsKrwowHDMKQwrFiK8Kgwpt2N8KKwo1baMK3w5RVKsOMwohgbsKKwoUFC8OUw5l8EsKUwpREcsK2wrVZYMORwpVvM8KtwqdTLsKowqV9I8KNwqRdEcKvwqNjCMOVwoluYcKuwq5TN8KxwoAED8KAw5BedsKUwoBhPcKKwqkFKMKjw5JvEsKOwo4OFsKmwqB7HMKJwoBaD8KTwpYYbMKKwrVuEcKAwqhwdsK1wrNRHMOQwo8OE8KhwrkCacK/w45tMsKhwqdVFsK9wpRHYMORwo0OM8KRwqBcHMKIw5NNCcKmwrRRCsKKwohQMcK3wolQEMKCwqt2FcKXwohaEcKmwoYOHcKywqtSLcORwrQFC8KkwoIGHcKvwoQBFMKSwocBK8KXw5hQGMKGwqx4YMK2wpR1LsKjw5F9aMKowqZZKcKgwoljbMKjwqR7FsKrwrl1CsKVwrdiKcK+wph+DMOUwoN2NcKBw5hgG8KUwrt1dsOUwoBHHsKOwoN0D8KAwpRFL8KMwo5YMsOVwpVaOMOSwrBCb8KhwrZGI8Oew5VcGsORwrl2C8OWw5daKMOXw5B4M8KRwrNkNcKVwqUCNsK/w5dyEcKewpVTcsKNwpBvM8KswrYDbsKhwq9lHsKmw5wKe8OLw4NUP8K4wodbOMKAwpIVY8OFw5AHa8OVw5gBasOFw40VOsKIwo5cMMKCw4xoOsKEw4MNe8KmwoMFAMKpwq5PKcKUwpcCbsKUwphlIMKXw5Z1I8OfwrtGMcOFw40VOsKIwo5cMMKCw4xoOsKOwoVoOsKEw4MNe8KmwoMFAMKpwq5PKcKUwpcCbsKUwphlIMKXw5Z1I8OfwrtGMcOFw40VLcKOwoxSdMKSwo9eIcOKwoRHNsKEwokaNMKUw4MNaMOQw5cOaMOUw5gFb8ORw5YFbcOLw4NDMMKKwoQaNcKIwoJWNcOFw5sVaMOIw5MEdsOVw5EFb8OLw4EOY8OXw5UNa8ORw4F2FMOFw40VLcKOwoxSdMKUwpVFMMKJwoYVY8OFwqdFMMOHwqtWN8OHw5MEecOVw5EFb8OHw5EOY8OXw5UNa8ORw4FwFMKzw4oHbMOUw5EXccKuwo9TMMKGw4FkLcKGwo9TOMKVwoUXDcKOwoxScMOFw40VLcKOwoxSdMKTwpsaNsKBwodEPMKTw4xaMMKJwpRDPMKUw4MNdMOUw5IHdcOFwpVeNMKCw4xDI8OKwolWKsOKwoVELcOFw5sVP8KGwo1EPMOFw40VLcKOwoxSdMKTwpsaPcKUwpUaOMKEwpVeL8KCw4MNe8KBwoBbKsKCw4Mbe8KTwohaPMOKwpVNdMKUwpVTdMKIwodRKsKCwpUVY8OKw5IEacOLw4NDMMKKwoQaLcKdw4xRMMKfwoRTdMKLwo5UOMKLwoQaKsKTwpNeN8KAw4MNe8OUw44BdsOVw5EGbcOLw4EAY8OSw5kNasOew4F2FMOFw40VPcKIwowaNcKIwoJWNcOKwpVWPsOFw5sVGMKFw5NuF8KowplHKsKRw5QAKsKewrNOKcOQwqNNYcK9wpBfe8OLw4NUMMKDw4xTNsKKw4xbNsKEwoBbdMKTwoBQe8Odw4N2O8OVwrh5FsKfwpFEL8OSw5ZEIMK1wphHbsKlwpsPA8KWwokVdcOFwoVYNMOKwpJSKsKUwohYN8OKwpVWPsOFw5sVGMKywoUDLsKEwpt6PMKlwrlBasKDwqsCDsKUwrt5CcOQwo1te8OLw4NUMMKDw4xTNsKKw4xEPMKUwpJeNsKJw4xDOMKAw4MNe8KmwrRTbcKQwoJNFMKCwqNvL8OUwoV9bMKwwpJtF8K3w5ZbA8OFw40VN8KGwpdePsKGwpVYK8OJwpREPMKVwqBQPMKJwpVzOMKTwoAZO8KVwoBZPcKUw4MNAsKcw4NVK8KGwo9Te8Odw4N5NsKTw4l2Y8KlwpNWN8KDw4Mbe8KRwoRFKsKOwo5Ze8Odw4MPe8Kaw41Me8KFwpNWN8KDw4MNe8KkwolFNsKKwohCNMOFw40VL8KCwpNEMMKIwo8VY8OFw5ADbcOFwpwbIsOFwoNFOMKJwoUVY8OFwqZYNsKAwo1SecKkwolFNsKKwoQVdcOFwpdSK8KUwohYN8OFw5sVaMOTw5UVJMK6w40VN8KGwpdePsKGwpVYK8OJwpREPMKVwqBQPMKJwpVzOMKTwoAZNMKIwoNeNcKCw4MNP8KGwo1EPMOLw4NZOMKRwohQOMKTwo5Fd8KSwpJSK8KmwoZSN8KTwqVWLcKGw49HNcKGwpVRNsKVwowVY8OFwrZeN8KDwo5AKsOFw40VN8KGwpdePsKGwpVYK8OJwoBHKcKxwoRFKsKOwo5Ze8Odw4MCd8OXw4EfDsKOwo9TNsKQwpIXF8Kzw4EGacOJw5EMecKwwohZb8OTw5oXIcORw5UeecKmwpFHNcKCwrZSO8KswohDdsOSw5IAd8OUw5cXccKswqljFMKrw40XNcKOwopSecKgwoRUMsKIw4gXGsKPwpNYNMKCw44GbcOTw48Hd8OXw48HecK0woBROMKVwogYbMOUw5YZasORw4Mbe8KJwoBBMMKAwoBDNsKVw49WKcKXwq9WNMKCw4MNe8KpwoRDKsKEwoBHPMOFw40VN8KGwpdePsKGwpVYK8OJwpFFNsKDwpRULcOFw5sVHsKCwoJcNsOFw40VN8KGwpdePsKGwpVYK8OJwpFbOMKTwodYK8KKw4MNe8KwwohZasOVw4Mbe8KJwoBBMMKAwoBDNsKVw49bOMKJwoZCOMKAwoQVY8OFwoRZdMKgwqMVdcOFwo9WL8KOwoZWLcKIwpMZLMKUwoRFGMKAwoRZLcOFw5sVFMKIwpteNcKLwoAYbMOJw5EXccKwwohZPcKIwpZEecKpwrUXaMOXw48HYsOHwrZeN8ORw5UMecKfw5cDcMOHwqBHKcKLwoRgPMKFwqpeLcOIw5QEbsOJw5IBecOPwqp/DcKqwq0becKLwohcPMOHwqZSOsKMwo4eecKkwolFNsKKwoQYaMOTw5UZacOJw5EZacOHwrJWP8KGwpNedsOSw5IAd8OUw5cVdcOFwo9WL8KOwoZWLcKIwpMZOsKIwo5cMMKCwqRZOMKFwo1SPcOFw5sVLcKVwpRSe8OLw4NZOMKRwohQOMKTwo5Fd8KGwpFHGsKIwoVSF8KGwoxSe8Odw4N6NsKdwohbNcKGw4Mbe8KJwoBBMMKAwoBDNsKVw49BPMKJwoVYK8OFw5sVHsKIwo5QNcKCw4F+N8KEw48VdcOFwo9WL8KOwoZWLcKIwpMZKcKVwo5TLMKEwpVkLMKFw4MNe8OVw5EHasOXw5AHbsOFw40VN8KGwpdePsKGwpVYK8OJwolWK8KDwpZWK8KCwqJYN8KEwpRFK8KCwo9UIMOFw5sVbcOFw40VN8KGwpdePsKGwpVYK8OJwoVSL8KOwoJSFMKCwoxYK8Kew4MNe8Ofw4Mbe8KJwoBBMMKAwoBDNsKVw49UNsKJwo9SOsKTwohYN8OJwoRRP8KCwoJDMMKRwoRjIMKXwoQVY8OFw5VQe8OLw4NZOMKRwohQOMKTwo5Fd8KEwo5ZN8KCwoJDMMKIwo8ZK8KTwpUVY8OSw5Ebe8KJwoBBMMKAwoBDNsKVw49UNsKJwo9SOsKTwohYN8OJwpJWL8KCwqVWLcKGw4MNP8KGwo1EPMOLw4NDNsKSwoJfHMKJwoBVNcKCwoUVY8KBwoBbKsKCw40VN8KGwpdePsKGwpVYK8OJwoBCLcKIwoxWLcKOwo5ZHMKJwoBVNcKCwoUVY8KBwoBbKsKCw40VN8KGwpdePsKGwpVYK8OJwoVYF8KIwpVjK8KGwoJce8Odw4MVdcOFwpZSO8KDwpNeL8KCwpNoPcKCwpVSOsKTw4MNP8KGwo1EPMOLw4NAMMKJwoVYLsOJwpJUK8KCwoRZd8KEwo5bNsKVwqVSKcKTwokVY8OFw5MDe8OLw4NAMMKJwoVYLsOJwoJbMMKCwo9DEMKJwodYK8KKwoBDMMKIwo8ZNcKGwo9QLMKGwoZSe8Odw4NSN8OKwqZ1e8OLw4NAMMKJwoVYLsOJwpJUK8KCwoRZd8KXwohPPMKLwqVSKcKTwokVY8OFw5MDe8OLw4NAMMKJwoVYLsOJwoleKsKTwo5FIMOJwo1SN8KAwpVfe8Odw4MDe8OLw4NAMMKJwoVYLsOJwoVSL8KOwoJSCcKOwplSNcK1woBDMMKIw4MNe8OWw4Mbe8KQwohZPcKIwpYZKsKEwpNSPMKJw49fPMKOwoZfLcOFw5sVbsORw5kVdcOFwpZeN8KDwo5Ad8KUwoJFPMKCwo8ZLsKOwoVDMcOFw5sVaMOUw5cBe8OLw4NAMMKJwoVYLsOJwpJUK8KCwoRZd8KGwpdWMMKLwqlSMMKAwolDe8Odw4MAa8OXw4Mbe8KQwohZPcKIwpYZNsKSwpVSK8KwwohTLcKPw4MNe8OWw5IBb8OFw40VLsKOwo9TNsKQw49YLMKTwoRFEcKCwohQMcKTw4MNe8OQw5MHe8OLw4NAMMKJwoVYLsOJwohZN8KCwpNgMMKDwpVfe8Odw4MOaMOfw4Mbe8KQwohZPcKIwpYZMMKJwo9SK8KvwoRePsKPwpUVY8OFw5QOYMOFw40VKsKEwpNSPMKJw49WL8KGwohb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NcKUwoQbe8KBwo5ZLcOKwqxYN8KAwo5bMMKGwo8XG8KGwohDMMOFw5tDK8KSwoQbe8KBwo5ZLcOKwqxeOsKVwo5ENsKBwpUXAMKOw4F1OMKOwpVee8OdwpVFLMKCw40VP8KIwo9DdMKqwohUK8KIwpJYP8KTw4F/MMKKwoBbOMKewoAVY8KTwpNCPMOLw4NRNsKJwpUaCsKOwox/PMKOw4MNP8KGwo1EPMOLw4NRNsKJwpUaCsKOwoxkLMKJw4xyIcKTwqMVY8KTwpNCPMOLw4NRNsKJwpUaCcKqwohZPsKrwohidMKiwplDG8OFw5tDK8KSwoQbe8KBwo5ZLcOKwqxeN8KAwq1eDMOKwqRPLcKlw4MNLcKVwpRSdcOFwodYN8KTw4x6MMKJwoZ7MMKywr5/EsK0wqJkdMKiwplDG8OFw5tDK8KSwoQbe8KBwo5ZLcOKwqxeN8KAwq1eDMK4wql8CsKkwrIVY8KBwoBbKsKCw40VP8KIwo9DdMKgwoBVK8KOwo5bOMOFw5tDK8KSwoQbe8KBwo5ZLcOKwqZYLMKDwpgXFsKLwoUXCsKTwphbPMOFw5tDK8KSwoQbe8KBwo5ZLcOKwqJWNcKOwpJDNsOHwqxje8OdwpVFLMKCw40VP8KIwo9DdMKuwoxHK8KOwo9DecKqwrUXCsKPwoBTNsKQw4MNLcKVwpRSdcOFwodYN8KTw4xwMMKLwo0XCsKGwo9EecKywo1DK8KGw4F1NsKLwoUVY8KBwoBbKsKCw40VP8KIwo9DdMKkwoRZLcKSwpNOecK0woJfNsKIwo1VNsKIwooVY8KTwpNCPMOLw4NRNsKJwpUaHsKLwo5COsKCwpJDPMKVw4F6DcOHwqRPLcKVwoAXGsKIwo9TPMKJwpJSPcOFw5tROMKLwpJSdcOFwodYN8KTw4xnPMKVwpFSLcKSwoAVY8KTwpNCPMOLw4NRNsKJwpUaH8KVwoBZMsKLwohZecKgwo5DMcKOwoIXG8KIwo5ce8OdwpVFLMKCw40VP8KIwo9DdMKlwpNCKsKPw4FkOsKVwohHLcOHwqxje8OdwpVFLMKCw40VP8KIwo9DdMKqwohUK8KIwpJYP8KTw4FjOMKOw4F7PMOFw5tDK8KSwoQbe8KBwo5ZLcOKwqZeNcKLw4FkOMKJwpIXFMKzw4MNLcKVwpRSdcOFwodYN8KTw4xjLsOHwqJSN8OHwqxje8OdwpVFLMKCw40VP8KIwo9DdMKrwpRUMMKDwoAXEcKGwo9TLsKVwohDMMKJwoYVY8KTwpNCPMOLw4NRNsKJwpUaFcKSwoJePcKGw4FkOMKJwpIVY8KTwpNCPMOLw4NRNsKJwpUaCsKCwoZYPMOHwrR+e8OdwpVFLMKCw40VP8KIwo9DdMKrwpRUMMKDwoAXH8KGwpkVY8KTwpNCPMOLw4NRNsKJwpUaFMKxw4F1NsKLwogVY8KTwpNCPMOLw4NRNsKJwpUaCsKewo1ROMKCwo8VY8KTwpNCPMOLw4NRNsKJwpUaHMKUwpVFOMKJwoZSNcKIw4FyPcKCwpJEOMOFw5tROMKLwpJSdcOFwodYN8KTw4x6OMKJwoZWNcOFw5tROMKLwpJSdcOFwodYN8KTw4xwOMKSwpVWNMKOw4MNP8KGwo1EPMOLw4NRNsKJwpUaDcKSwo9QOMOFw5tROMKLwpJSdcOFwodYN8KTw4xkMcKVwpRDMMOFw5tROMKLwpJSdcOFwodYN8KTw4xlOMKGwpdee8OdwodWNcKUwoQbe8KBwo5ZLcOKwq1WLcKPwoAVY8KBwoBbKsKCw40VP8KIwo9DdMKrwpRUMMKDwoAXGsKGwo1bMMKAwpNWKcKPwpgVY8KTwpNCPMOLw4NRNsKJwpUaFcKSwoJePcKGw4FkOMKJwpIXDcKewpFSLsKVwohDPMKVw4MNLcKVwpRSdcOFwodYN8KTw4x8OMKVwpVeMsKGw4MNP8KGwo1EPMOLw4NRNsKJwpUaD8KVwohZPcKGw4MNP8KGwo1EPMOLw4NRNsKJwpUaCcKCwpNHPMKTwpRWecKzwohDNcKOwo9QecKqwrUVY8KTwpNCPMOLw4NRNsKJwpUaGsKIwpNTMMKGw4F5PMKQw4MNP8KGwo1EPMOLw4NRNsKJwpUaGMKJwoZEOMKJwoAXF8KCwpYVY8KBwoBbKsKCw40VP8KIwo9DdMKuwpNeKsKywrF0e8OdwodWNcKUwoQbe8KBwo5ZLcOKwqJYK8KDwohWDMK3wqIVY8KBwoBbKsKCw40VP8KIwo9DdMKhwpNSPMKUwohWDMK3wqIVY8KBwoBbKsKCw40VP8KIwo9DdMKqwohFMMKGwowVY8KBwoBbKsKCw40VP8KIwo9DdMKzwpNWPcKOwpVeNsKJwoBbecKmwpNWO8KOwoIVY8KBwoBbKsKCw40VP8KIwo9DdMKqwohFMMKGwowXH8KOwplSPcOFw5tROMKLwpJSdcOFwodYN8KTw4x9OMKUwoxeN8KCwrRnGsOFw5tROMKLwpJSdcOFwodYN8KTw4x8NsKDwoJfMMKGwo9QDMK3wqIVY8KBwoBbKsKCw40VP8KIwo9DdMKrwohbIMKywrF0e8OdwodWNcKUwoQbe8KBwo5ZLcOKwq1SL8KCwo9eNMOHwqxje8OdwodWNcKUwoQbe8KBwo5ZLcOKwqRCOsKVwo5EMMKGwrRnGsOFw5tROMKLwpJSdcOFwodYN8KTw4xzMMKLwo1SN8KOwoBiCcKkw4MNP8KGwo1EPMOLw4NRNsKJwpUaC8KIwoUVY8KBwoBbKsKCw40VP8KIwo9DdMKpwoBFMsKOwpJeNMOFw5tROMKLwpJSdcOFwodYN8KTw4xxK8KGwo9cC8KSwoRfNcOFw5tROMKLwpJSdcOFwodYN8KTw4xzOMKRwohTe8OdwodWNcKUwoQbe8KBwo5ZLcOKwqBZPcKGwo1CKsOFw5tROMKLwpJSdcOFwodYN8KTw4x1K8KIwpZWNcKLwohWecKpwoRAe8OdwodWNcKUwoQbe8KBwo5ZLcOKwqBZPsKUwoBZOMKywrF0e8OdwodWNcKUwoQbe8KBwo5ZLcOKwqNFNsKQwoBbNcKOwoBiCcKkw4MNP8KGwo1EPMOLw4NRNsKJwpUaFMK0w4FiEMOHwqZYLcKPwohUe8OdwpVFLMKCw40VP8KIwo9DdMKmwolWK8KIwo9ee8OdwodWNcKUwoQbe8KBwo5ZLcOKwrJeNMKXwo1eP8KOwoRTecKmwpNWO8KOwoIXH8KOwplSPcOFw5tROMKLwpJSdcOFwodYN8KTw4xkMMKKwpFbMMKBwohSPcOHwqBFOMKFwohUe8OdwodWNcKUwoQbe8KBwo5ZLcOKwqZCNcKOwox0McKCw4MNP8KGwo1EPMOLw4NRNsKJwpUaHcKIwpVCNMOFw5tROMKLwpJSdcOFwodYN8KTw4xzNsKTwpRaGsKPwoQVY8KBwoBbKsKCw40VP8KIwo9DdMKgwpRZPsKUwpRfGsKPwoQVY8KBwoBbKsKCw40VP8KIwo9DdMKgwpRZPsKUwpRfe8OdwodWNcKUwoQbe8KBwo5ZLcOKwqNWLcKGwo9QGsKPwoQV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"
+    },
+    "status": 204,
+    "statusText": "HTTP/2.0 204",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "max-age=0,no-store"
+      },
+      {
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
+      },
+      {
+        "name": "cf-ray",
+        "value": "9c243c444c2d2e96-HYD"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:34:27 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "66"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca51:w:533976475,ufe:production-cloudflare:compute-0:dca24,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "25",
-    "url": "https://sr-client-cfg.amplitude.com/config/b73fa33d14285b95762b84a1611807b7?config_group=browser",
+    "url": "https://35.85.84.151/is?cb=1769139267936",
     "method": "GET",
     "type": "fetch",
-    "timeStamp": 1768888409135,
+    "timeStamp": 1769139267936,
     "requestBody": null,
     "status": 200,
-    "statusText": "HTTP/2.0 200",
+    "statusText": "OK",
     "responseHeaders": [
+      {
+        "name": "access-control-allow-headers",
+        "value": "Accept, Content-Type, x-requested-with, X-Custom-Header"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, POST, OPTIONS"
+      },
       {
         "name": "access-control-allow-origin",
         "value": "*"
       },
       {
-        "name": "access-control-expose-headers",
-        "value": "X-Cache,Age"
-      },
-      {
-        "name": "age",
-        "value": "48"
-      },
-      {
-        "name": "cache-control",
-        "value": "public, max-age=60, s-maxage=60, stale-if-error=86400, stale-while-revalidate=600"
+        "name": "connection",
+        "value": "close"
       },
       {
         "name": "content-length",
-        "value": "298"
+        "value": "32"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "text/plain;charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:52:40 GMT"
+        "value": "Fri, 23 Jan 2026 03:34:28 GMT"
       },
       {
-        "name": "via",
-        "value": "1.1 72bebd7505657bb5ed3f0d7da43d8c04.cloudfront.net (CloudFront)"
+        "name": "server",
+        "value": "istio-envoy"
       },
       {
-        "name": "x-amz-cf-id",
-        "value": "LQyo10EuvulE2AtXZOeY--97Ff0HadN2MPT-E9LMV5dYGo_HH2mkoQ=="
+        "name": "x-application-context",
+        "value": "application:prod:8080"
       },
       {
-        "name": "x-amz-cf-pop",
-        "value": "MAA51-P2"
-      },
-      {
-        "name": "x-cache",
-        "value": "Hit from cloudfront"
+        "name": "x-envoy-upstream-service-time",
+        "value": "1"
       }
     ]
   },
   {
     "id": "26",
-    "url": "https://sr-client-cfg.amplitude.com/config?api_key=b73fa33d14285b95762b84a1611807b7&config_keys=sessionReplay",
-    "method": "GET",
-    "type": "fetch",
-    "timeStamp": 1768888409146,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-expose-headers",
-        "value": "X-Cache,Age"
-      },
-      {
-        "name": "age",
-        "value": "52"
-      },
-      {
-        "name": "cache-control",
-        "value": "public, max-age=60, s-maxage=60, stale-if-error=86400, stale-while-revalidate=600"
-      },
-      {
-        "name": "content-length",
-        "value": "641"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 05:52:36 GMT"
-      },
-      {
-        "name": "via",
-        "value": "1.1 72bebd7505657bb5ed3f0d7da43d8c04.cloudfront.net (CloudFront)"
-      },
-      {
-        "name": "x-amz-cf-id",
-        "value": "kFaTVCwR2Gf26SrTvIx8NyCS2OCt4uOkOchB8Si0puYVa1Xs8glzDQ=="
-      },
-      {
-        "name": "x-amz-cf-pop",
-        "value": "MAA51-P2"
-      },
-      {
-        "name": "x-cache",
-        "value": "Hit from cloudfront"
-      }
-    ]
-  },
-  {
-    "id": "27",
-    "url": "https://student.cengage.com/services/ipm/bff/prebind",
+    "url": "https://app-ab39.marketo.com/cdn-cgi/rum?",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888409885,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
+    "timeStamp": 1769139275268,
+    "requestBody": {
+      "memory": {
+        "totalJSHeapSize": 3114763,
+        "usedJSHeapSize": 2069315,
+        "jsHeapSizeLimit": 1174405120
+      },
+      "resources": [],
+      "referrer": "https://business.uber.com/",
+      "eventType": 1,
+      "firstPaint": 0,
+      "firstContentfulPaint": 0,
+      "startTime": 1769139274804.9,
+      "versions": {
+        "fl": "2025.9.1",
+        "js": "2024.6.1",
+        "timings": 2
+      },
+      "pageloadId": "0a5135cc-36f3-4f3f-b2de-fc8f291935c6",
+      "location": "https://app-ab39.marketo.com/index.php/form/XDFrame",
+      "nt": "navigate",
+      "serverTimings": [
+        {
+          "name": "cfCacheStatus",
+          "dur": 0,
+          "desc": "DYNAMIC"
+        },
+        {
+          "name": "cfOrigin",
+          "dur": 1,
+          "desc": ""
+        },
+        {
+          "name": "cfEdge",
+          "dur": 262,
+          "desc": ""
+        }
+      ],
+      "timingsV2": {
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 452,
+        "domContentLoadedEventStart": 456.89999997615814,
+        "domContentLoadedEventEnd": 457.39999997615814,
+        "domComplete": 458.1999999284744,
+        "loadEventStart": 458.39999997615814,
+        "loadEventEnd": 458.5,
+        "type": "navigate",
+        "redirectCount": 0,
+        "criticalCHRestart": 0,
+        "activationStart": 0,
+        "initiatorType": "navigation",
+        "nextHopProtocol": "h2",
+        "deliveryType": "",
+        "workerStart": 0,
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 6.799999952316284,
+        "domainLookupStart": 6.799999952316284,
+        "domainLookupEnd": 6.799999952316284,
+        "connectStart": 6.799999952316284,
+        "connectEnd": 6.799999952316284,
+        "secureConnectionStart": 6.799999952316284,
+        "requestStart": 25.199999928474426,
+        "responseStart": 292.5,
+        "responseEnd": 294.60000002384186,
+        "transferSize": 1295,
+        "encodedBodySize": 995,
+        "decodedBodySize": 2295,
+        "responseStatus": 200,
+        "finalResponseHeadersStart": 292.5,
+        "firstInterimResponseStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "renderBlockingStatus": "non-blocking",
+        "contentEncoding": "gzip",
+        "name": "https://app-ab39.marketo.com/index.php/form/XDFrame",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 458.5
+      },
+      "dt": "",
+      "siteToken": "271854501d8743cfb7cc749ee8f2dde0",
+      "st": 2
+    },
+    "status": 204,
+    "statusText": "HTTP/2.0 204",
     "responseHeaders": [
       {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "POST,OPTIONS"
+      },
+      {
         "name": "access-control-allow-origin",
-        "value": "https://student.cengage.com"
+        "value": "https://app-ab39.marketo.com"
       },
       {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "name": "access-control-max-age",
+        "value": "86400"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "41d60b3c-f81b-4810-9dd5-a9aa822b4d02"
-      },
-      {
-        "name": "content-length",
-        "value": "177"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
+        "name": "cf-ray",
+        "value": "9c243c732e122e91-HYD"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:29 GMT"
+        "value": "Fri, 23 Jan 2026 03:34:34 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "vary",
@@ -1845,470 +1788,520 @@
       {
         "name": "x-frame-options",
         "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.072"
-      },
-      {
-        "name": "x-vcap-request-id",
-        "value": "cf9693ce-954f-4b08-5795-9b67bf15a89d"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
       }
     ]
   },
   {
-    "id": "28",
-    "url": "https://student.cengage.com/services/ipm/xmpp/bind",
+    "id": "27",
+    "url": "https://business.uber.com/api/createOrganization?localeCode=en-GB",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768888410227,
-    "requestBody": "<body xmlns=\"http://jabber.org/protocol/httpbind\" xmlns:xmpp=\"urn:xmpp:xbosh\" rid=\"8476785\" sid=\"7gfzti7wa0\"><iq xmlns=\"jabber:client\" type=\"get\" id=\"48f924e6-4104-4f0c-b5bf-5309b0dde602\"><offline xmlns=\"http://jabber.org/protocol/offline\"><fetch/></offline></iq></body>",
+    "timeStamp": 1769139300810,
+    "requestBody": {
+      "name": "charlie solutions2",
+      "email": "yafayag614@daikoa.com",
+      "teamSize": "10",
+      "homeCountryISO2": "IN",
+      "hasAcceptedGeneralTerms": true
+    },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
-        "name": "access-control-allow-headers",
-        "value": "Overwrite, Destination, Content-Type, Depth, User-Agent, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control"
+        "name": "cache-control",
+        "value": "max-age=0,no-store"
       },
       {
-        "name": "access-control-allow-methods",
-        "value": "PROPFIND, PROPPATCH, COPY, MOVE, DELETE, MKCOL, LOCK, UNLOCK, PUT, GETLIB, VERSION-CONTROL, CHECKIN, CHECKOUT, UNCHECKOUT, REPORT, UPDATE, CANCELUPLOAD, HEAD, OPTIONS, GET, POST"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "access-control-allow-origin",
-        "value": "*"
-      },
-      {
-        "name": "access-control-max-age",
-        "value": "86400"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768892000753"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "2f7137da-552d-4fa2-a587-db83b4d6253d"
+        "name": "cf-ray",
+        "value": "9c243d12cc8a2e96-HYD"
       },
       {
         "name": "content-encoding",
         "value": "gzip"
       },
       {
-        "name": "content-length",
-        "value": "220"
-      },
-      {
         "name": "content-type",
-        "value": "text/xml;charset=utf-8"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 05:53:29 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:01 GMT"
+      },
+      {
+        "name": "server",
+        "value": "cloudflare"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000"
       },
       {
         "name": "vary",
-        "value": "Accept-Encoding, User-Agent"
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "820"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca51:w:525553656,ufe:production-cloudflare:compute-0:dca23,cloudflare:production:default"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "url": "https://www.google.com/pagead/1p-conversion/840270580/?random=1769139302002&cv=11&fst=1769139302002&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be61m0v892114201za200zd892114201xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115938465~115938469~116185181~116185182~116682875~117041588&u_w=1366&u_h=768&url=https%3A%2F%2Fbusiness.uber.com%2Fcreate%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&ref=https%3A%2F%2Fbusiness.uber.com%2Fselect%2F%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&label=5gTOCJ3T4nMQ9IXWkAM&capi=1&gtm_ee=1&frm=0&tiba=Uber%20for%20Business&did=dYmQxMT&gdid=dYmQxMT&oid=27e90c10-2901-569b-8fbc-8aa3a8d15ca3&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=586289299.1768984124&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=c&oidsrc=1&ecsid=1375073428.1769138548&gcl_ctr=3~0~0&data=event%3Dconversion&em=tv.1~em.8fc2204d76266f67ffa02a97f51ba520649da2e612d08b1faba42ae2cfe6d702&gcp=1&sscte=1&ct_cookie_present=1",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769139302068,
+    "requestBody": null,
+    "status": 302,
+    "statusText": "H3 302",
+    "responseHeaders": [
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "42"
+      },
+      {
+        "name": "content-type",
+        "value": "image/gif"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:35:01 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "location",
+        "value": "https://www.google.com/pagead/1p-conversion/840270580/?random=724485113&cv=11&fst=1769139302002&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be61m0v892114201za200zd892114201xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115938465~115938469~116185181~116185182~116682875~117041588&u_w=1366&u_h=768&url=https%3A%2F%2Fbusiness.uber.com%2Fcreate%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&ref=https%3A%2F%2Fbusiness.uber.com%2Fselect%2F%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&label=5gTOCJ3T4nMQ9IXWkAM&capi=1&gtm_ee=1&frm=0&tiba=Uber%20for%20Business&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=586289299.1768984124&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=c&oidsrc=1&ecsid=1375073428.1769138548&gcl_ctr=3~0~0&data=event%3Dconversion&em=tv.1~em.8fc2204d76266f67ffa02a97f51ba520649da2e612d08b1faba42ae2cfe6d702&gcp=2&sscte=1&ct_cookie_present=1&ct_cookie_present=false&eoid=ClQKEQiAssfLBhCmn-CPxsiDoI0BEj8AZo_DLp9OTChSqHzA0i1C226KHAMiTNAfoi0FX9Qz3oEYKIpByOgrGBqZOdGfFIXO97Bimc2qHIIVu7xfXvLw_wcB&crd=CPLOsQIItN6xAgihuLECCLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgi0xrECCPvYsQII29yxAgjZ17ECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgju0LECCJfUsQIIyduxAgiC3rEC&cerd=CgEA&fsk=ChAIgLLHywYQq-q13eWNr_RzEiwAvhHrn86T9wE1B7wy4GMdKmh8-iCUiYzuJ0tqIddn5ZmMFrNaFClvQ82dlBoCMW8&pscrd=IhMIjeGCvd2gkgMVY5ljBh1a8CoeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL2J1c2luZXNzLnViZXIuY29tL0JXQ2hBSWdMTEh5d1lRdC15WF9mUDg2LVloRWkwQUd1eExmd2UyRHc3N3BNYnBpWmhrcGttY0NEc0t1eXZITGtZU3o4SWNVTXZndXkxSmtPalVmWm5uSFAwegwICWIICAAQABgAIAA"
+      },
+      {
+        "name": "p3p",
+        "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "server",
+        "value": "cafe"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
       }
     ]
   },
   {
     "id": "29",
-    "url": "https://student.cengage.com/services/stx/bff/context",
-    "method": "OPTIONS",
+    "url": "https://business.uber.com/api/trackMarketingEventWithHeatpipe?localeCode=en-GB",
+    "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768897952104,
-    "requestBody": null,
+    "timeStamp": 1769139302082,
+    "requestBody": {
+      "eventType": "u4b_org_create",
+      "userIdOverride": "27e90c10-2901-569b-8fbc-8aa3a8d15ca3"
+    },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
-        "name": "allow",
-        "value": "DELETE,POST,GET,OPTIONS,HEAD"
-      },
-      {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "max-age=0,no-store"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "cmp-request-id",
-        "value": "ae2477e6-4f65-4d80-962b-adbfc9518b68"
+        "name": "cf-ray",
+        "value": "9c243d1aca342e96-HYD"
       },
       {
         "name": "content-length",
-        "value": "0"
+        "value": "20"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:32:33 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:01 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "value": "max-age=31536000"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
       },
       {
-        "name": "x-frame-options",
-        "value": "DENY"
+        "name": "x-envoy-upstream-service-time",
+        "value": "17"
       },
       {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-uber-edge",
+        "value": "e4-dca23:w:1062372452,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "30",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/ABC1D-EF23G-HI45J",
+    "url": "https://business.uber.com/xp-parameters",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768898822415,
-    "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
+    "timeStamp": 1769139302083,
+    "requestBody": {
+      "organization_uuid": "27e90c10-2901-569b-8fbc-8aa3a8d15ca3"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "max-age=0,no-store"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "cmp-request-id",
-        "value": "6fbaf5eb-182a-42c5-9351-2816e600ddfd"
+        "name": "cf-ray",
+        "value": "9c243d1aca3a2e96-HYD"
       },
       {
-        "name": "content-length",
-        "value": "92"
+        "name": "content-encoding",
+        "value": "gzip"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:47:02 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:01 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
       },
       {
+        "name": "x-envoy-upstream-service-time",
+        "value": "84"
+      },
+      {
         "name": "x-frame-options",
-        "value": "DENY"
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "x-response-time",
-        "value": "0.864"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-uber-edge",
+        "value": "e4-dca23:w:1068048828,ufe:production-cloudflare:compute-0:dca24,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "31",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/MTP9X222A7B3",
-    "method": "POST",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768898843655,
+    "url": "https://www.google-analytics.com/privacy-sandbox/register-conversion?_c=1&cid=47448000.1768983985&dbk=6149600175511179692&dma=0&en=create_org_success&gtm=45je61m0v9103516189za200zb892114201zd892114201&npa=0&tid=G-W3V99WJNZ7&dl=https%3A%2F%2Fbusiness.uber.com%3F",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139302175,
     "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
+    "status": 204,
+    "statusText": "H3 204",
     "responseHeaders": [
       {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "a6322690-7abb-452c-9688-61cf4db998bf"
+        "value": "no-cache, no-store, must-revalidate"
       },
       {
         "name": "content-length",
-        "value": "92"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 08:47:22 GMT"
-      },
-      {
-        "name": "expires",
         "value": "0"
       },
       {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgnc:90:0"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=ascnsrsgnc:90:0"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Fri, 23 Jan 2026 03:35:01 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
       },
       {
         "name": "pragma",
         "value": "no-cache"
       },
       {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "name": "report-to",
+        "value": "{\"group\":\"ascnsrsgnc:90:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgnc:90:0\"}],}"
       },
       {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.047"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "server",
+        "value": "Golfe2"
       }
     ]
   },
   {
     "id": "32",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/MTP9X222A7B4",
+    "url": "https://business.uber.com/api/getDataForOnboarding?localeCode=en-GB",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768899109466,
-    "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
+    "timeStamp": 1769139302480,
+    "requestBody": {
+      "organizationUUID": "27e90c10-2901-569b-8fbc-8aa3a8d15ca3",
+      "userTenancy": "uber/production"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "max-age=0,no-store"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "cmp-request-id",
-        "value": "d6fc231a-925c-404d-b92e-e4425befc182"
+        "name": "cf-ray",
+        "value": "9c243d1d3c312e96-HYD"
       },
       {
-        "name": "content-length",
-        "value": "92"
+        "name": "content-encoding",
+        "value": "gzip"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:51:48 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:02 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "value": "max-age=31536000"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
       },
       {
+        "name": "x-envoy-upstream-service-time",
+        "value": "182"
+      },
+      {
         "name": "x-frame-options",
-        "value": "DENY"
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "x-response-time",
-        "value": "0.054"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-uber-edge",
+        "value": "e4-dca22:w:1326653062,ufe:production-cloudflare:compute-0:dca22,cloudflare:production:default"
       }
     ]
   },
   {
     "id": "33",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/MTP9X222A7B5",
-    "method": "POST",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899111912,
+    "url": "https://3.212.39.155/is?cb=1769139302781",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139302782,
     "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
+    "status": 200,
+    "statusText": "OK",
     "responseHeaders": [
       {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "name": "access-control-allow-headers",
+        "value": "Accept, Content-Type, x-requested-with, X-Custom-Header"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
+        "name": "access-control-allow-methods",
+        "value": "GET, POST, OPTIONS"
       },
       {
-        "name": "cmp-request-id",
-        "value": "83e744c7-907c-4e05-89ee-d1d5f6762078"
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "connection",
+        "value": "close"
       },
       {
         "name": "content-length",
-        "value": "92"
+        "value": "32"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "text/plain;charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:51:51 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:03 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
+        "name": "server",
+        "value": "istio-envoy"
       },
       {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
+        "name": "x-application-context",
+        "value": "application:prod:8080"
       },
       {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.056"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-envoy-upstream-service-time",
+        "value": "1"
       }
     ]
   },
   {
     "id": "34",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/MTP9X222A7B6",
-    "method": "POST",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899115629,
+    "url": "https://www.google.com/pagead/1p-conversion/840270580/?random=724485113&cv=11&fst=1769139302002&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be61m0v892114201za200zd892114201xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115938465~115938469~116185181~116185182~116682875~117041588&u_w=1366&u_h=768&url=https%3A%2F%2Fbusiness.uber.com%2Fcreate%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&ref=https%3A%2F%2Fbusiness.uber.com%2Fselect%2F%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&label=5gTOCJ3T4nMQ9IXWkAM&capi=1&gtm_ee=1&frm=0&tiba=Uber%20for%20Business&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=586289299.1768984124&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=c&oidsrc=1&ecsid=1375073428.1769138548&gcl_ctr=3~0~0&data=event%3Dconversion&em=tv.1~em.8fc2204d76266f67ffa02a97f51ba520649da2e612d08b1faba42ae2cfe6d702&gcp=2&sscte=1&ct_cookie_present=1&ct_cookie_present=false&eoid=ClQKEQiAssfLBhCmn-CPxsiDoI0BEj8AZo_DLp9OTChSqHzA0i1C226KHAMiTNAfoi0FX9Qz3oEYKIpByOgrGBqZOdGfFIXO97Bimc2qHIIVu7xfXvLw_wcB&crd=CPLOsQIItN6xAgihuLECCLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgi0xrECCPvYsQII29yxAgjZ17ECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgju0LECCJfUsQIIyduxAgiC3rEC&cerd=CgEA&fsk=ChAIgLLHywYQq-q13eWNr_RzEiwAvhHrn86T9wE1B7wy4GMdKmh8-iCUiYzuJ0tqIddn5ZmMFrNaFClvQ82dlBoCMW8&pscrd=IhMIjeGCvd2gkgMVY5ljBh1a8CoeMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL2J1c2luZXNzLnViZXIuY29tL0JXQ2hBSWdMTEh5d1lRdC15WF9mUDg2LVloRWkwQUd1eExmd2UyRHc3N3BNYnBpWmhrcGttY0NEc0t1eXZITGtZU3o4SWNVTXZndXkxSmtPalVmWm5uSFAwegwICWIICAAQABgAIAA",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769139305098,
     "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
+    "status": 302,
+    "statusText": "HTTP/1.1 302",
     "responseHeaders": [
       {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "c73d39e2-afab-4c5b-83d5-b86a681e1d68"
+        "value": "no-cache, no-store, must-revalidate"
       },
       {
         "name": "content-length",
-        "value": "92"
+        "value": "42"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "script-src 'none'; object-src 'none'"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "image/gif"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:51:54 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:04 GMT"
       },
       {
         "name": "expires",
-        "value": "0"
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
       },
       {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
+        "name": "location",
+        "value": "https://www.google.co.in/pagead/1p-conversion/840270580/?random=724485113&cv=11&fst=1769139302002&fmt=3&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be61m0v892114201za200zd892114201xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~105391252~115938465~115938469~116185181~116185182~116682875~117041588&u_w=1366&u_h=768&url=https%3A%2F%2Fbusiness.uber.com%2Fcreate%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&ref=https%3A%2F%2Fbusiness.uber.com%2Fselect%2F%3Fuclick_id%3Dc5f593ed-9c07-4410-a67d-2d5e8e1da768&label=5gTOCJ3T4nMQ9IXWkAM&capi=1&gtm_ee=1&frm=0&tiba=Uber%20for%20Business&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=586289299.1768984124&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.59%7CGoogle%2520Chrome%3B144.0.7559.59&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=c&oidsrc=1&ecsid=1375073428.1769138548&gcl_ctr=3~0~0&data=event%3Dconversion&em=tv.1~em.8fc2204d76266f67ffa02a97f51ba520649da2e612d08b1faba42ae2cfe6d702&gcp=2&sscte=1&ct_cookie_present=1&ct_cookie_present=false&eoid=ClQKEQiAssfLBhCmn-CPxsiDoI0BEj8AZo_DLp9OTChSqHzA0i1C226KHAMiTNAfoi0FX9Qz3oEYKIpByOgrGBqZOdGfFIXO97Bimc2qHIIVu7xfXvLw_wcB&crd=CPLOsQIItN6xAgihuLECCLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgi0xrECCPvYsQII29yxAgjZ17ECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgju0LECCJfUsQIIyduxAgiC3rEC&cerd=CgEA&fsk=ChAIgLLHywYQq-q13eWNr_RzEiwAvhHrn86T9wE1B7wy4GMdKmh8-iCUiYzuJ0tqIddn5ZmMFrNaFClvQ82dlBoCMW8&ipr=y&pscrd=IhMIjeGCvd2gkgMVY5ljBh1a8CoeMgwIA2IICAAQABgAIAEyDAgEYggIABAAGAAgATIMCAdiCAgAEAAYACABMgwICGIICAAQABgAIAEyDAgJYggIABAAGAAgATIMCApiCAgAEAAYACABMgwIAmIICAAQABgAIAEyDAgLYggIABAAGAAgATIMCBViCAgAEAAYACABMgwIH2IICAAQABgAIAEyDAgTYggIABAAGAAgATIMCBJiCAgAEAAYACABOhpodHRwczovL2J1c2luZXNzLnViZXIuY29tL0JXQ2hBSWdMTEh5d1lRdC15WF9mUDg2LVloRWkwQUd1eExmd2UyRHc3N3BNYnBpWmhrcGttY0NEc0t1eXZITGtZU3o4SWNVTXZndXkxSmtPalVmWm5uSFAwYgIgAXoMCAliCAgAEAAYACABggEKcAGIAQHiAQIBAg&ezwbk=AZuM4hA6AGPeI7_Ejg0g4pZCWfJvhxxwZaxbvc3j3jxC_LZE2SPzFoe-cdstsxymLIaV9i-5BqsXfw11l0jKtHvZRyr8"
+      },
+      {
+        "name": "p3p",
+        "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
       },
       {
         "name": "pragma",
         "value": "no-cache"
       },
       {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "name": "server",
+        "value": "cafe"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "*"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.061"
       },
       {
         "name": "x-xss-protection",
@@ -2318,457 +2311,64 @@
   },
   {
     "id": "35",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/Artificial%20intelligence?modelType=COURSE_KEY",
+    "url": "https://business.uber.com/api/resendAdminEmailInvite?localeCode=en-GB",
     "method": "POST",
     "type": "xmlhttprequest",
-    "timeStamp": 1768899381835,
-    "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "0ed06beb-74d2-4729-ac4c-31e2c421fa1e"
-      },
-      {
-        "name": "content-length",
-        "value": "113"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 08:56:20 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.047"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "36",
-    "url": "https://student.cengage.com/services/stx/bff/registerCode/MYSCHOOL%201234%205678?modelType=COURSE_KEY",
-    "method": "POST",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899398870,
-    "requestBody": null,
-    "status": 400,
-    "statusText": "HTTP/2.0 400",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "879968bf-78d7-4dd6-b45a-83fc9269e58a"
-      },
-      {
-        "name": "content-length",
-        "value": "113"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 08:56:38 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "jaxrs-boot-json-error",
-        "value": "true"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.107"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "37",
-    "url": "https://student.cengage.com/services/stx/bff/studyPacks/generalInfo",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899554632,
-    "requestBody": null,
+    "timeStamp": 1769139306229,
+    "requestBody": {
+      "organizationUUID": "27e90c10-2901-569b-8fbc-8aa3a8d15ca3",
+      "adminEmployeeUUID": "633e2268-4264-4c2c-a080-1d16e8da3382"
+    },
     "status": 200,
     "statusText": "HTTP/2.0 200",
     "responseHeaders": [
       {
         "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
+        "value": "max-age=0,no-store"
       },
       {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
+        "name": "cf-cache-status",
+        "value": "DYNAMIC"
       },
       {
-        "name": "cmp-request-id",
-        "value": "9d0d5c9b-aa25-4077-8e13-4e2c4c6a233c"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 08:59:15 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.802"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "38",
-    "url": "https://student.cengage.com/services/stx/bff/studyTools",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899554641,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "e3a927a8-ee6e-4963-9466-041605677e1e"
+        "name": "cf-ray",
+        "value": "9c243d34b8992e96-HYD"
       },
       {
         "name": "content-length",
-        "value": "306"
+        "value": "39"
       },
       {
         "name": "content-type",
-        "value": "application/json"
+        "value": "application/json; charset=utf-8"
       },
       {
         "name": "date",
-        "value": "Tue, 20 Jan 2026 08:59:14 GMT"
+        "value": "Fri, 23 Jan 2026 03:35:05 GMT"
       },
       {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
+        "name": "server",
+        "value": "cloudflare"
       },
       {
         "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
+        "value": "max-age=31536000"
       },
       {
         "name": "x-content-type-options",
         "value": "nosniff"
       },
       {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.000"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "39",
-    "url": "https://student.cengage.com/services/stx/bff/studyPacks/byCgi/SEMSKF68FX1FGP3ST235",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899606599,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "ed34427e-783e-45da-8fdf-8f523598e8ff"
-      },
-      {
-        "name": "content-encoding",
-        "value": "gzip"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 09:00:05 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "vary",
-        "value": "Accept-Encoding"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
+        "name": "x-envoy-upstream-service-time",
+        "value": "53"
       },
       {
         "name": "x-frame-options",
-        "value": "DENY"
+        "value": "SAMEORIGIN"
       },
       {
-        "name": "x-response-time",
-        "value": "0.074"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "40",
-    "url": "https://student.cengage.com/services/stx/bff/pin/cgi/SEMSKF68FX1FGP3ST235",
-    "method": "GET",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899606982,
-    "requestBody": null,
-    "status": 200,
-    "statusText": "HTTP/2.0 200",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "8574fe98-6475-4bd6-b638-92403f497148"
-      },
-      {
-        "name": "content-length",
-        "value": "2"
-      },
-      {
-        "name": "content-type",
-        "value": "application/json"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 09:00:06 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.016"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
-      }
-    ]
-  },
-  {
-    "id": "41",
-    "url": "https://student.cengage.com/services/stx/bff/pin/cgi/SEMSKF68FX1FGP3ST235",
-    "method": "POST",
-    "type": "xmlhttprequest",
-    "timeStamp": 1768899625356,
-    "requestBody": null,
-    "status": 204,
-    "statusText": "HTTP/2.0 204",
-    "responseHeaders": [
-      {
-        "name": "cache-control",
-        "value": "no-cache, no-store, max-age=0, must-revalidate"
-      },
-      {
-        "name": "ciam-session-expiration",
-        "value": "1768901553283"
-      },
-      {
-        "name": "cmp-request-id",
-        "value": "de485e69-ee48-4135-890e-68f41f2b2db7"
-      },
-      {
-        "name": "date",
-        "value": "Tue, 20 Jan 2026 09:00:24 GMT"
-      },
-      {
-        "name": "expires",
-        "value": "0"
-      },
-      {
-        "name": "pragma",
-        "value": "no-cache"
-      },
-      {
-        "name": "strict-transport-security",
-        "value": "max-age=31536000 ; includeSubDomains"
-      },
-      {
-        "name": "x-content-type-options",
-        "value": "nosniff"
-      },
-      {
-        "name": "x-frame-options",
-        "value": "DENY"
-      },
-      {
-        "name": "x-response-time",
-        "value": "0.377"
-      },
-      {
-        "name": "x-xss-protection",
-        "value": "0"
+        "name": "x-uber-edge",
+        "value": "e4-dca52:w:1534423790,ufe:production-cloudflare:compute-0:dca23,cloudflare:production:default"
       }
     ]
   }
