@@ -1,0 +1,527 @@
+openapi: 3.0.3
+info:
+  title: SecureScholarship
+  version: 1.0.0
+servers:
+  - url: https://www.securemyscholarship.com
+tags:
+  - name: account
+  - name: ad-blocks
+  - name: authentication
+  - name: countries
+  - name: get-programs
+  - name: payment
+paths:
+  /api/ad-blocks:
+    get:
+      tags:
+        - ad-blocks
+      summary: GET /api/ad-blocks
+      operationId: get_api_ad_blocks
+      responses:
+        "200":
+          description: Success
+  /api/account/profile:
+    get:
+      tags:
+        - account
+      summary: GET /api/account/profile
+      operationId: get_api_account_profile
+      responses:
+        "200":
+          description: Success
+    patch:
+      tags:
+        - account
+      summary: PATCH /api/account/profile
+      operationId: patch_api_account_profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AccountPatchRequest"
+            examples:
+              fromHar:
+                value:
+                  first_name: zubair
+                  last_name: ul hasan
+                  phone_number: +91 7569404753
+      responses:
+        "200":
+          description: Success
+  /api/countries:
+    get:
+      tags:
+        - countries
+      summary: GET /api/countries
+      operationId: get_api_countries
+      responses:
+        "200":
+          description: Success
+  /api/authentication/{id}:
+    post:
+      tags:
+        - authentication
+      summary: POST /api/authentication/{id}
+      operationId: post_api_authentication_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: refresh-access-token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthenticationPostRequest"
+            examples:
+              fromHar:
+                value:
+                  code: 4/0ASc3gC3naE3xfdnO1wgkqR0RduHE1xFk7BOqWu8DJEzD2cC27xC9yoICnKuWCD-J6bp5ZQ
+      responses:
+        "200":
+          description: Success
+  /api/authentication/sign-up/user-profile:
+    post:
+      tags:
+        - authentication
+      summary: POST /api/authentication/sign-up/user-profile
+      operationId: post_api_authentication_sign_up_user_profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthenticationPostRequest"
+            examples:
+              fromHar:
+                value:
+                  first_name: zubair
+                  last_name: ul hasan
+                  phone_number: +91 7569404753
+      responses:
+        "200":
+          description: Success
+  /api/payment/plus/invoices:
+    get:
+      tags:
+        - payment
+      summary: GET /api/payment/plus/invoices
+      operationId: get_api_payment_plus_invoices
+      responses:
+        "200":
+          description: Success
+  /api/account/referrals:
+    get:
+      tags:
+        - account
+      summary: GET /api/account/referrals
+      operationId: get_api_account_referrals
+      responses:
+        "200":
+          description: Success
+  /api/account/applications:
+    get:
+      tags:
+        - account
+      summary: GET /api/account/applications
+      operationId: get_api_account_applications
+      responses:
+        "200":
+          description: Success
+  /api/account/documents:
+    get:
+      tags:
+        - account
+      summary: GET /api/account/documents
+      operationId: get_api_account_documents
+      responses:
+        "200":
+          description: Success
+  /api/account/documents/upload:
+    post:
+      tags:
+        - account
+      summary: POST /api/account/documents/upload
+      operationId: post_api_account_documents_upload
+      requestBody:
+        required: true
+        content:
+          multipart/form-data; boundary=----WebKitFormBoundaryjn2EcV3JEMUxMP6j:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value: "------WebKitFormBoundaryjn2EcV3JEMUxMP6j\r
+
+                  Content-Disposition: form-data; name=\"file\"; filename=\"Complete_Python_Interview_Guide.pdf\"\r
+
+                  Content-Type: application/pdf\r
+
+                  \r
+
+                  %PDF-1.4
+
+                  % ReportLab Generated PDF document http://www.reportlab.com
+
+                  1 0 obj
+
+                  <<
+
+                  /F1 2 0 R /F2 3 0 R
+
+                  >>
+
+                  endobj
+
+                  2 0 obj
+
+                  <<
+
+                  /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+
+                  >>
+
+                  endobj
+
+                  3 0 obj
+
+                  <<
+
+                  /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+
+                  >>
+
+                  endobj
+
+                  4 0 obj
+
+                  <<
+
+                  /Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+
+                  /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+
+                  >> /Rotate 0 /Trans <<
+
+
+                  >>\ 
+
+                  \  /Type /Page
+
+                  >>
+
+                  endobj
+
+                  5 0 obj
+
+                  <<
+
+                  /Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
+
+                  /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+
+                  >> /Rotate 0 /Trans <<
+
+
+                  >>\ 
+
+                  \  /Type /Page
+
+                  >>
+
+                  endobj
+
+                  6 0 obj
+
+                  <<
+
+                  /PageMode /UseNone /Pages 8 0 R /Type /Catalog
+
+                  >>
+
+                  endobj
+
+                  7 0 obj
+
+                  <<
+
+                  /Author (\\(anonymous\\)) /CreationDate (D:20251218075008+00'00') /Creator (\\(unspecified\\))
+                  /Keywords () /ModDate (D:20251218075008+00'00') /Producer (ReportLab PDF Library -
+                  www.reportlab.com)\ 
+
+                  \  /Subject (\\(unspecified\\)) /Title (\\(anonymous\\)) /Trapped /False
+
+                  >>
+
+                  endobj
+
+                  8 0 obj
+
+                  <<
+
+                  /Count 2 /Kids [ 4 0 R 5 0 R ] /Type /Pages
+
+                  >>
+
+                  endobj
+
+                  9 0 obj
+
+                  <<
+
+                  /Filter [ /ASCII85Decode /FlateDecode ] /Length 1450
+
+                  >>
+
+                  stream
+
+                  Gat=*9lo;`&A@sBoPLi@'_DE^<9<,qFXi[$Y*1.j?Nt4p$)8A]Ad$;lcYLYD_D0o)M^iOWVRp2Z^OAmN@sm:u];UO'(\\H0^9Q<CW\
+                  'ua=?dGbgf>[2]hMB?c^EggQZPiqWX(-!-i#B\"qngUM;0_[<OZMK<s+,j]2&NT0IRa75n\"_0]DRZj`,cO'uN-rFUY'HR03pCTU3\
+                  S9oFL7EC6KW.q&/dT6!-bUr2g%BKX\"N1nBX+7i#6+OIWWog^:4l:Ci*Q+\\APNrc!;&q@^C(,eF1&9Cj3XZcL75b-C!(DG<dDN8O\
+                  i&#'\"abS+7h<UXkosQ@#TdUpuLJLXMJU.Z[%uWXr>U.3*Q;,V@6O(2FdFW#>:OM<I]l:cmokVQYmS18LI`5qMiH044.&0QV#$=tQ\
+                  :aa.@,T+<U&$Vc'[^Oe)na.^LHDKIMU*IID%hdI6XNY]rgX8O>PH*15G]>&>RbeW?U##[;!$qppse5.'!^-6*-NC2J?^(l:M\\2F1\
+                  @Abbe[6;Y'L@F7St4;#gn1;pnPJ</XAV='f%Y1S$t5jK8t'K844pEpWla=:,*Xn_i-]Sja\\486nf>)\"RQ!$Y?7E`;'J9Fmu\\!p\
+                  6t&g*p+'STS*CZ!2a+$8P<oYD8..^321W3]K9,%L^-$W(b<Nc]*P^tek1]0!-,-fA],\\=8m?j2>'YLN\\nQMj$9WRd:Fl]952d-@\
+                  TrK2;dG-*LFY@,i2%hI:CR>>s[$A\\Z?KeuXP8KP[UG\\c4TL9_Q')%kHIV\\9fJ?8&].dq('g_(;jZ<GEqS2Upu5RV0l+ad[d'\\\
+                  ;Us2nftlZj#Z##=gs^_ee*_+h;s>dXP(L+3K<HIU`m:KWM7:Osit*U&+,bGKd>e<Smrcnl;`B1!/n#M#sBt/:?1eb4i$(VDr\"r+=\
+                  C<T?BULoT\"\\(LhHLY`eT@_VJTYhT_Nn`9$X5Z]>spH>>S=JZncN18#cQ:0'qcMWQ,S9rU)?e-`\"r%3M\\jCkPI3KD3Eait[c;s\
+                  W6IKDDqdPgu'%i\\nrQb@M,GChK`+J3qD2g]G+^QZqYrSm[o<.Nf'<uXWC_9X?J*_-q6j)C_8Ud^jVt13L`K3u3,uZ=1SgAo4pagi\
+                  $D.[%<'ZN@(1gW'9!@-:7mMfUb(=F'+1>*\\g6>FRKA0,Fja/P0(&h9;V>`m/#XXitF2FUioLI!\\(2PnO]CeD!kCGO0fY0$SH>;C\
+                  aD4CMr*:@28FGu7M(l&u.7;F-:dZB=2k)?U0&Q(b<_HenqP=&]6`\\/.n>XQs`=]l8i266WR!lZP@s#8!7YA&uOm\\Iu:[]rN*WQN\
+                  U`3G<u%Vft?(>4Ynd]V56UIfU?G2.;%]HQeB&$!=lE<K47,br=A/TApZMLd7O/%,7N(/QoaCP$ar)2O+22Scs\\u2?M.$;R>>T\\M\
+                  Y<r@a&]G\"*%P5X3I-n\"EI(Igj7-?=&3k;&fed9_B(>2Obo?VN9j7U>oe5Lm1c5~>endstream
+
+                  endobj
+
+                  10 0 obj
+
+                  <<
+
+                  /Filter [ /ASCII85Decode /FlateDecode ] /Length 797
+
+                  >>
+
+                  stream
+
+                  Gat=(?#SFN'RfGR\\52FGBLZ[.@8\\2UMJ88XQ\"bM3MB(f6\\Fi@(407f#mlCIfOLg2r&d8*%j*Q4#+bh^7EVIQi^m>HnIZ5MB5Z\
+                  U1@6j[B7YfP+=S]*\\OD$mW61eQ5B8dsDr8pjI/`CtFHLL+X6KZ;hXf5P_N'>`/H&qg?c4<sUP\"`md4A'N^_V1`/FQ]O?4A64FZ,\
+                  .Nu`\\UZ>DMiAJ*O*9$W.(&S>Eu^@?&`gLL_WNq40>XIZKDPbEA=a7hZO\";2)Qi4VJ4XI(40[?u\"B,=[jcTCV\"PL4LpBc:HYnB\
+                  RrfLdfc_jeRRaq9\"7BURtii%4f[(06YeSMYqpO]uC5;[]Msk;oIO'`-OJTYl+*WX:=m%gCO#,E*YCbTg5'c5P;,k(V2Z#[P$E7pr\
+                  p`.CfI*)+X2,E8EA,&Sb1kh$?FY-p\"2+.FBppO(^6WDM+7dTXO*2)TarN)qNQjT0necLbu3N32&Z=\\8.R5a@JPZ3AqNcZo?Iu<]\
+                  kiWB1ZaB[(\"_AS9f\"X`@K!+lf8.1R^/2Xl09I\\X<s.aFM,3_=$b;\\nm4UR3r<:E-PMruTdk)cD7(0:?b4[\\OX?<S79BZ;Zo2\
+                  @Z:t$g=de2TcJMm`p6U#)$g[0+oh#Uc19X%TPE]\\qQ>4,VXNHu6KZ0DD\\<q28;Ja)V[[)$.\\V9s(WaS8+:j^cL.$X7g/DPY5-E\
+                  0Mg%O(8No304B)ot/I6$H63<e,iU8$Jb+B\\>pd$*\\ni.6CGU#KC_3,9^\"T'#@8X)TgT/*_N1nAgQRAhP__dcrI9ZgDVn=?Qg[]\
+                  :$YOqi:!8?T~>endstream
+
+                  endobj
+
+                  xref
+
+                  0 11
+
+                  0000000000 65535 f\ 
+
+                  0000000073 00000 n\ 
+
+                  0000000114 00000 n\ 
+
+                  0000000221 00000 n\ 
+
+                  0000000333 00000 n\ 
+
+                  0000000536 00000 n\ 
+
+                  0000000740 00000 n\ 
+
+                  0000000808 00000 n\ 
+
+                  0000001091 00000 n\ 
+
+                  0000001156 00000 n\ 
+
+                  0000002697 00000 n\ 
+
+                  trailer
+
+                  <<
+
+                  /ID\ 
+
+                  [<baa2bceed49b28797f27140a885714c5><baa2bceed49b28797f27140a885714c5>]
+
+                  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+
+                  /Info 7 0 R
+
+                  /Root 6 0 R
+
+                  /Size 11
+
+                  >>
+
+                  startxref
+
+                  3585
+
+                  %%EOF
+
+                  \r
+
+                  ------WebKitFormBoundaryjn2EcV3JEMUxMP6j\r
+
+                  Content-Disposition: form-data; name=\"file_name\"\r
+
+                  \r
+
+                  high_school_grade_10_transcript.pdf\r
+
+                  ------WebKitFormBoundaryjn2EcV3JEMUxMP6j\r
+
+                  Content-Disposition: form-data; name=\"document_key\"\r
+
+                  \r
+
+                  high_school_grade_10_transcript\r
+
+                  ------WebKitFormBoundaryjn2EcV3JEMUxMP6j--\r\n"
+      responses:
+        "200":
+          description: Success
+  /api/get-programs:
+    post:
+      tags:
+        - get-programs
+      summary: POST /api/get-programs
+      operationId: post_api_get_programs
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Get-programsPostRequest"
+            examples:
+              fromHar:
+                value:
+                  course_ids:
+                    - 22
+      responses:
+        "200":
+          description: Success
+  /api/account/edit-preference:
+    patch:
+      tags:
+        - account
+      summary: PATCH /api/account/edit-preference
+      operationId: patch_api_account_edit_preference
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AccountPatchRequest"
+            examples:
+              fromHar:
+                value:
+                  preferred_education_level: Undergraduate
+                  preferred_intake: May 2026
+                  preferred_programs: "[22]"
+                  preferred_destination: United States of America
+      responses:
+        "200":
+          description: Success
+  /api/account/set-password:
+    post:
+      tags:
+        - account
+      summary: POST /api/account/set-password
+      operationId: post_api_account_set_password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AccountPostRequest"
+            examples:
+              fromHar:
+                value:
+                  new_password: Welcome@1234
+      responses:
+        "200":
+          description: Success
+  /api/payment/plus/{id}:
+    post:
+      tags:
+        - payment
+      summary: POST /api/payment/plus/{id}
+      operationId: post_api_payment_plus_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: check-promo-code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PaymentPostRequest"
+            examples:
+              fromHar:
+                value:
+                  promotion_code: max1000
+      responses:
+        "200":
+          description: Success
+components:
+  schemas:
+    AuthenticationPostRequest:
+      type: object
+      properties:
+        code:
+          type: string
+      required:
+        - code
+    AccountPatchRequest:
+      type: object
+      properties:
+        first_name:
+          type: string
+        last_name:
+          type: string
+        phone_number:
+          type: string
+      required:
+        - first_name
+        - last_name
+        - phone_number
+    Get-programsPostRequest:
+      type: object
+      properties:
+        course_ids:
+          type: array
+          items:
+            type: integer
+      required:
+        - course_ids
+    AccountPostRequest:
+      type: object
+      properties:
+        new_password:
+          type: string
+      required:
+        - new_password
+    PaymentPostRequest:
+      type: object
+      properties:
+        promotion_code:
+          type: string
+      required:
+        - promotion_code

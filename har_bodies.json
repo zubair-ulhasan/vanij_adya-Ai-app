@@ -1,0 +1,3290 @@
+[
+  {
+    "id": "1",
+    "url": "https://www.securemyscholarship.com/api/ad-blocks",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582837422,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://www.securemyscholarship.com"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:17 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"wsu3tm91whtb\""
+      },
+      {
+        "name": "vary",
+        "value": "Origin, Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "url": "https://www.securemyscholarship.com/api/account/profile",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582837425,
+    "requestBody": null,
+    "status": 401,
+    "statusText": "HTTP/2.0 401",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "80"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:17 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"oe4qo0m5gu28\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "url": "https://www.securemyscholarship.com/api/countries",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582837440,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:17 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"a245uqyv42lpg\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "url": "https://ba65lju2hi-3.algolianet.com/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.14.2)%3B%20Browser%20(lite)%3B%20JS%20Helper%20(3.26.1)%3B%20react%20(18.2.0)%3B%20react-instantsearch%20(6.31.0)&x-algolia-api-key=d99356dae87abd20a5a696952ae3cae5&x-algolia-application-id=BA65LJU2HI",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582838058,
+    "requestBody": {
+      "{\"requests\":[{\"indexName\":\"institute_qs_rank_asc\",\"params\":\"facets": "%5B%22country_name%22%2C%22level_name%22%2C%22program_name%22%2C%22tuition_fee.tuition_fee_in_usd%22%5D",
+      "highlightPostTag": "%3C%2Fais-highlight-0000000000%3E",
+      "highlightPreTag": "%3Cais-highlight-0000000000%3E",
+      "maxValuesPerFacet": "20\"}]}"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Accept-Encoding",
+        "value": "deflate, gzip"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "no-store"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Disposition",
+        "value": "inline; filename=a.txt"
+      },
+      {
+        "name": "Content-Encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 06:47:18 GMT"
+      },
+      {
+        "name": "Server",
+        "value": "nginx"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains; preload"
+      },
+      {
+        "name": "Timing-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Alg-PT",
+        "value": "1"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "url": "https://www.securemyscholarship.com/api/authentication/refresh-access-token",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582838311,
+    "requestBody": null,
+    "status": 401,
+    "statusText": "HTTP/2.0 401",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "80"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:18 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"oe4qo0m5gu28\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "url": "https://www.securemyscholarship.com/_next/data/i0F5Cw3_wgqOkEu9MPtZs/index.json",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769582840354,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "s-maxage=60, stale-while-revalidate"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:20 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"2lur7pksmw20b1\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-nextjs-cache",
+        "value": "HIT"
+      },
+      {
+        "name": "x-nextjs-matched-path",
+        "value": "/"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.securemyscholarship.com%2F&scrsrc=www.googletagmanager.com&rnd=939470089.1769582841&dt=SecureMyScholarship%20-%20Scholarship%20Finder%20Search%20Engine&auid=81870445.1769582792&navt=r&npa=0&gtm=45je61q1v870585382z8891802708za20gzb891802708zd891802708xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116682875~117041588~117042506~117223560&apve=1&apvf=f&apvc=1&tids=AW-11025634469&tid=AW-11025634469&tft=1769582841141&tfd=8135",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769582841142,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": []
+  },
+  {
+    "id": "8",
+    "url": "https://www.securemyscholarship.com/mixpanel/track/?verbose=1&ip=1&_=1769582842444",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582842445,
+    "requestBody": {
+      "data": "WwogICAgeyJldmVudCI6ICJWSVNJVCBQQUdFIiwicHJvcGVydGllcyI6IHsiJG9zIjogIldpbmRvd3MiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkY3VycmVudF91cmwiOiAiaHR0cHM6Ly93d3cuc2VjdXJlbXlzY2hvbGFyc2hpcC5jb20vIiwiJGJyb3dzZXJfdmVyc2lvbiI6IDE0NCwiJHNjcmVlbl9oZWlnaHQiOiA3NjgsIiRzY3JlZW5fd2lkdGgiOiAxMzY2LCJtcF9saWIiOiAid2ViIiwiJGxpYl92ZXJzaW9uIjogIjIuNDUuMCIsIiRpbnNlcnRfaWQiOiAidG9wNnBoMWt1dGNuZTZiZyIsInRpbWUiOiAxNzY5NTgyODM3LjQ0NiwiZGlzdGluY3RfaWQiOiAiMTljMDM1YTg4N2ZhYS0wNDhiY2E2MzY2Njk5ZTgtMjYwNjFkNTEtMTAwMjAwLTE5YzAzNWE4ODgwNTk3IiwiJGRldmljZV9pZCI6ICIxOWMwMzVhODg3ZmFhLTA0OGJjYTYzNjY2OTllOC0yNjA2MWQ1MS0xMDAyMDAtMTljMDM1YTg4ODA1OTciLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwicGFnZSI6ICIvIiwicGF0aCI6ICIvIiwidXRtX3NvdXJjZSI6IFtdLCJ1dG1fbWVkaXVtIjogW10sInV0bV9jYW1wYWlnbiI6IFtdLCJ1dG1fdGVybSI6IFtdLCJ1dG1fY29udGVudCI6IFtdLCJ0b2tlbiI6ICI5Mzg1Y2EyYzY4YjI2N2IwNDczOGFmMTA2YmVlNjAxZCJ9fSwKICAgIHsiZXZlbnQiOiAiVklTSVQgLyIsInByb3BlcnRpZXMiOiB7IiRvcyI6ICJXaW5kb3dzIiwiJGJyb3dzZXIiOiAiQ2hyb21lIiwiJGN1cnJlbnRfdXJsIjogImh0dHBzOi8vd3d3LnNlY3VyZW15c2Nob2xhcnNoaXAuY29tLyIsIiRicm93c2VyX3ZlcnNpb24iOiAxNDQsIiRzY3JlZW5faGVpZ2h0IjogNzY4LCIkc2NyZWVuX3dpZHRoIjogMTM2NiwibXBfbGliIjogIndlYiIsIiRsaWJfdmVyc2lvbiI6ICIyLjQ1LjAiLCIkaW5zZXJ0X2lkIjogImY4OTYzeXM0ZXI4eWxpOGciLCJ0aW1lIjogMTc2OTU4MjgzNy40NDcsImRpc3RpbmN0X2lkIjogIjE5YzAzNWE4ODdmYWEtMDQ4YmNhNjM2NjY5OWU4LTI2MDYxZDUxLTEwMDIwMC0xOWMwMzVhODg4MDU5NyIsIiRkZXZpY2VfaWQiOiAiMTljMDM1YTg4N2ZhYS0wNDhiY2E2MzY2Njk5ZTgtMjYwNjFkNTEtMTAwMjAwLTE5YzAzNWE4ODgwNTk3IiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInBhZ2UiOiAiLyIsInBhdGgiOiAiLyIsInV0bV9zb3VyY2UiOiBbXSwidXRtX21lZGl1bSI6IFtdLCJ1dG1fY2FtcGFpZ24iOiBbXSwidXRtX3Rlcm0iOiBbXSwidXRtX2NvbnRlbnQiOiBbXSwidG9rZW4iOiAiOTM4NWNhMmM2OGIyNjdiMDQ3MzhhZjEwNmJlZTYwMWQifX0KXQ%3D%3D"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-headers",
+        "value": "X-Requested-With, X-Amzn-Trace-Id, Content-Type"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, POST, OPTIONS"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://www.securemyscholarship.com"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "X-MP-CE-Backoff"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "1728000"
+      },
+      {
+        "name": "alt-svc",
+        "value": "clear"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store"
+      },
+      {
+        "name": "content-length",
+        "value": "25"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:22 GMT"
+      },
+      {
+        "name": "server",
+        "value": "nginx"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=604800; includeSubDomains"
+      },
+      {
+        "name": "via",
+        "value": "1.1 google"
+      },
+      {
+        "name": "x-envoy-upstream-service-time",
+        "value": "47"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "DENY"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "url": "https://www.securemyscholarship.com/_next/static/css/aa691da1315880b8.css",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769582844965,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ranges",
+        "value": "bytes"
+      },
+      {
+        "name": "cache-control",
+        "value": "public, max-age=31536000, immutable"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "text/css; charset=UTF-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:25 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "W/\"df4-19c01ede998\""
+      },
+      {
+        "name": "last-modified",
+        "value": "Wed, 28 Jan 2026 00:08:15 GMT"
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-C5D9GNJE5H&gtm=45je61q1v870585382z8891802708za20gzb891802708zd891802708&_p=1769582833408&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=839102592.1769582793&ul=en-gb&sr=1366x768&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.97%7CGoogle%2520Chrome%3B144.0.7559.97&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=1&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116682875~117041588~117042506~117223560~117227716&sid=1769582792&sct=1&seg=1&dl=https%3A%2F%2Fwww.securemyscholarship.com%2F&dt=SecureMyScholarship%20-%20Scholarship%20Finder%20Search%20Engine&en=page_view&tfd=13547",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769582846554,
+    "requestBody": null,
+    "status": 204,
+    "statusText": "H3 204",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://www.securemyscholarship.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:112:0"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=ascnsrsggc:112:0"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:26 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"ascnsrsggc:112:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:112:0\"}],}"
+      },
+      {
+        "name": "server",
+        "value": "Golfe2"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "url": "https://accounts.google.com/ExpireGapsSession",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769582875306,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "script-src 'report-sample' 'nonce-7oJ45TKE1X7YyeyOOooI1A' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport;worker-src 'self'"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport/allowlist"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'unsafe-inline' 'unsafe-eval' blob: data:;report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport/fine-allowlist"
+      },
+      {
+        "name": "content-type",
+        "value": "text/html; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:55 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "reporting-endpoints",
+        "value": "default=\"/_/IdentityRotateCookiesDeviceBoundHttp/web-reports?context=eJzj0tDikmJw0ZBiKJK4wtoCxN-Kfdk4SnzZ1I4GsFkAsRdTIJsfEAvxcMx-9Ow0m8CMWR-nMSmZJOUXxmempOaVZJZU6ibn52dnpuoW5ZcklmTm5-mmFeXnlaTmpcQbGRiZGRgaWugZmMQXGAAALm8jIw\""
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "url": "https://accounts.google.com/v3/signin/_/AccountsSignInUi/data/batchexecute?rpcids=umJEY&source-path=%2Fv3%2Fsignin%2Faccountchooser&f.sid=8548077398334332382&bl=boq_identityfrontendauthuiserver_20260124.06_p0&hl=en-GB&_reqid=44277&rt=c",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582876149,
+    "requestBody": {
+      "f.req": "%5B%5B%5B%22umJEY%22%2C%22%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%22youtube%3A878%5C%22%2C%5C%22youtube%5C%22%2C1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22111870875940986273683%5C%22%2Cnull%2Cnull%2C%5B%5C%22S1862289215%3A1769582871678324%5C%22%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2C0%2C1%2C%5C%22%5C%22%2Cnull%2Cnull%2C2%2C1%2C2%5D%2C%5B%5B%5C%22identity-signin-account-chooser%5C%22%2C%5C%22!goGlgdnNAAZeabWMfmlCBBjFw01ov047ADQBEArZ1PSdTuJ2FQeF7w8b9v-HUSrPjAj6UO5kZiJ1ERt47chP6nUf_DgrrIV3b89gdaDkAgAAAQpSAAACc2gBB34AS0SYLBB7N3Ye1zbWe1225yETrKrcfvYD7XvcfP-ZRTQ0CQrHCf6dXisd7N3Qgtxtb6unuoEQ8vMKQ9m9Cp7i4s-GPOlYXLnLUhlXk5kE1v0WhMfKPvhpl3NuhkxjFB_WVAEG7lFcafrThjDViViws6ytJiijeH3-f2gs0P3dKuQSy1r7XLX_H7utiZczPTdZKX317fOfs3xl0ObMQ1mFyP6gqkvTrH4Rsa3FSNQVqj_i6StM1EF6oK3t2td8bC_sU7YpoA4dTRLk_DCWHS6-dZ31f1xwHD7EcmiwKb7P8XNdyMePiKlhrLx8QRqxuHoA6JZvqAq1KHXih4Mn-zYFDnZUjAzeNNmlwWbSBvOsfnpmTtYaGvnqYucV98KXx03JqOstjkyEY2x4prkzxxI5upFK1vcIKuxaY3ZD9RliI3knMW2cgqOCnTiLb_vNi3ovOaUIWgiXlKTeq3nEf93glrNCfObAHWPyWoospD3HTu3T-iQhFknTeGJqAcFyPM9M4tzqyXQSq0Y1UQEdwsO6xSLG5Bf0mKiZ69KqxMJYCiVIL9b2rXkEVCb9IxBE6uidlgZ0bKARQFIgWbG7fx8aNQh86H2WYlps_F8OefYm8LELDftf1_fXbNI9nEx0MwwEnPHgGgSk7BeaKOXeL1dm3-PylCHPCzwoU0bCzWQI6qzvi6k7AyrvtLur9YPW5F4iRyik6C7oH6CCBo8asnDktgk0FOBApyKaJPabGu1V6ZR_dWolHHaHiuNyiytZ4Vf99tqUtduZeSArUX68mZ0A6ZvE866wwZHkwOsDMNO9J0d37Pfw3CZZgl_RjNrv_PfvSsS_lcUMSiMZMnXOmi59451zdTRNU0yF-kF2qGl-V-n-jkAgceaTX7qqma7oP_hyo4UoH2-_gxX-zBCTASSvOJ3vF7fg4Dbs19T0UWTeG4kmftJObs5kKypjq2rBGVW0IIAmhgccSlTqq2nITBGMZUfZ5rtCePiXh4aZib_PMzhnYVVwdDhUO5qCfbEaLbEuB9GxtXfwhEyFlloony3rUvGl5xDI0a7LXkkB2V3XktEKLGahkAxuPcp84IFwiLTrgcHjon0hr65r_uKQvE6ALq5NDz6nJPdE2yqLTKxCJNe1GB10-w0atSqs52_iWh26tYrE15IK0_gMeCwg36hrPqs_a4gVSdDFEWop8JkL-gHs8Hx5_rsHvMNatMIVNt6uvramJVUiTQDEkZoCwYbH8OmBzRTUZMeeKKwoQ51jeoBL67o0VDCDpGLDP6_6lgfHey7EsATK07icjbkKdZi8-yN_2uCj472Ts-3UbOV3_AiXJSyQ2ypFnXRAFUHAhciYsRN7uvZm6s_ZHkqvCOzFeep1KuAdVvOtmudorJwqZZOxGwsB8Y8Vfcc5e82b3z-_PCwSX09k-ypeueBZmca2WGKrT2eYt27xHvrp8WirY2qzT4B7U9lS878UM7flb60JMht_1OslJXNbWxxt6hDEBpj56ClOt9XaY2sYYLhn4syNvsvbKteC5Oe3vvEr3z4GTNknwBi0XCzsoy_XKTbP7bRK7RSsGQAi7yx9zyroSFzhEGxy-uUSnPJxMbk7Ku3KAHVfat9HoTywYQZBEpQSFKqPJC5Dfm4YB8_GvBivrfVJtxfang7IwcnCanNSe3CZEpxvOovaXu8amVJTRvUR1J5Q97wkFJPs96XGDYrszBCIFOb1dbknjYrsM-TIg2Ovq8mEukTqg7rsCjYY4oORTmHwhscO%5C%22%5D%5D%2C%5B%5Bnull%2C%5C%22lso%5C%22%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOp9r8PRNOgNI7zYmzrNBu4y0p2YqFGo5PKHvxPq5I5TI7CvGuj6HzRXpJKpi8UlXtoUe0yvUQhHYDFuVlY_jlx8pHSW8vZbple_kbsgIZqkejALT71UlBPlKY3QTqtCy6PjmV0W-Z_x9d6uHL0droeQeaHIYx3OfOC5QJl2chse6iW0ag6D2TlP1nN7e6cMVhwP-ukf9jRlL-CRk8Z6_wL1kcwCGzhM3KPEVjI7SB1fu9V_8dsoqtYftLzTA3ptP-SfTi6vEf_-hGFfRRQuToyhb-pP_OL7Msv_ZjfSGVqiabaIINb0-px_OmAc_yQNUM66BtVVroBzjd0gS4sJFDPUAMz4e4DGp3fnLhlyQ_dYkIYzb4aw73uEv3sYSQvZw5AIC4EYCBvE_B3SspJbMcecI1o5fd9r46DyYCwMOQEi2pnb_CXKBKfMcerS-n96CpgaPrjXipDp_FGv9lNDWlfVP8pZU7xlyOo9LBIB8gxp8u0cls%26flowName%3DGeneralOAuthFlow%26as%3DS1862289215%253A1769582871678324%26client_id%3D76964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2Cnull%2Cnull%2C%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%5D%2C%5Bnull%2Cnull%2C%5C%22S1862289215%3A1769582871678324%5C%22%2Cnull%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOp9r8PRNOgNI7zYmzrNBu4y0p2YqFGo5PKHvxPq5I5TI7CvGuj6HzRXpJKpi8UlXtoUe0yvUQhHYDFuVlY_jlx8pHSW8vZbple_kbsgIZqkejALT71UlBPlKY3QTqtCy6PjmV0W-Z_x9d6uHL0droeQeaHIYx3OfOC5QJl2chse6iW0ag6D2TlP1nN7e6cMVhwP-ukf9jRlL-CRk8Z6_wL1kcwCGzhM3KPEVjI7SB1fu9V_8dsoqtYftLzTA3ptP-SfTi6vEf_-hGFfRRQuToyhb-pP_OL7Msv_ZjfSGVqiabaIINb0-px_OmAc_yQNUM66BtVVroBzjd0gS4sJFDPUAMz4e4DGp3fnLhlyQ_dYkIYzb4aw73uEv3sYSQvZw5AIC4EYCBvE_B3SspJbMcecI1o5fd9r46DyYCwMOQEi2pnb_CXKBKfMcerS-n96CpgaPrjXipDp_FGv9lNDWlfVP8pZU7xlyOo9LBIB8gxp8u0cls%26flowName%3DGeneralOAuthFlow%26as%3DS1862289215%253A1769582871678324%26client_id%3D76964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2C%5C%22lso%5C%22%2C%5B%5B%5C%22client_id%5C%22%2C%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%5D%2C%5B%5C%22redirect_uri%5C%22%2C%5C%22https%3A%2F%2Fwww.securemyscholarship.com%2Fverify%5C%22%5D%2C%5B%5C%22response_type%5C%22%2C%5C%22code%5C%22%5D%2C%5B%5C%22scope%5C%22%2C%5C%22openid%20profile%20email%5C%22%5D%2C%5B%5C%22dsh%5C%22%2C%5C%22S1862289215%3A1769582871678324%5C%22%5D%2C%5B%5C%22o2v%5C%22%2C%5C%222%5C%22%5D%2C%5B%5C%22service%5C%22%2C%5C%22lso%5C%22%5D%2C%5B%5C%22flowName%5C%22%2C%5C%22GeneralOAuthFlow%5C%22%5D%2C%5B%5C%22opparams%5C%22%2C%5C%22%253F%5C%22%5D%2C%5B%5C%22continue%5C%22%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOp9r8PRNOgNI7zYmzrNBu4y0p2YqFGo5PKHvxPq5I5TI7CvGuj6HzRXpJKpi8UlXtoUe0yvUQhHYDFuVlY_jlx8pHSW8vZbple_kbsgIZqkejALT71UlBPlKY3QTqtCy6PjmV0W-Z_x9d6uHL0droeQeaHIYx3OfOC5QJl2chse6iW0ag6D2TlP1nN7e6cMVhwP-ukf9jRlL-CRk8Z6_wL1kcwCGzhM3KPEVjI7SB1fu9V_8dsoqtYftLzTA3ptP-SfTi6vEf_-hGFfRRQuToyhb-pP_OL7Msv_ZjfSGVqiabaIINb0-px_OmAc_yQNUM66BtVVroBzjd0gS4sJFDPUAMz4e4DGp3fnLhlyQ_dYkIYzb4aw73uEv3sYSQvZw5AIC4EYCBvE_B3SspJbMcecI1o5fd9r46DyYCwMOQEi2pnb_CXKBKfMcerS-n96CpgaPrjXipDp_FGv9lNDWlfVP8pZU7xlyOo9LBIB8gxp8u0cls%26flowName%3DGeneralOAuthFlow%26as%3DS1862289215%253A1769582871678324%26client_id%3D76964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%2C%5B%5C%22app_domain%5C%22%2C%5C%22https%3A%2F%2Fwww.securemyscholarship.com%5C%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%222%5C%22%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5B%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.securemyscholarship.com%2Fverify%5C%22%5D%2Cnull%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%222%5C%22%2C%5B%5B%5C%22client_id%5C%22%2C%5B%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%5D%5D%2C%5B%5C%22redirect_uri%5C%22%2C%5B%5C%22https%3A%2F%2Fwww.securemyscholarship.com%2Fverify%5C%22%5D%5D%2C%5B%5C%22response_type%5C%22%2C%5B%5C%22code%5C%22%5D%5D%2C%5B%5C%22scope%5C%22%2C%5B%5C%22openid%20profile%20email%5C%22%5D%5D%2C%5B%5C%22dsh%5C%22%2C%5B%5C%22S1862289215%3A1769582871678324%5C%22%5D%5D%2C%5B%5C%22o2v%5C%22%2C%5B%5C%222%5C%22%5D%5D%2C%5B%5C%22service%5C%22%2C%5B%5C%22lso%5C%22%5D%5D%2C%5B%5C%22flowName%5C%22%2C%5B%5C%22GeneralOAuthFlow%5C%22%5D%5D%2C%5B%5C%22opparams%5C%22%2C%5B%5C%22%253F%5C%22%5D%5D%2C%5B%5C%22continue%5C%22%2C%5B%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOp9r8PRNOgNI7zYmzrNBu4y0p2YqFGo5PKHvxPq5I5TI7CvGuj6HzRXpJKpi8UlXtoUe0yvUQhHYDFuVlY_jlx8pHSW8vZbple_kbsgIZqkejALT71UlBPlKY3QTqtCy6PjmV0W-Z_x9d6uHL0droeQeaHIYx3OfOC5QJl2chse6iW0ag6D2TlP1nN7e6cMVhwP-ukf9jRlL-CRk8Z6_wL1kcwCGzhM3KPEVjI7SB1fu9V_8dsoqtYftLzTA3ptP-SfTi6vEf_-hGFfRRQuToyhb-pP_OL7Msv_ZjfSGVqiabaIINb0-px_OmAc_yQNUM66BtVVroBzjd0gS4sJFDPUAMz4e4DGp3fnLhlyQ_dYkIYzb4aw73uEv3sYSQvZw5AIC4EYCBvE_B3SspJbMcecI1o5fd9r46DyYCwMOQEi2pnb_CXKBKfMcerS-n96CpgaPrjXipDp_FGv9lNDWlfVP8pZU7xlyOo9LBIB8gxp8u0cls%26flowName%3DGeneralOAuthFlow%26as%3DS1862289215%253A1769582871678324%26client_id%3D76964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%5D%2C%5B%5C%22app_domain%5C%22%2C%5B%5C%22https%3A%2F%2Fwww.securemyscholarship.com%5C%22%5D%5D%5D%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAOp9r8PRNOgNI7zYmzrNBu4y0p2YqFGo5PKHvxPq5I5TI7CvGuj6HzRXpJKpi8UlXtoUe0yvUQhHYDFuVlY_jlx8pHSW8vZbple_kbsgIZqkejALT71UlBPlKY3QTqtCy6PjmV0W-Z_x9d6uHL0droeQeaHIYx3OfOC5QJl2chse6iW0ag6D2TlP1nN7e6cMVhwP-ukf9jRlL-CRk8Z6_wL1kcwCGzhM3KPEVjI7SB1fu9V_8dsoqtYftLzTA3ptP-SfTi6vEf_-hGFfRRQuToyhb-pP_OL7Msv_ZjfSGVqiabaIINb0-px_OmAc_yQNUM66BtVVroBzjd0gS4sJFDPUAMz4e4DGp3fnLhlyQ_dYkIYzb4aw73uEv3sYSQvZw5AIC4EYCBvE_B3SspJbMcecI1o5fd9r46DyYCwMOQEi2pnb_CXKBKfMcerS-n96CpgaPrjXipDp_FGv9lNDWlfVP8pZU7xlyOo9LBIB8gxp8u0cls%26flowName%3DGeneralOAuthFlow%26as%3DS1862289215%253A1769582871678324%26client_id%3D76964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%2C%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%2C%5C%22S1862289215%3A1769582871678324%5C%22%2C%5C%22openid%20profile%20email%5C%22%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5C%22code%5C%22%2Cnull%2C%5C%22https%3A%2F%2Fwww.securemyscholarship.com%2Fverify%5C%22%5D%5D%2C%5C%22BISSptJCkMW%2FLCxtdeEUhwOuuOsSBK2eJ4ck0YdCUgHRrB8ziS4CgnN4zWACo7ISnU95Ap7N%2Btecez8YaP13ctc%3D%5C%22%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+      "at": "AFyvf4NYTGZUFzuXhcI5UHtYIN-w%3A1769582871977",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=\"AccountsSignInUi\""
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:56 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "url": "https://accounts.google.com/v3/signin/_/AccountsSignInUi/browserinfo?f.sid=8548077398334332382&bl=boq_identityfrontendauthuiserver_20260124.06_p0&hl=en-GB&_reqid=144277&rt=j",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582876657,
+    "requestBody": {
+      "f.req": "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C1115%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C2%2C2%5D%5D",
+      "at": "AFyvf4NYTGZUFzuXhcI5UHtYIN-w%3A1769582871977",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=\"AccountsSignInUi\""
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:56 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769582879255,
+    "requestBody": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\n½ÁjÃ0\fßÅgeHJlK=î²\u0007ØQ\u0016ac\u0016JÚBz\u0018cï>\u0002cøP³-»ü`ß$[6#.ÃÍb×6Ãvê\u001eîÃçâùx\u001e÷/ÛiÞÏ¯Ýñé2ïºÝ<FFNH\u001cï0'\fõ¡\u0003 »\u0003!3\u0005ÊI£°dE¦ð³\u0004¯IG*íxÝ`f\u0015$*\u0001\u0002:\u0019\fÄuî\u0004\f=\f\u0010\u001dÞJH$%lÌJ]\u0004i\tîPBÊ¼D+·ðHEâæËD)KÏÃâów\u0007c\u0016Ìº*!Ä¸*aPîÛ50þ@J¥qÇksósý»Ym¿d÷\u0005ýçfÖþ$n\u0015b))õî î\u001ft9ÈK¢\u0004\u0000\u0000",
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-headers",
+        "value": "X-Playlog-Web"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://accounts.google.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "private"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "131"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=UTF-8"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:47:59 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Wed, 28 Jan 2026 06:47:59 GMT"
+      },
+      {
+        "name": "server",
+        "value": "Playlog"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "url": "https://www.google.com/ccm/form-data/11025634469?gtm=45je61q1p3v870585382za20gzb891802708zd891802708xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115938465~115938469~116185181~116185182~116682875~117041588~117042506~117223560~117227716&npa=0&frm=0&pscdl=noapi&auid=81870445.1769582792&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.97%7CGoogle%2520Chrome%3B144.0.7559.97&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=1&ec_mode=a&em=tv.1",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769582886018,
+    "requestBody": null,
+    "status": 204,
+    "statusText": "H3 204",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsgac:67:0"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=ascnsrsgac:67:0"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:48:06 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"ascnsrsgac:67:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsgac:67:0\"}],}"
+      },
+      {
+        "name": "server",
+        "value": "Golfe2"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "url": "https://accounts.google.com/_/OAuthUi/browserinfo?f.sid=-119462286165710841&bl=boq_identity-oauth-http_20260125.07_p0&hl=en&authuser=1&soc-app=1&soc-platform=1&soc-device=1&_reqid=44334&rt=j",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582933716,
+    "requestBody": {
+      "f.req": "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C1115%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C0%2C0%5D%5D",
+      "at": "AHRwiMA4_hIHhltTt-5wHBpu2x4S%3A1769582929577",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/OAuthUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:48:53 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "url": "https://accounts.google.com/_/OAuthUi/data/batchexecute?rpcids=xyhAld&source-path=%2Fsignin%2Foauth%2Fid&f.sid=-119462286165710841&bl=boq_identity-oauth-http_20260125.07_p0&hl=en&authuser=1&soc-app=1&soc-platform=1&soc-device=1&_reqid=144334&rt=c",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582945678,
+    "requestBody": {
+      "f.req": "%5B%5B%5B%22xyhAld%22%2C%22%5B%5Bnull%2C%5C%2276964322752-tfh9go1us41hdk6ic5jbm59koin2lto8.apps.googleusercontent.com%5C%22%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D%2C%5C%22!ChRsMHBCRDFkSFhzQnp5M25iS1JxbRIfVXdKQmE5cGpDQjhiOEhuU1JuY2dubW9PWXNvMXdCaw%E2%88%99AKphhQwAAAAAaXsC0YRvCu1Vuor7T2EddDrTJ2Td6RRd%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.securemyscholarship.com%5C%22%2C%5C%22S1646391222%3A1769582886048873%5C%22%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C14%2Cnull%2C1%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5Bnull%2C204%2C0%2C1%5D%2C%5Bnull%2C202%2C0%2C1%5D%2C%5Bnull%2C9315%2C0%2C1%5D%5D%2Cnull%2C1%2Cnull%2C1%2C1%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5B%5B204%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C1%5D%2C%5B202%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C1%5D%2C%5B9315%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22openid%5C%22%2C1%5D%5D%2C1%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+      "at": "AHRwiMA4_hIHhltTt-5wHBpu2x4S%3A1769582929577",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/OAuthUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:49:05 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "url": "https://www.securemyscholarship.com/api/authentication/verify-google-auth",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582948227,
+    "requestBody": {
+      "code": "4/0ASc3gC3naE3xfdnO1wgkqR0RduHE1xFk7BOqWu8DJEzD2cC27xC9yoICnKuWCD-J6bp5ZQ"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "102"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:49:08 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"129a3w3du632u\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "url": "https://ba65lju2hi-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(4.14.2)%3B%20Browser%20(lite)%3B%20JS%20Helper%20(3.26.1)%3B%20react%20(18.2.0)%3B%20react-instantsearch%20(6.31.0)&x-algolia-api-key=d99356dae87abd20a5a696952ae3cae5&x-algolia-application-id=BA65LJU2HI",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582948355,
+    "requestBody": {
+      "{\"requests\":[{\"indexName\":\"institute_qs_rank_asc\",\"params\":\"facets": "%5B%22country_name%22%2C%22level_name%22%2C%22program_name%22%2C%22tuition_fee.tuition_fee_in_usd%22%5D",
+      "highlightPostTag": "%3C%2Fais-highlight-0000000000%3E",
+      "highlightPreTag": "%3Cais-highlight-0000000000%3E",
+      "maxValuesPerFacet": "20\"}]}"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Accept-Encoding",
+        "value": "deflate, gzip"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "no-store"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Disposition",
+        "value": "inline; filename=a.txt"
+      },
+      {
+        "name": "Content-Encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=UTF-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 06:49:08 GMT"
+      },
+      {
+        "name": "Server",
+        "value": "nginx"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000; includeSubDomains; preload"
+      },
+      {
+        "name": "Timing-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "X-Alg-PT",
+        "value": "2"
+      },
+      {
+        "name": "X-Content-Type-Options",
+        "value": "nosniff"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "url": "https://www.securemyscholarship.com/api/authentication/sign-up/user-profile",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769582981613,
+    "requestBody": {
+      "first_name": "zubair",
+      "last_name": "ul hasan",
+      "phone_number": "+91 7569404753"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "32"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:49:41 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"a8kddps181w\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "url": "https://www.securemyscholarship.com/_next/data/i0F5Cw3_wgqOkEu9MPtZs/account/overview.json?page=overview",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769582982482,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "416"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:49:42 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"k0hk13u4ekbk\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-nextjs-matched-path",
+        "value": "/account/[...page]"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "url": "https://www.securemyscholarship.com/api/payment/plus/invoices",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583001473,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "30"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:50:01 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"bs2d8z8q2du\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "url": "https://www.securemyscholarship.com/api/account/referrals",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583020018,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "152"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:50:20 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"46i25p4xpw48\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "url": "https://www.securemyscholarship.com/api/account/applications",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583032842,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "87"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:50:33 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"t14qljp41j2f\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "url": "https://www.securemyscholarship.com/_next/data/i0F5Cw3_wgqOkEu9MPtZs/account/plus.json?page=plus",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769583058570,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "cache-control",
+        "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "416"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:50:58 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"k0hk13u4ekbk\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "x-nextjs-matched-path",
+        "value": "/account/[...page]"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "url": "https://www.securemyscholarship.com/api/account/documents",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583099340,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "30"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:51:39 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"e7d8e81baau\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "url": "https://www.securemyscholarship.com/api/account/documents/upload",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583188442,
+    "requestBody": {
+      "file": "(binary)",
+      "file_name": "high_school_grade_10_transcript.pdf",
+      "document_key": "high_school_grade_10_transcript"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "278"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 06:53:09 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"9bn3mj34kx7q\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "url": "https://www.securemyscholarship.com/api/account/profile",
+    "method": "PATCH",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583875278,
+    "requestBody": {
+      "first_name": "zubair",
+      "last_name": "ul hasan",
+      "phone_number": "+91 7569404753"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "32"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:04:35 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"a8kddps181w\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "url": "https://www.securemyscholarship.com/api/get-programs",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583935648,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:05:40 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"164c85nhc0i1blv\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "url": "https://www.securemyscholarship.com/api/account/edit-preference",
+    "method": "PATCH",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769583957959,
+    "requestBody": {
+      "preferred_education_level": "Undergraduate",
+      "preferred_intake": "May 2026",
+      "preferred_programs": "[22]",
+      "preferred_destination": "United States of America"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "32"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:05:58 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"a8kddps181w\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "url": "https://www.securemyscholarship.com/api/account/set-password",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584014383,
+    "requestBody": {
+      "new_password": "Welcome@1234"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "32"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:06:54 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"a8kddps181w\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "url": "https://www.securemyscholarship.com/api/payment/plus/check-promo-code",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584071351,
+    "requestBody": {
+      "promotion_code": "max1000"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "100"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:07:51 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"2r813ltv4k2s\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "url": "https://www.securemyscholarship.com/api/payment/plus/create-razorpay-order",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584077734,
+    "requestBody": {
+      "amount": [
+        4000
+      ],
+      "notes": {
+        "discount": 0,
+        "promo_code_id": ""
+      }
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "content-length",
+        "value": "272"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:07:58 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"x9k7aict9n7k\""
+      },
+      {
+        "name": "vary",
+        "value": "Accept-Encoding"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "url": "https://lumberjack.razorpay.com/v1/track?key_id=rzp_live_jBffm90xKVpvfR",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584078836,
+    "requestBody": {
+      "key": "ZmY5N2M0YzVkN2JiYzkyMWM1ZmVmYWJk",
+      "mode": "live",
+      "events": [
+        {
+          "event": "open",
+          "timestamp": 1769584078827,
+          "checkout_id": "S9D7HQaUICNrHs",
+          "merchant_id": "",
+          "event_version": "v2",
+          "event_type": "checkout",
+          "build_id": 21392779874,
+          "platform": 1,
+          "product": 1,
+          "view": 0,
+          "env": 1,
+          "properties": {
+            "options": {
+              "key": "rzp_live_jBffm90xKVpvfR",
+              "amount": 400000,
+              "currency": "INR",
+              "name": "SecureMyScholarship",
+              "description": "SMS Plus Payment",
+              "order_id": "order_S9D7HIlwmjmX2l",
+              "callback_url": "https://www.securemyscholarship.com/account/plus",
+              "prefill.name": "ul hasan abdul rahman",
+              "prefill.email": "zubair1digital@gmail.com",
+              "prefill.contact": "+917569410370",
+              "notes": {
+                "promo_code_id": "",
+                "coupon_id": "",
+                "email": "zubair1digital@gmail.com",
+                "phone": "+917569410370"
+              },
+              "theme.color": "#206EF4"
+            },
+            "in_iframe": 0
+          }
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "0"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:07:59 GMT"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Origin"
+      },
+      {
+        "name": "X-Razorpay-Request-Id",
+        "value": "d5srbjtpfems73d7uq5g"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "url": "https://api.razorpay.com/v2/standard_checkout/preferences?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584079655,
+    "requestBody": {
+      "query": [
+        {
+          "resource": "checkout_version_config"
+        },
+        {
+          "resource": "merchant"
+        },
+        {
+          "resource": "merchant_features"
+        },
+        {
+          "resource": "downtime"
+        },
+        {
+          "resource": "customer"
+        },
+        {
+          "resource": "customer_tokens"
+        },
+        {
+          "resource": "truecaller"
+        },
+        {
+          "resource": "methods"
+        },
+        {
+          "resource": "experiments"
+        },
+        {
+          "resource": "offers"
+        },
+        {
+          "resource": "checkout_config"
+        },
+        {
+          "resource": "order"
+        },
+        {
+          "resource": "invoice"
+        },
+        {
+          "resource": "buyer_protection"
+        },
+        {
+          "resource": "ads_slot_config"
+        }
+      ],
+      "query_params": {
+        "device_id": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938",
+        "rtb_device_id": "ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38",
+        "amount": 400000,
+        "currency": "INR",
+        "option_currency": "INR",
+        "truecaller": false,
+        "qr_required": true,
+        "checkout_id": "S9D7HQaUICNrHs",
+        "library": "checkoutjs",
+        "platform": "browser",
+        "referrer_domain": "www.securemyscholarship.com",
+        "order_id": "order_S9D7HIlwmjmX2l"
+      },
+      "action": "get"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Headers",
+        "value": "Accept, Accept-Encoding, Accept-Language, Authorization, Content-Type, Content-Length, Cookie, ResponseType"
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "value": "GET, HEAD, OPTIONS, PATCH, POST"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Access-Control-Max-Age",
+        "value": "86400"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:01 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Mode",
+        "value": "live"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srbjpj28js74pilmlg"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "checkout-service"
+      },
+      {
+        "name": "X-Client-Ip",
+        "value": "49.206.52.228"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "url": "https://api.razorpay.com/v1/standard_checkout/customers/status/+917569410370?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7&skip_otp=true&strict=true&otp_verify_v2=true&_%5Bplatform%5D=browser",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584081773,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "max-age=0, must-revalidate, no-store, nocache, private"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:02 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "Uber-Trace-Id",
+        "value": "934898d03887d1e67dc9196b08f3d48a:63a5b1f7e3afcecf:0000000000000000:1"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Pam",
+        "value": "0"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "url": "https://api.razorpay.com/v1/standard_checkout/checkout/prefill/encrypt?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584082414,
+    "requestBody": {
+      "contact": "+917569410370",
+      "email": "zubair1digital@gmail.com"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Headers",
+        "value": "Accept, Accept-Encoding, Accept-Language, Authorization, Content-Type, Content-Length, Cookie, ResponseType"
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "value": "GET, HEAD, OPTIONS, PATCH, POST"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Access-Control-Max-Age",
+        "value": "86400"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "158"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:02 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srbkn278ac75c7nud0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "true"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "url": "https://api.razorpay.com/v2/validate/checkout/offers?key_id=rzp_live_jBffm90xKVpvfR",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584082671,
+    "requestBody": {
+      "amount": 400000,
+      "contact": "+917569410370",
+      "offers": [
+        "offer_RxPtT3uRLH0pgW",
+        "offer_RTdE6DJ0vdcQrn",
+        "offer_R8Hw99kbqAXMKA",
+        "offer_QWoaHwqwdxf1MK",
+        "offer_QrP5Dw8SouoIEL",
+        "offer_QPEhahmXZYrNL4",
+        "offer_POIplYsUIs4RfK",
+        "offer_Rv2PH0sIK8F3wD",
+        "offer_RjzRxIunf1jUiK",
+        "offer_QowNRyZuZ7phnm",
+        "offer_RkGfYgi0mpdMGg"
+      ],
+      "checkout_id": "S9D7HQaUICNrHs",
+      "order_id": "order_S9D7HIlwmjmX2l"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Headers",
+        "value": "Accept, Accept-Encoding, Accept-Language, Authorization, Content-Type, Content-Length, Cookie, ResponseType"
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "value": "GET, HEAD, OPTIONS, PATCH, POST"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Access-Control-Max-Age",
+        "value": "86400"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "155"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:02 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Mode",
+        "value": "live"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srbknoub8s75fc60s0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "true"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "url": "https://api.razorpay.com/v1/standard_checkout/checkout/preferred_methods?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7&contact=%2B917569410370&amount=400000&country_code=in&device_platform=browser&device_type=desktop&p13n_filter=control&order_id=order_S9D7HIlwmjmX2l",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584082723,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "170"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:03 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Mode",
+        "value": "live"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srbkhh2mrc75f7e15g"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "true"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "url": "https://cdn.razorpay.com/festivities/configs.json",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584082800,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "3000"
+      },
+      {
+        "name": "age",
+        "value": "48831"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Tue, 27 Jan 2026 17:34:12 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "W/\"547c7b3befe7894bba837f28b221c51f\""
+      },
+      {
+        "name": "last-modified",
+        "value": "Tue, 20 Jan 2026 17:33:22 GMT"
+      },
+      {
+        "name": "server",
+        "value": "AmazonS3"
+      },
+      {
+        "name": "vary",
+        "value": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method,accept-encoding"
+      },
+      {
+        "name": "via",
+        "value": "1.1 341102f11752e2e637fd04f85eef18f2.cloudfront.net (CloudFront)"
+      },
+      {
+        "name": "x-amz-cf-id",
+        "value": "L_doJWKYSzP7oSl8LD3PLf_q5kaaEOCNCMdunQKpGGAkIlSWwweAYw=="
+      },
+      {
+        "name": "x-amz-cf-pop",
+        "value": "HYD57-P2"
+      },
+      {
+        "name": "x-amz-server-side-encryption",
+        "value": "AES256"
+      },
+      {
+        "name": "x-amz-version-id",
+        "value": "vde.S1VZ4DODj1HtVScM4RK5w6fCg7eN"
+      },
+      {
+        "name": "x-cache",
+        "value": "Hit from cloudfront"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "url": "https://o515678.ingest.sentry.io/api/4507106068135936/envelope/?sentry_key=a7126d6b447b936097b47e179cb9749e&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.64.0",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769584084109,
+    "requestBody": "{\"sent_at\":\"2026-01-28T07:08:04.106Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"version\":\"7.64.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"e355fac8b13147d48498b140f3d1d9eb\",\"init\":true,\"started\":\"2026-01-28T07:08:04.104Z\",\"timestamp\":\"2026-01-28T07:08:04.105Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"87ed3d9a55091b846c86932f90e9843f58eec5d1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\"}}",
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "x-sentry-error,x-sentry-rate-limits,retry-after"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "content-length",
+        "value": "2"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:08:04 GMT"
+      },
+      {
+        "name": "server",
+        "value": "nginx"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains; preload"
+      },
+      {
+        "name": "vary",
+        "value": "origin, access-control-request-method, access-control-request-headers"
+      },
+      {
+        "name": "via",
+        "value": "1.1 google"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "url": "https://cdn.razorpay.com/bank/ICIC.gif",
+    "method": "GET",
+    "type": "fetch",
+    "timeStamp": 1769584084806,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ranges",
+        "value": "bytes"
+      },
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "3000"
+      },
+      {
+        "name": "age",
+        "value": "243490"
+      },
+      {
+        "name": "cache-control",
+        "value": "max-age=315360000, no-transform, public"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "813"
+      },
+      {
+        "name": "content-type",
+        "value": "image/gif"
+      },
+      {
+        "name": "date",
+        "value": "Sun, 25 Jan 2026 11:29:56 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "\"d94dd8ae7af98ac4f2d4f578a3b44f87\""
+      },
+      {
+        "name": "last-modified",
+        "value": "Tue, 04 Oct 2016 09:54:24 GMT"
+      },
+      {
+        "name": "server",
+        "value": "AmazonS3"
+      },
+      {
+        "name": "vary",
+        "value": "Origin,Access-Control-Request-Headers,Access-Control-Request-Method"
+      },
+      {
+        "name": "via",
+        "value": "1.1 341102f11752e2e637fd04f85eef18f2.cloudfront.net (CloudFront)"
+      },
+      {
+        "name": "x-amz-cf-id",
+        "value": "jn5TCg3MP6q4TikNifr4xVqId8iML3KwVbQGWf-nn7nNm3nqqqm-AQ=="
+      },
+      {
+        "name": "x-amz-cf-pop",
+        "value": "HYD57-P2"
+      },
+      {
+        "name": "x-amz-replication-status",
+        "value": "REPLICA"
+      },
+      {
+        "name": "x-amz-server-side-encryption",
+        "value": "AES256"
+      },
+      {
+        "name": "x-amz-version-id",
+        "value": "o8UfCIR3img12OGzrM44U5ZPQMW2UrB8"
+      },
+      {
+        "name": "x-cache",
+        "value": "Hit from cloudfront"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "url": "https://ap.api.fpjs.io/XAhgQ/DDm1Ndk/W3RX6vJ/NjQ-1?q=yEa59aIp49UzEkRp7Doc",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584085209,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "Retry-After"
+      },
+      {
+        "name": "cache-control",
+        "value": "max-age=31536000, immutable, private"
+      },
+      {
+        "name": "content-length",
+        "value": "96"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "default-src 'none'; frame-ancestors 'none'"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=utf-8"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:08:05 GMT"
+      },
+      {
+        "name": "referrer-policy",
+        "value": "no-referrer"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=63072000"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "DENY"
+      },
+      {
+        "name": "x-robots-tag",
+        "value": "noindex"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "url": "https://ap.api.fpjs.io/?ci=js/3.12.6&q=yEa59aIp49UzEkRp7Doc",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584091855,
+    "requestBody": "\u0019\u001c'\u001b\u000e öô\u0019Ã³¹\u0015\u001d\u001bÎrá\u0018õ+j\u0018Ãë¥àÖ÷tîÜË+\u000f×\u0001ÚÌì¬¢e\u001boÁ´\u001cÏÂ\u0011òÂã6­á)Cýy8©fÅG\u001a©ÆÀ%)êx]]\"\ruÅa\n¨\u0015M¾\\_Ful.wK2Ô\u001d\u000bs¡I·oàÝ¾FÓï«­os¡q\u0013û2ùÙ^.)\u0004_Õ\u0011\tÛì:=\u001c×D\u0010*Êòt-\u0005÷,\u0000£e,ÎÉ~úÕJ?\u0007ãyþ&Ua\nø`õL¸KQ#\u0000Ò½#\u000fXGG,Qç¯sÎ5\u0007ÿÕÙ\u0013\u000f ×3Xl:%D\u001eþ°yË´Pn\u0004fµy¼-dJ¡ûþ½\u0003D©ÁA¶\u0003T)\u0016¦Ñ7\u001eÌ@á#P¯{VÜ\u0011ÁíüB}^Í`\u000bááÚ»R\u001eÁªW¸Òà½¯\u0015R\u0012èd?fz\u0011\r\u001a2ø9Ê!àl£Õ©d~Ëb êè©CÊ`þ·o¯d¿§¢ê`©ä¤ëÇ²¯ÞÐ'¿_;ýC±Í¿­\fãQ\b N)x[2à\u0014ÊK\tÓìZL½xè$»OLÓMå¥çg\u001a¯ûoú!È,7ÌäÁz§6¬×Ë¿¯ÂË6\u001asog^¸\u0007¹Ò4zøV\u0007â#\u001e/Ü¬ÝÒQ\u0015\u0010s6Pe9ïz\u0005¢réTðo¦È*æuè'¼1\u000ePnÂíÄùÄÂÇTe\u0014bJ!\u0015r¿E/\u0001³Ñãù\u000e½îT¬}´3§ß\u0002b\u0015Ã¦\r|£\u00010ä\u0007½*°4Ûü8Í½,@XÖÇ0Ó)lw\u00182\röÄ\u001c2@Ü+QÇº57­DçrVGB­ëu°Â*òÏ\u000fK5\u0019R&kåÂÅöO4~E~ÿe\u0019·ümìÞÚ÷{«Í/eQ0©Q«?¹ô\u000f\u001a®\u0005àY\u0015IÕxÍ1\u0002\"ÙYbô8ÚÜ\u0002®£s+«VõIbP*WéMü6Âhr*ÕgÑ?\u0016z£M\u0019e\fc1ºê&¤\u0014\u0011Nk-± -~]Ø§e\r8ß|oÉ²æ=\nì>\u0012Q/ß AKÃïoGS{Q)\u001dÝ*\u0006\báÒ+'5p÷Ôx_¤`_®\u0018¬:\nÊ»¢\rÍ\u0018uÂ<\u0010¨íøªNÃû4p)f\u001aÝ*évàïÚN¿¶:À}Ø¨îP@R¹i÷Ôx\fÆþ»e\u000e_Ú;|L#\u0002ÏC|\u0018ÕÈÅ*IG\bÒ¥Ê\u0016Ym&\rG¬^\u0011\u0003:tð\u000ewüU]¥ipô\u0019:2õ&ôâ\u001d8z-;È\u0012Dã\u0018TË\u0010¨Î]úßø¨»Úµ)\u0007(ÿ4Ô¬¢\u001c8YYZfæ3Õ¿È=µAtsMñíÆ\u0016s\u001d¯ÝâªezJâ#0¾ÏÏçÕTÅf\u0014ÀTgaû!\u001c|¯$ß#Hô ÌS¥ïf¤:^2§7dÅJáÌ¯¸p`HPçè,^¤=»Lî\u0011ºüî<»*3{ÿÐ­\u001c\u0011®/¼¬°0RçUÕ²~°IÙ\u0010<JÊÁ\u0001 ôv#gJÜ½\u0013\u0000eÉ`X¹ôoÙÉ\u000fÛp¹«\u0013¿\u0005p\u001ej¿ÌoåF¯A\u000b;6]õ+\u001fíw\u0004ãªÁÿ(1FÕP7C·|\u00058\u001dð\u000eJ%¬Eí¼¡÷&ë´.È·q\u0018\u0012OÕ#½}×¢Y/û):¦þ(\r±Á®?+\u000b«ÿ}_ãqa\u001cÓú²8\bq@q_Æn\tÞä \u0010-8Ò]º±¹@\u000e>\u0012jØ\n?É[¢\u0007ð\u0006â,\u0016Ô °_ý\u001d×\u0001ÁJÁ\u0005\u0014Ñ?\u0005c#\rñËÏÓ;Å¦äUBWûs¢oaÏZfú\b2}¸Ng\u0011%ÇP\\Mû)«/â\bÏÂx9VÓt¡ìðÐö\u001a\u001f27:*7¨î§Þ\u0011¿÷aÅ^TTéÏ.%#:\u0011LÚ<®l{÷YYx,{~S\u0017Aºxds Õ²\u0001ãû¬Â¾XÙÀVYª¸p;Oû=6\u000e½zSQ\u0005~ZÒhÔæ¡k¡;sÞreb9i\u001bX°y\b\u0005tÌ\u0015¢g­§\bVû\u0019}ù«ß9\u0011Àû\u001bÅ¢r\u00184ÄÁ®ÿ\u0015§Ñ\u0001&ÓSj¼5! ö¯uòËëë\u0007H¤á¯\u0014¼.Û>_§þEµÜ\u0012\u0017x^/[M\r\u0004±\u0019Õº~¨6Æ\u0001l)Égþ%=Û>ç×\u0011¸¾ÌbÞ\u0012¤êôÇÏÚÉFÀS»NÞ+\u0012ÏsÏÌ×VnÓ>\rE´-®\u001dn-`Õab\f\u0001(9µ$Ç\u0005ëI\u0004\t$\u000fÓ:«)Û\u0010Û\u0018pÈÿ¡}AÕZâ¤ ß\u001cÛn?t\u0005w{$?6ó¢ ¶CoÉ\u0018\u0019\\ü2÷\u0002/Rÿ[ÝVò;¦ÌXÖë\u0012á\u001dÚ²\u0014ä¸ìH¥º3\r5\u001a(NÏ\t¥b1¡x~éHÆ.l¢»T¾¶èj\u001c(Æ!=Kþ§óJHì4N\u0005ddö$GÓ©¹Û¡^Iñæ'/¾\u0018Ä¹\np¸òÜlCç\b·¨\u001cT\\³*ÛHh:\u001eÈ&Â³È\u0007æ\u001a[Ó\u0016wÙºâ0ôDPBdÊ\u0006ÛÖ\u001c:d{¾t{?¨|»i\u001d\u001b±Ë´ü\f±ó÷êØò°&NÒÒ\u0012½H'\u0017\u001cÔ¦ª\u00112Ï¼p«Õ\u0016\u001cLL[Ì¹QhlÓ®µ¾\u0005©\u0000:ú[\u0018@2lÊÏøå]\u0012H^ÔÖ¯G{±ÚZ/ýîò^bÝñ±_\n)!V:¢'^ÞL´­p|=à¹ìÕ\u0013,]°k\u0018\u0001[uH\u0006ç·&-{GÚûP7ÚáãéOÕ\u001eËm9¡Z^¨'!PWlñ_²:<Éþ¶\u000bÙ/1ÒÐi<xH\u001eQ÷\u001c7kW¯°¹~4¼\u0001Ëç\u0003U¡ÐºìÍÒú°!\u0014âìßþL­\u0002\u001b\fpåºµ\"'; v\u0011\u0000á'ésOÒO\t)îÜwöp\u0018Ý6Û ÿr½\u00015KQý6Ûå±\u0010å!½Ý*O¡5`tó\u0007\u0004lz\u0011Êe1\u000e¢v\u001d\u0003å:ÛÑj\u001f+ô\u001cä\b7Ñ¦K[r£å<¿NV¨\u0012\u0007»\u001bj÷Úª\u0016º3¡|\u0016\t³P{á5Z9\u0019ÎÅ\u0018xCY?«:Ù ub©+pix.©j\u001fµºÐ¸´£\u001c³nPIÓ\u0005öQO\u0001ä\u001dBÿeÐF±<ù§¿\fæ\u0015±óLs»3%\u0019Ýñø2õÀC8\u0001îd2é\u0011o'g:J_`ª\u0003Ê¶½\u000bÂT^ù¤\t4t\u000f*\u001d§\u0006Ï1%ÓÕ\u000f\u0002®\u0007¡\u000bä9ªAÌ¶+Çj'¦4/\u001a;Øîtß\nºwYíh&4\u0002|f-¶´ûÄÆîØgi@¥½Y\u001d\u001baÎÌ\u0007.\tÍ\\¡\u000b¥­KG÷\\ù\u0018\\o¶Owùû¼\u000bæè_:ê0Ê\u001a½Z~ËÆNÌE¹wvSRðai\f\nùç:\u0014\u001d¶ÃXø@\u0010'æÌz´ÇÐ6\u000fá7& \u0000ÛÞ<êéq{°AM}Ô^Ga\txS$fxCýlTüë­Ü\"ìí<ÊcT\bÀÀÆk\u001eU¢b\nZ9\u0002ÿÜÔ\u0014óïÖ\u0015³B»3\u0003VcB\u0002$½¹q8­ÄÕ\"§öÔ\u000e{p\u0005ÖªX\u001d\u0018¿q\u0007¼âv§\u0019ìY(\rÎ?>j\u0005¯Ì\r¼Â¤\u0018´!\"Ü\u0001b\u0004OåQC \u0013.O\u0006(uí\n¦6þÜÿWÜ\u0002kþøZò0Ïò6\u001aô\u0002egNêeøß\u000fjh×û|èæ4\u000eçÿ·ð\r¨Í\u0010¢ðjåþ^#\u001e\u000e+jµ¹\u0016¦^¨ÚlL×D\u0011¯µ§4?\bÍÏ¸ÇÒÆÇ,}ý\\x¹|\u0019d\u0003qtf(=¯\u000e\u0000k?'\u0010;C7dîz\u001e|â;MæûmaîGB]\fÎVâ\"ôP´\u00026±®ê3\u0019Aý\u001cÙßÇÞz >ûì=¬ÓØnKÆ¼Ü©G£#\u0007EÕZÂ|²Ç\u0012=°Cr¬f¸Ü)¡Þ=èÄ~\nLÝÅ;\u0011z\u001dØó¸LË'uüw<^\"àö@³h¥ñöÈÊà\u00128Äó_\\GJPIfi\u001c¯b\u0011°ÜÕ\u001d\u0004%Ð_\u0003q¨¢²ÆA#RcñÑ\u0018ÄIéYA°\tô\u001cßº;\u00183©LþçÇÊ¨ã~:¥â{q\u0003\u001b}i_i_£ùU\tÕë^ÞÑ¤ç@»:²ðdx£³~KÍl\r¦Á.X«Y[)n¾r¶*\u001bR¯Ó¿>\u001f¢¡Á¿ñ0\u0006oâûhg=^>÷÷\u000b±\"³lA\u0003ÄD\u0010\u001c*\u0015^''Ú\u001a\u0004Ç<\u0003ÿøÁÛÄ*K\u0014Ñ¥>ªó®ªøþaþ#wýùëi\bÕíÔo*w9á:%\u001a8O=¹¹ç »\u001c\u0002E.jÂÇ!ÌRZÔ¸\t­ Ôÿ-ègP\t¸È\u0014>²¥jºüþ¯q¿50ìó!òý\u00031\b&ÔØ²o'\u0002oA§±uV\u000fh«\u001c\u001dÃÔM4£þ\bP-$v\u0004|8õE\u0017O\\;Ò-<\u000b\u0006Ð\u00011!r×ý`Á£è\u0017\u0004´ É¤î`ÊR\u0015ÿ¾8Ñ\u001bl\u0000ì]ä¾í¹ ÄF´u\"cÜcc¸äÜO\u0012µ}Or\u001c\r K½Ï+mCº\u000f=XõÎ$Øv¯\u0001bÉ4x\u0016\u0016vr'þ+ÞUz=!Ê¸n­Å¯éy;i&ìJ\u001aZß»onëç4¦Ô7XEè ÔD§Y­Ùè\u001eUß¥öSï>\"jÀ+<Æª#µ\u000eößÙãÉóçYiÂzô®øé.\u0004ÖNhö^ÅÔ\u000b\nÛI@mäÆd(éßÍa§BîÎØÿð\u0018r~\bØ@\u0004§\u0018\u001cù¤|:&&FO¸®Rýù(\u0007&?Ì÷\u000b\\ÿøV\u001fûÐÝ¢ÇqE\u0012*ÁbÕ\u0003­\u0007eyQ&³3¿¢S\u000bãIþ=aÓe¿Yo\u000e}\u000f°sW³\bË¾ðe,'Så0ì7*¡<W\u0015Ò³­·Ú£<ôÎ¢.Ì·«â\u0004\u001f\\Ç*|\u000e\t;Ë¯\u001dÕÛ¹<ed\tHºxÔ¡eË! ð{ÛÊ X$¿ú×W«ER÷6R£«7µâMpOý1QQp¼¨B\b\u001cüÑí%¹O)´-ÿw{\"%ÛûY@\u0016Â\t£\t\"F¸îð\u0015Ow³·Õo\u001c\u0015\u0016\u001d,©\u0015[5¡¢O¼y\u001a8zîr\u0011'#ý;Ní©}]´6\u0010\rOµØà;ò}2\\»fÎV;\u0016Ê\u0015W4Qðk¾Ñ0+9ô1AhÊäâZUMýnMðµDÞU±Õ¬êSÉG\u0015I0¯mßÝk\r¤©.±ës!7ÅNµ\u0007Ñ\\bkÏ>Ln?âÑJO\u001bhlC¬MF\u0017È ö^\rq¢¥\u000b>ôqý¡V7$Ø¦Ýn0rs\u0017M[µS;u\u0017.þÝv\u001cÿi4Ìº",
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "access-control-expose-headers",
+        "value": "Retry-After"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "default-src 'none'; frame-ancestors 'none'"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain"
+      },
+      {
+        "name": "date",
+        "value": "Wed, 28 Jan 2026 07:08:12 GMT"
+      },
+      {
+        "name": "referrer-policy",
+        "value": "no-referrer"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=63072000"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "DENY"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "url": "https://api.razorpay.com/v1/standard_checkout/consents?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584103332,
+    "requestBody": {
+      "email": "zubair1digital@gmail.com",
+      "is_email_verified": false,
+      "source_product": "standard_checkout",
+      "contact": "+917569410370",
+      "is_contact_verified": false,
+      "touchpoint": {
+        "device_id": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938"
+      },
+      "consents": [
+        {
+          "clause_id": "QrMVqBsbfcoHtT",
+          "is_active": true
+        },
+        {
+          "clause_id": "QrMVrs7UwSIecG",
+          "is_active": true
+        },
+        {
+          "clause_id": "QrMVsRSMy81Hyi",
+          "is_active": true
+        }
+      ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Headers",
+        "value": "Accept, Accept-Encoding, Accept-Language, Authorization, Content-Type, Content-Length, Cookie, ResponseType"
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "value": "GET, HEAD, OPTIONS, PATCH, POST"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Access-Control-Max-Age",
+        "value": "86400"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "16"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:08:23 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Mode",
+        "value": "live"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srbpo41loc75e4u9p0"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "true"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "url": "https://api.razorpay.com/v1/standard_checkout/payment/iin?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7&iin=555555555",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584151620,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "max-age=0, must-revalidate, no-store, nocache, private"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:09:12 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "Uber-Trace-Id",
+        "value": "0028da8bbc9ebbffeefd39a333bab8e7:427cf0c449e8de02:0000000000000000:1"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Pam",
+        "value": "0"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "url": "https://api.razorpay.com/v1/standard_checkout/validate/checkout/offers?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584152092,
+    "requestBody": {
+      "amount": "400000",
+      "method": "card",
+      "card%5Bnumber%5D": "5555555555",
+      "order_id": "order_S9D7HIlwmjmX2l",
+      "offers%5B0%5D": "offer_QPEhahmXZYrNL4"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "max-age=0, must-revalidate, no-store, nocache, private"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:09:12 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "Uber-Trace-Id",
+        "value": "aa9a6c44cff9643931d4e6f30b796578:01eff09b0ddca6e0:0000000000000000:1"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Pam",
+        "value": "0"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "url": "https://api.razorpay.com/payments_cross_border_live/v1/checkout/cb_flows?key_id=rzp_live_jBffm90xKVpvfR",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584153563,
+    "requestBody": {
+      "identifiers": {
+        "merchant": {
+          "country": "IN"
+        },
+        "card": {
+          "country": "BR",
+          "dcc_blacklist": false,
+          "network": "MasterCard"
+        },
+        "method": "card",
+        "payment_currency": "INR"
+      },
+      "forex_charges": {
+        "amount": 400000,
+        "currency": "INR",
+        "filters": {
+          "method": "card"
+        }
+      }
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "45"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:09:14 GMT"
+      },
+      {
+        "name": "Grpc-Metadata-Content-Type",
+        "value": "application/grpc"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "url": "https://h.online-metrix.net/fp/clear.png",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584156535,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "private, must-revalidate, max-age=0"
+      },
+      {
+        "name": "Connection",
+        "value": "Keep-Alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "81"
+      },
+      {
+        "name": "Content-Type",
+        "value": "image/png"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:09:17 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "f04b72e868ac4172818542f259199065"
+      },
+      {
+        "name": "Expires",
+        "value": "Mon, 27 Jan 2031 07:09:17 GMT"
+      },
+      {
+        "name": "Keep-Alive",
+        "value": "timeout=2, max=100"
+      },
+      {
+        "name": "Last-Modified",
+        "value": "Wed, 28 Jan 2026 07:09:17 GMT"
+      },
+      {
+        "name": "Server",
+        "value": "Apache"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=31536000"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "url": "https://api.razorpay.com/v2/standard_checkout/otp/create?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584191173,
+    "requestBody": {
+      "contact": "%2B917569410370",
+      "otp_reason": "save_card_v2"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Headers",
+        "value": "Accept, Accept-Encoding, Accept-Language, Authorization, Content-Type, Content-Length, Cookie, ResponseType"
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "value": "GET, HEAD, OPTIONS, PATCH, POST"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "Access-Control-Max-Age",
+        "value": "86400"
+      },
+      {
+        "name": "Cache-Control",
+        "value": "nocache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "47"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:09:51 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Mode",
+        "value": "live"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Request-Id",
+        "value": "d5srcfp0a67c75f85vjg"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Accept-Encoding"
+      },
+      {
+        "name": "Via",
+        "value": "rws"
+      },
+      {
+        "name": "X-Checkout-Service-Proxy",
+        "value": "true"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "url": "https://api.razorpay.com/v1/standard_checkout/payments/create/ajax?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584203313,
+    "requestBody": {
+      "description": "SMS%20Plus%20Payment",
+      "notes%5Bpromo_code_id%5D": "",
+      "notes%5Bcoupon_id%5D": "",
+      "notes%5Bemail%5D": "zubair1digital%40gmail.com",
+      "notes%5Bphone%5D": "%2B917569410370",
+      "key_id": "rzp_live_jBffm90xKVpvfR",
+      "contact": "%2B917569410370",
+      "email": "zubair1digital%40gmail.com",
+      "currency": "INR",
+      "_%5Bcheckout_id%5D": "S9D7HQaUICNrHs",
+      "_%5Bdevice.id%5D": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938",
+      "_%5Blibrary%5D": "checkoutjs",
+      "_%5Blibrary_src%5D": "no-src",
+      "_%5Bcurrent_script_src%5D": "no-src",
+      "_%5Bplatform%5D": "browser",
+      "_%5Benv%5D": "",
+      "_%5Bis_magic_script%5D": "false",
+      "_%5Bos%5D": "windows",
+      "_%5Breferer%5D": "https%3A%2F%2Fwww.securemyscholarship.com%2Faccount%2Fplus",
+      "_%5Bshield%5D%5Bfhash%5D": "ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38",
+      "_%5Bshield%5D%5Btz%5D": "330",
+      "_%5Bdevice_id%5D": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938",
+      "_%5Bbuild%5D": "21392779874",
+      "_%5Brequest_index%5D": "0",
+      "amount": "400000",
+      "order_id": "order_S9D7HIlwmjmX2l",
+      "method": "card",
+      "card%5Bnumber%5D": "5555555555554444",
+      "card%5Bcvv%5D": "233",
+      "card%5Bname%5D": "ul%20hasan%20abdul%20rahman",
+      "card%5Bexpiry_month%5D": "05",
+      "card%5Bexpiry_year%5D": "26"
+    },
+    "status": 400,
+    "statusText": "Bad Request",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "*"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Length",
+        "value": "215"
+      },
+      {
+        "name": "Content-Type",
+        "value": "text/plain; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:10:05 GMT"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Vary",
+        "value": "Origin"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "url": "https://checkout-static-next.razorpay.com/build/assets/json/payment-status-generic-mobile.motion.f1eacfa0.json",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584206747,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-methods",
+        "value": "GET, HEAD"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "access-control-max-age",
+        "value": "3000"
+      },
+      {
+        "name": "age",
+        "value": "23348096"
+      },
+      {
+        "name": "cache-control",
+        "value": "public,max-age=31536000,immutable"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Sat, 03 May 2025 01:35:11 GMT"
+      },
+      {
+        "name": "etag",
+        "value": "W/\"1585820c21d1294f114f1b06c46e4cd0\""
+      },
+      {
+        "name": "last-modified",
+        "value": "Fri, 02 May 2025 13:24:51 GMT"
+      },
+      {
+        "name": "server",
+        "value": "AmazonS3"
+      },
+      {
+        "name": "timing-allow-origin",
+        "value": "https://api.razorpay.com"
+      },
+      {
+        "name": "vary",
+        "value": "Origin,accept-encoding"
+      },
+      {
+        "name": "via",
+        "value": "1.1 a75d738307d72cee7d73d12359135bc2.cloudfront.net (CloudFront)"
+      },
+      {
+        "name": "x-amz-cf-id",
+        "value": "kxaub-hblaQkvn5teyZmwi2HxrZPzebBwgfE4mLJBvv29FPAnrfoXw=="
+      },
+      {
+        "name": "x-amz-cf-pop",
+        "value": "HYD57-P6"
+      },
+      {
+        "name": "x-amz-server-side-encryption",
+        "value": "AES256"
+      },
+      {
+        "name": "x-amz-version-id",
+        "value": "yrP0LrOEz57Zwk7GvCxzHAaoV5mdfe5Q"
+      },
+      {
+        "name": "x-cache",
+        "value": "Hit from cloudfront"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "url": "https://api.razorpay.com/v1/standard_checkout/checkout/order?key_id=rzp_live_jBffm90xKVpvfR&session_token=DB2DA7B05C4E81CCC202BE4BE57E0AF5FD44D1C8891F6D11C21EFDCE881F21AB02E30877EC63BC0DACAAEA5211A49402E2BA9C2E6D401D0366AA321A324AA8962CDA3793B0049A05EE443D3663589ECC511897E7379B8764A8926069D9C56C1C75483CEC50FF5AD7",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769584211931,
+    "requestBody": {
+      "description": "SMS%20Plus%20Payment",
+      "notes%5Bpromo_code_id%5D": "",
+      "notes%5Bcoupon_id%5D": "",
+      "notes%5Bemail%5D": "zubair1digital%40gmail.com",
+      "notes%5Bphone%5D": "%2B917569410370",
+      "key_id": "rzp_live_jBffm90xKVpvfR",
+      "contact": "%2B917569410370",
+      "email": "zubair1digital%40gmail.com",
+      "currency": "INR",
+      "_%5Bcheckout_id%5D": "S9D7HQaUICNrHs",
+      "_%5Bdevice.id%5D": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938",
+      "_%5Blibrary%5D": "checkoutjs",
+      "_%5Blibrary_src%5D": "no-src",
+      "_%5Bcurrent_script_src%5D": "no-src",
+      "_%5Bplatform%5D": "browser",
+      "_%5Benv%5D": "",
+      "_%5Bis_magic_script%5D": "false",
+      "_%5Bos%5D": "windows",
+      "_%5Breferer%5D": "https%3A%2F%2Fwww.securemyscholarship.com%2Faccount%2Fplus",
+      "_%5Bshield%5D%5Bfhash%5D": "ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38",
+      "_%5Bshield%5D%5Btz%5D": "330",
+      "_%5Bdevice_id%5D": "1.ec0f70c2a2e7861594d1c75b8ecd73a971d1fd38.1769584079633.29195938",
+      "_%5Bbuild%5D": "21392779874",
+      "_%5Brequest_index%5D": "1",
+      "amount": "400000",
+      "order_id": "order_S9D7HIlwmjmX2l",
+      "method": "upi",
+      "_%5Bflow%5D": "intent",
+      "upi%5Bflow%5D": "intent",
+      "_%5Bupiqr%5D": "1",
+      "receiver_type": "qr_code",
+      "checkout_id": "S9D7HQaUICNrHs"
+    },
+    "status": 500,
+    "statusText": "Internal Server Error",
+    "responseHeaders": [
+      {
+        "name": "Cache-Control",
+        "value": "max-age=0, must-revalidate, no-store, nocache, private"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 28 Jan 2026 07:10:12 GMT"
+      },
+      {
+        "name": "Expires",
+        "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "Pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "Strict-Transport-Security",
+        "value": "max-age=315360000; includeSubDomains"
+      },
+      {
+        "name": "Transfer-Encoding",
+        "value": "chunked"
+      },
+      {
+        "name": "Uber-Trace-Id",
+        "value": "c37dd51d956758928ddcc5fb307d395e:1a63fcaf1b11a809:0000000000000000:1"
+      },
+      {
+        "name": "X-Frame-Options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "X-Pam",
+        "value": "0"
+      },
+      {
+        "name": "X-Xss-Protection",
+        "value": "0"
+      }
+    ]
+  }
+]
