@@ -1,0 +1,665 @@
+openapi: 3.0.3
+info:
+  title: Art of Time API
+  version: 1.0.0
+servers:
+  - url: https://artoftimeindia.com
+tags:
+  - name: $rpc
+  - name: api
+  - name: checksiteconfig
+  - name: collect
+  - name: getcaptcha
+  - name: pagead
+  - name: products
+  - name: v1
+  - name: youtubei
+paths:
+  /collect:
+    post:
+      tags:
+        - collect
+      summary: POST /collect
+      operationId: post_collect
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: Success
+  /youtubei/v1/log_event:
+    post:
+      tags:
+        - youtubei
+      summary: POST /youtubei/v1/log_event
+      operationId: post_youtubei_v1_log_event
+      parameters:
+        - name: alt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/YoutubeiPostRequest"
+      responses:
+        "200":
+          description: Success
+  /pagead/id:
+    get:
+      tags:
+        - pagead
+      summary: GET /pagead/id
+      operationId: get_pagead_id
+      responses:
+        "200":
+          description: Success
+  /youtubei/v1/player:
+    post:
+      tags:
+        - youtubei
+      summary: POST /youtubei/v1/player
+      operationId: post_youtubei_v1_player
+      parameters:
+        - name: prettyPrint
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/YoutubeiPostRequest"
+      responses:
+        "200":
+          description: Success
+  /youtubei/v1/account/{id}:
+    post:
+      tags:
+        - youtubei
+      summary: POST /youtubei/v1/account/{id}
+      operationId: post_youtubei_v1_account_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: get_setting_values
+        - name: prettyPrint
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/YoutubeiPostRequest"
+      responses:
+        "200":
+          description: Success
+  /youtubei/v1/next:
+    post:
+      tags:
+        - youtubei
+      summary: POST /youtubei/v1/next
+      operationId: post_youtubei_v1_next
+      parameters:
+        - name: prettyPrint
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/YoutubeiPostRequest"
+      responses:
+        "200":
+          description: Success
+  /$rpc/google.internal.waa.v1.Waa/GenerateIT:
+    post:
+      tags:
+        - $rpc
+      summary: POST /$rpc/google.internal.waa.v1.Waa/GenerateIT
+      operationId: post__rpc_google_internal_waa_v1_Waa_GenerateIT
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/rpcPostRequest"
+      responses:
+        "200":
+          description: Success
+  /api/v1/account/user/widget/settings:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/account/user/widget/settings
+      operationId: get_api_v1_account_user_widget_settings
+      parameters:
+        - name: id
+          in: query
+          required: false
+          schema:
+            type: string
+          example: art-of-time-online.myshopify.com
+      responses:
+        "200":
+          description: Success
+  /api/stats/atr:
+    post:
+      tags:
+        - api
+      summary: POST /api/stats/atr
+      operationId: post_api_stats_atr
+      parameters:
+        - name: ns
+          in: query
+          required: false
+          schema:
+            type: string
+          example: yt
+        - name: el
+          in: query
+          required: false
+          schema:
+            type: string
+          example: embedded
+        - name: cpn
+          in: query
+          required: false
+          schema:
+            type: string
+          example: -FLNy_SbzMzftL4J
+        - name: ver
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "2"
+        - name: cmt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1.454"
+        - name: fmt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "134"
+        - name: fs
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "0"
+        - name: rt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "4.848"
+        - name: euri
+          in: query
+          required: false
+          schema:
+            type: string
+          example: https://artoftimeindia.com/
+        - name: lact
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "5283"
+        - name: cl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "862490357"
+        - name: mos
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: volume
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "100"
+        - name: cbr
+          in: query
+          required: false
+          schema:
+            type: string
+          example: Chrome
+        - name: cbrver
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 144.0.0.0
+        - name: c
+          in: query
+          required: false
+          schema:
+            type: string
+          example: WEB_EMBEDDED_PLAYER
+        - name: cver
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 1.20260128.05.00
+        - name: cplayer
+          in: query
+          required: false
+          schema:
+            type: string
+          example: UNIPLAYER
+        - name: cos
+          in: query
+          required: false
+          schema:
+            type: string
+          example: Windows
+        - name: cosver
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10.0"
+        - name: cplatform
+          in: query
+          required: false
+          schema:
+            type: string
+          example: DESKTOP
+        - name: autoplay
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: epm
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: splay
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: hl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en_GB
+        - name: cr
+          in: query
+          required: false
+          schema:
+            type: string
+          example: IN
+        - name: uga
+          in: query
+          required: false
+          schema:
+            type: string
+          example: m22
+        - name: len
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "42"
+        - name: fexp
+          in: query
+          required: false
+          schema:
+            type: string
+          example: v1,24004644,494890,26510701,53408,34656,106030,18644,117689,9252,3479,13030,23206,15179,20226,64533,764,9720,5385,25059,4174,25717,3966,764,1257,490,11769,4935,254,1734,563,19140,137,4434,1628,3609,5801,198,1780,8456,5728,1903,9404,23826,9500,1840,799,6,7283,1920,485,2112,512,4158,4406,2438,1070,4484,62,1226,1978,1306,1664,217,9590,2884,3349,1683,3677,1566,446,5,49,1685,3607,1403,2282,41,196,542,10780,156
+        - name: afmt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "251"
+        - name: muted
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: docid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: kDhFcYtcZeg
+        - name: ei
+          in: query
+          required: false
+          schema:
+            type: string
+          example: agp8affhOveEmNMPvKz9iAg
+        - name: plid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: AAZJkPX3V4qIKGoh
+        - name: vm
+          in: query
+          required: false
+          schema:
+            type: string
+          example: CAEQABgEOjJBSHFpSlRKUVNtMXZYc1JhdnEzdDBnbWdVcWkwMkZIRVV5OHZKd3BkZ3ZoX3RWUllYUWJsQUx6bG9uakZWMm5FRkp6TzlqNlpFMXdKVDRXVGxSRkxXQ2l6anc1eHBSc2VGSUNmYnpIR2FxNjN1OWlZNUZnRG15akNwS250WVlDV24xLUV6cUNScUNXb3d1cjBvd205S204S2VfMjJVZ0Zk
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: Success
+  /checksiteconfig:
+    post:
+      tags:
+        - checksiteconfig
+      summary: POST /checksiteconfig
+      operationId: post_checksiteconfig
+      parameters:
+        - name: v
+          in: query
+          required: false
+          schema:
+            type: string
+          example: 2c63fabe8365479a688dd8d5a6b1263c01f7c731
+        - name: host
+          in: query
+          required: false
+          schema:
+            type: string
+          example: artoftimeindia.com
+        - name: sitekey
+          in: query
+          required: false
+          schema:
+            type: string
+          example: f06e6c50-85a8-45c8-87d0-21a2b65856fe
+        - name: sc
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: swa
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: spst
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+      responses:
+        "200":
+          description: Success
+  /getcaptcha/{id}:
+    post:
+      tags:
+        - getcaptcha
+      summary: POST /getcaptcha/{id}
+      operationId: post_getcaptcha_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: f06e6c50-85a8-45c8-87d0-21a2b65856fe
+      requestBody:
+        required: true
+        content:
+          application/octet-stream:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: Success
+  /products/baignoire-watch-small-model-quartz-movement-wjba0031.json:
+    get:
+      tags:
+        - products
+      summary: GET /products/baignoire-watch-small-model-quartz-movement-wjba0031.json
+      operationId: get_products_baignoire_watch_small_model_quartz_movement_wjba0031_json
+      responses:
+        "200":
+          description: Success
+  /products/big-pilot-s-watch-perpetual-calendar-top-gun-lake-tahoe-iw503008.json:
+    get:
+      tags:
+        - products
+      summary: GET /products/big-pilot-s-watch-perpetual-calendar-top-gun-lake-tahoe-iw503008.json
+      operationId: get_products_big_pilot_s_watch_perpetual_calendar_top_gun_lake_tahoe_iw503008_json
+      responses:
+        "200":
+          description: Success
+  /api/v1/account/user/subscribe/widget:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/account/user/subscribe/widget
+      operationId: post_api_v1_account_user_subscribe_widget
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: Success
+  /v1/events:
+    post:
+      tags:
+        - v1
+      summary: POST /v1/events
+      operationId: post_v1_events
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+      responses:
+        "200":
+          description: Success
+components:
+  schemas:
+    YoutubeiPostRequest:
+      type: object
+      properties:
+        context:
+          type: object
+          properties:
+            client:
+              type: object
+              properties:
+                hl:
+                  type: string
+                gl:
+                  type: string
+                clientName:
+                  type: integer
+                clientVersion:
+                  type: string
+                configInfo:
+                  type: object
+                  properties:
+                    appInstallData:
+                      type: string
+                  required:
+                    - appInstallData
+                userAgent:
+                  type: string
+                connectionType:
+                  type: string
+                browserName:
+                  type: string
+                browserVersion:
+                  type: string
+                osName:
+                  type: string
+                osVersion:
+                  type: string
+                platform:
+                  type: string
+              required:
+                - hl
+                - gl
+                - clientName
+                - clientVersion
+                - configInfo
+                - userAgent
+                - connectionType
+                - browserName
+                - browserVersion
+                - osName
+                - osVersion
+                - platform
+            thirdParty:
+              type: object
+              properties:
+                embedUrl:
+                  type: string
+              required:
+                - embedUrl
+          required:
+            - client
+            - thirdParty
+        events:
+          type: array
+          items:
+            type: object
+            properties:
+              eventTimeMs:
+                type: integer
+              html5PlayerHealthEvent:
+                type: object
+                properties:
+                  started:
+                    type: boolean
+                  stateAtSend:
+                    type: string
+                  joinLatencySecs:
+                    type: number
+                  jsErrorCount:
+                    type: integer
+                  playTimeSecs:
+                    type: number
+                  rebufferTimeSecs:
+                    type: number
+                  seekCount:
+                    type: integer
+                  networkErrorCount:
+                    type: integer
+                  nonNetworkErrorCount:
+                    type: integer
+                  playerCanaryType:
+                    type: string
+                  playerCanaryStage:
+                    type: string
+                  isAd:
+                    type: boolean
+                  liveMode:
+                    type: string
+                  hasDrm:
+                    type: boolean
+                  isGapless:
+                    type: boolean
+                  isServerStitchedDai:
+                    type: boolean
+                  encounteredSabrFallback:
+                    type: boolean
+                  isSabr:
+                    type: boolean
+                required:
+                  - started
+                  - stateAtSend
+                  - joinLatencySecs
+                  - jsErrorCount
+                  - playTimeSecs
+                  - rebufferTimeSecs
+                  - seekCount
+                  - networkErrorCount
+                  - nonNetworkErrorCount
+                  - playerCanaryType
+                  - playerCanaryStage
+                  - isAd
+                  - liveMode
+                  - hasDrm
+                  - isGapless
+                  - isServerStitchedDai
+                  - encounteredSabrFallback
+                  - isSabr
+              context:
+                type: object
+                properties:
+                  lastActivityMs:
+                    type: string
+                required:
+                  - lastActivityMs
+            required:
+              - eventTimeMs
+              - html5PlayerHealthEvent
+              - context
+        serializedClientEventId:
+          type: object
+          properties:
+            serializedEventId:
+              type: string
+            clientCounter:
+              type: string
+          required:
+            - serializedEventId
+            - clientCounter
+      required:
+        - context
+        - events
+        - serializedClientEventId
+    rpcPostRequest:
+      type: array
+      items:
+        type: string
