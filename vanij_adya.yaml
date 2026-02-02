@@ -1,0 +1,1685 @@
+openapi: 3.0.3
+info:
+  title: Vanij Adya API
+  version: 1.0.0
+servers:
+  - url: https://vanij.adya.ai
+tags:
+  - name: _
+  - name: api
+  - name: collect
+  - name: v3
+paths:
+  /api/v1/vanij/gateway/core/secure_api:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/core/secure_api
+      operationId: post_api_v1_vanij_gateway_core_secure_api
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  Data: 9b0pOedRPX1Ow8MlyRTp6JKSAO7txKzqpnE5HlDjK9QqBmHVVVNsw/BtjifOStrdgnSRpuOs9l9SaCRyZMe8QYm78icWaTCDqi2n1NJ5RH51VmevXWecqLLKw2RU7RJvWAHZo4O17ckcH5lT83C9ZYfGsXOm2V4ebQ7agSd11g+nMGSKGZNC/SPuyNEC6hiK3IwODn/rBUDIpDB3oruxiO1AaTuj1iW3XultmwobnTBjIZKffsHRpyjkPNi9i5lIWuv9pMflkum4Vl1O2dBH/FMUcV9bYM1+7AYwHGHgxUOiu4dUcuBE06xEQS9xX8dpVHeJrYJ3FrKBFRGlbt3xMWxcMyDdBkKqrAnyqQOTOQWsjIhSBn4C31dZuA6llCNoK9N3kCFp5Cp2zPiii60f0t7wYz57mNxnPviwASu7DWEfc2ATpcO9JYolCgNiQrWbg7tvhcmfrCPHZXZdDlEe3DM63nzcV0iTkpkBqGtz+nbBpXNX3SPORIl3Kw+UtXBr8Sy7VkNPr8vY+3wCukP9zDxFOEeC8DzoGqyrpfLieXKAZONsNhS+qB6DORyAUMMKQL9g1Mim1CF7rZI6kIw0lPuNvrORbXpJ7eYQrf6cVh5wBje4h/FLcZUKFHyNi9umyd976CKhoYw7hKpZ1Sf+y2u8ZfY5F0A/+BltTgRr4w+6NFn3o1FV3cqRD4V7ndA/lxBntLZOZojFHpkUx5AXzEAz4KoZ5QIKt1HFjGBfmeBMCvt82n3rQiJkwnSviYlMJGHEb6A8YhfvRVtx8ZHRhN+j/neSMRGagPAS1b70AxrPxrujwbOqKs64jyet5nsgrsMclMXOJ1kArakRuJBRC813fD+0sVzssbuGsxyKqguVPwTlYBj8lwogJrzsBEvNZrZ5dQZaahXoDTVrJzRcCzkrFIMe7mcTdj2VwR8XpthzMLwcgid6Yc3B62/oQ1rrGWhiFAob1BculDhv0vidFy+C7W2eOKwYamviXGMACP5Y0/0XfJB03zbYLt2sYSHpJAI0fvVXlAF9g8gJcymF3gi832NitRxANZhPopDe6UHBNxkIeDoI2yw3LdMSSupfmwFRnYS0miKlMOfN/fV3GAFqkwmSSIm8UQZDGcudiWyZSGsTmEm/7x77VaTScQ9M/fP5P5I8aK023lbXX21RvrLELhEawOmiTEjoKO1MHvz/5/M0ZeDFz9toWxvXcSg44DZyS0bPYYkS6uORC+4Dt3klZ0lrQi3PLXCiWYPYU41piT2DNMTCcqhaAoQuI0z6
+      responses:
+        "200":
+          description: Success
+  /collect:
+    post:
+      tags:
+        - collect
+      summary: POST /collect
+      operationId: post_collect
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value: "[Binary/Compressed Data Removed]"
+      responses:
+        "200":
+          description: Success
+  /v3/signin/_/{id}/data/batchexecute:
+    post:
+      tags:
+        - v3
+      summary: POST /v3/signin/_/{id}/data/batchexecute
+      operationId: post_v3_signin___id_data_batchexecute
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: AccountsSignInUi
+        - name: rpcids
+          in: query
+          required: false
+          schema:
+            type: string
+          example: umJEY
+        - name: source-path
+          in: query
+          required: false
+          schema:
+            type: string
+          example: /v3/signin/accountchooser
+        - name: f.sid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "-8531079869359608834"
+        - name: bl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: boq_identityfrontendauthuiserver_20260127.05_p0
+        - name: hl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en-GB
+        - name: _reqid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "26304"
+        - name: rt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: c
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value:
+                  f.req: "%5B%5B%5B%22umJEY%22%2C%22%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%\
+                    2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%22youtube%3A3\
+                    05%5C%22%2C%5C%22youtube%5C%22%2C1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnul\
+                    l%2Cnull%2C%5C%22111870875940986273683%5C%22%2Cnull%2Cnull%2C%5B%5C%22S1277576890%3A176999689630847\
+                    2%5C%22%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2C0%2C1%2C%5C%22%5C%22%2Cnull%2Cnul\
+                    l%2C2%2C1%2C2%5D%2C%5B%5B%5C%22identity-signin-account-chooser%5C%22%2C%5C%22!s7ClsOjNAAZeabWMfmlC6\
+                    Dqg19Cfkdo7ADQBEArZ1K7LdKr5CYusL2VHLssTdxiqUHroPYz0OyfTSuMeMTPGzX48n4d6kIrWrpEIHA6pAgAAARVSAAAA_2gB\
+                    B34ASfTPaNJ_eGdxSAIHcQff9bcMR9m_eVf_dme7rdMUNdGn_ZI1EVTfD_M9Ld12NO7XQ0xRZvSlgfLjUEf9f_fKZRpbzK78ZvC\
+                    7i-2ZBGjNZJ8wHNafh8CRsldRLSKvhjm7ZfxQBSuCLc5Rt1hLxeURy8CvB-E2wi0XFf06Ha4LA7n6aUrO5PeIh-120YmnAQPg_P\
+                    XEAv5D9kza5VCFLXAOdF1eRGEELFZ9cFi3PhpIJEeLJYtnOJGq_vU1APNbUsbv5ysAQfDZ8IQ5UAbjYvMG7U0W-1t-rjoG3NCa6\
+                    FOfoAM717K16sJe5DtidOzkYdV0RtqwJ9Mi1_5WXav1ICVq9Rc6MyePKY6pOWkpXEWsAr8dMdDWHyMFc44BRrPzrfc_0qiJAYGq\
+                    vNxKHmsx2px1Pucql_gcMod2y6eb-JANYWmaA1JxUw5hVFN-jz85jvftJ8T87ZuxfyAbXJKim1SYkdOXl4-JsKLJO5JszLZBgd6\
+                    1MvMZDTeNaAGj_QmoHrxX3inKSBrzD8pM3wq1f2efxzXAKwGl1Bc5bzvgqEGMW9xnn2dqVOPvpGdavNYVzOvNn6z2Oqkk8FL9B-\
+                    pBawnOYbbhFYIxEaxmG0BJjZLX0bpoHfOV_Gjx_mFREX2fufSHJA3IGU0eUMg8YuF5HSbYkzywNxM-9iSgNvTyBclAOkR-tMeFf\
+                    lAdHGqDgfr380XZFjTnDFeAgOpvShvTJynhl-snturgqzATzYiT4aKsc0zsNdva3uWCX-Af8Kcwp5M4CIJ8o0hUmEX6pvdwBShE\
+                    _A4TvWbNEKEUIh6PDJh1ixhEwJdWeNzKndFVXtg3zOKQFMyHKeF_leM2AuYwbxyn8nrjU4gQzRFkJazOp5e_5d6bOA0pgWMHobj\
+                    eoHTk-jwDc90EGkWemszu96niP2W9qf_BB6DjHL1PxyF8GR5-GNR1UVT7yZpyk--gPM9jJsHoGwJcNQEzBHO1DjTq50dx2VUpY0\
+                    z2E7DU-V7aXDSkFyHrcOKEKD80P7086Zf026enIONVQHRleCdPJ8dGIEUIO5RcmBUhuabf0AdR_d5DFC-1OO5gZgchMOINeEXdB\
+                    1IfjWSVFBEYyuFtEvrBYFJMLhh-Lr-TA4OewV-Skj7Ble9VWNdR1B3mPIEvIkhwk8Wva4XKMf2fCm83dgQMEmNj09J8JtxcXYdv\
+                    449q7bxw0UwSrh2CxsCBmR4_IrJphURW7Dtk00KG2BlcQGw_8JV6A4JvotLY_KZ94dD2XBgUMhb1kw-zkaJABiL9Qapv-tFY5iE\
+                    obx9QI7ngYo7Re9Hwyy2Wj-dMlfz33AFsGD5SYAoJQLXTjaWZOgFWDmIX28sp5UZLGSNfft4UDZTI_xU0znjkyVzdAhRazBDCbv\
+                    mqKBH5pU0AJCXVAqdipfhq8LAdGtEkIrSSPMgcqn7pWofWWNdKAM7gP6k64pXstwYdxebrPdPwr3Blm0i5TOLAGRTA2yXa-7_wj\
+                    tC48aNdEo6V9DiiiWNaknQdBG5ZcNxygZs76MS8Q0lui_Ez4UfeOTEaC79tOP-NJsO7hrGLJcAcHJH74A1uoQEb7R3o6-1b__9Q\
+                    -JrP73dlLyAspsvyeoPefmHFm84%5C%22%5D%5D%2C%5B%5Bnull%2C%5C%22lso%5C%22%2Cnull%2Cnull%2C%5C%22https%\
+                    3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt\
+                    53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvIN\
+                    V22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8W\
+                    MlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XX\
+                    ITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5sc\
+                    vy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthF\
+                    low%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r\
+                    9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2Cnull%2\
+                    Cnull%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%2C%\
+                    5Bnull%2Cnull%2C%5C%22S1277576890%3A1769996896308472%5C%22%2Cnull%2C%5C%22https%3A%2F%2Faccounts.go\
+                    ogle.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJi\
+                    ttsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4\
+                    qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4G\
+                    R4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9w\
+                    RIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1Tvo\
+                    iK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576\
+                    890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleuse\
+                    rcontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2C%5C%22lso%5C%22%2C%5B%5B%\
+                    5C%22access_type%5C%22%2C%5C%22offline%5C%22%5D%2C%5B%5C%22client_id%5C%22%2C%5C%22887275079222-c8e\
+                    o4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%2C%5B%5C%22redirect_uri%5C%22%2C%\
+                    5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%\
+                    2Fcallback%5C%22%5D%2C%5B%5C%22response_type%5C%22%2C%5C%22code%5C%22%5D%2C%5B%5C%22scope%5C%22%2C%\
+                    5C%22openid%20email%20profile%5C%22%5D%2C%5B%5C%22state%5C%22%2C%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBzO\
+                    i8vdmFuaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ9\
+                    %5C%22%5D%2C%5B%5C%22dsh%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%5D%2C%5B%5C%22o2v%5C%22\
+                    %2C%5C%221%5C%22%5D%2C%5B%5C%22service%5C%22%2C%5C%22lso%5C%22%5D%2C%5B%5C%22flowName%5C%22%2C%5C%2\
+                    2GeneralOAuthFlow%5C%22%5D%2C%5B%5C%22opparams%5C%22%2C%5C%22%253F%5C%22%5D%2C%5B%5C%22continue%5C%\
+                    22%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part\
+                    %3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYc\
+                    azlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovT\
+                    Kisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJ\
+                    xkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJu\
+                    lc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowNam\
+                    e%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9n\
+                    bj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%\
+                    23%5C%22%5D%2C%5B%5C%22app_domain%5C%22%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%5C%22%5D%5D%2Cnull%\
+                    2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2\
+                    Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%221%5C%22%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull\
+                    %2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5B%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.google\
+                    usercontent.com%5C%22%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C\
+                    null%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1\
+                    %2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%2Cnull%2Cnull%2Cnull%2C%5Bn\
+                    ull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%221%5C%22%2C%5B%5B%5C%22access_type%5C%22%2C%5B%5C%22offli\
+                    ne%5C%22%5D%5D%2C%5B%5C%22client_id%5C%22%2C%5B%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.\
+                    apps.googleusercontent.com%5C%22%5D%5D%2C%5B%5C%22redirect_uri%5C%22%2C%5B%5C%22https%3A%2F%2Fvanij\
+                    prod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%5D%2\
+                    C%5B%5C%22response_type%5C%22%2C%5B%5C%22code%5C%22%5D%5D%2C%5B%5C%22scope%5C%22%2C%5B%5C%22openid%\
+                    20email%20profile%5C%22%5D%5D%2C%5B%5C%22state%5C%22%2C%5B%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBzOi8vdmF\
+                    uaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ9%5C%22\
+                    %5D%5D%2C%5B%5C%22dsh%5C%22%2C%5B%5C%22S1277576890%3A1769996896308472%5C%22%5D%5D%2C%5B%5C%22o2v%5C\
+                    %22%2C%5B%5C%221%5C%22%5D%5D%2C%5B%5C%22service%5C%22%2C%5B%5C%22lso%5C%22%5D%5D%2C%5B%5C%22flowNam\
+                    e%5C%22%2C%5B%5C%22GeneralOAuthFlow%5C%22%5D%5D%2C%5B%5C%22opparams%5C%22%2C%5B%5C%22%253F%5C%22%5D\
+                    %5D%2C%5B%5C%22continue%5C%22%2C%5B%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconse\
+                    nt%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dw\
+                    NTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaM\
+                    cmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrl\
+                    lnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNz\
+                    OHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPge\
+                    xRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client\
+                    _id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252\
+                    Fsignin%252Foauth%252Fconsent%23%5C%22%5D%5D%2C%5B%5C%22app_domain%5C%22%2C%5B%5C%22https%3A%2F%2Fv\
+                    anijprod.adya.ai%5C%22%5D%5D%5D%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsen\
+                    t%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwN\
+                    TwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMc\
+                    mM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrll\
+                    nf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzO\
+                    HPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgex\
+                    RRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_\
+                    id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252F\
+                    signin%252Foauth%252Fconsent%23%5C%22%5D%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps\
+                    .googleusercontent.com%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%2C%5C%22openid%20email%20\
+                    profile%5C%22%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5C%22code%5C%22%2C%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBz\
+                    Oi8vdmFuaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ\
+                    9%5C%22%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Faut\
+                    h%2Fgoogle%2Fcallback%5C%22%5D%5D%2C%5C%22BEK2M5FHWUOcOue6ARjrKalZm3huE9YNDWYNInV%2BaRKv%2Fn%2FWtFi\
+                    UpqQLZ%2FJ3drBFtzwJkwkUhaGDNbK1cu1wriA%3D%5C%22%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D"
+                  at: AFyvf4NqztR8kEURPuHw8pUPBOBX%3A1769996896484
+                  "": ""
+      responses:
+        "200":
+          description: Success
+  /v3/signin/_/{id}/browserinfo:
+    post:
+      tags:
+        - v3
+      summary: POST /v3/signin/_/{id}/browserinfo
+      operationId: post_v3_signin___id_browserinfo
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: AccountsSignInUi
+        - name: f.sid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "-8531079869359608834"
+        - name: bl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: boq_identityfrontendauthuiserver_20260127.05_p0
+        - name: hl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en-GB
+        - name: _reqid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "126304"
+        - name: rt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: j
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value:
+                  f.req: "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C964%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C2%2C2%5D%5D"
+                  at: AFyvf4NqztR8kEURPuHw8pUPBOBX%3A1769996896484
+                  "": ""
+      responses:
+        "200":
+          description: Success
+  /_/OAuthUi/browserinfo:
+    post:
+      tags:
+        - _
+      summary: POST /_/OAuthUi/browserinfo
+      operationId: post___OAuthUi_browserinfo
+      parameters:
+        - name: f.sid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "-3311989481175579448"
+        - name: bl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: boq_identity-oauth-http_20260127.05_p0
+        - name: hl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en-GB
+        - name: authuser
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "0"
+        - name: soc-app
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: soc-platform
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: soc-device
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: _reqid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "26312"
+        - name: rt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: j
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value:
+                  f.req: "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C964%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C0%2C0%5D%5D"
+                  at: AHRwiMAMi2DTK91zl0cY1KMMJC75%3A1769996902032
+                  "": ""
+      responses:
+        "200":
+          description: Success
+  /_/OAuthUi/data/batchexecute:
+    post:
+      tags:
+        - _
+      summary: POST /_/OAuthUi/data/batchexecute
+      operationId: post___OAuthUi_data_batchexecute
+      parameters:
+        - name: rpcids
+          in: query
+          required: false
+          schema:
+            type: string
+          example: xyhAld
+        - name: source-path
+          in: query
+          required: false
+          schema:
+            type: string
+          example: /signin/oauth/id
+        - name: f.sid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "-3311989481175579448"
+        - name: bl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: boq_identity-oauth-http_20260127.05_p0
+        - name: hl
+          in: query
+          required: false
+          schema:
+            type: string
+          example: en-GB
+        - name: authuser
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "0"
+        - name: soc-app
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: soc-platform
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: soc-device
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: _reqid
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "226312"
+        - name: rt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: c
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: string
+            examples:
+              fromHar:
+                value:
+                  f.req: "%5B%5B%5B%22xyhAld%22%2C%22%5B%5Bnull%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercont\
+                    ent.com%5C%22%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C%5C%22h\
+                    ttps%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D%2C%5C%22!ChRU\
+                    UlZDa2F6dW9DaWR1MzA1S0hMbBIfbzNqSmxtUjlfWlFZOEhuU1JuY2dubXFlMXBYQXdSaw%E2%88%99AKphhQwAAAAAaYFT5ZNw\
+                    NZ_JnkPXA0PiS_r5-Ox68Fd3%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F\
+                    %2Fvanijprod.adya.ai%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%2C0%2Cnull%2Cnull%2Cnull%2C\
+                    null%2Cnull%2Cnull%2Cnull%2Cnull%2C14%2Cnull%2C1%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5Bnull%2C204%2C\
+                    0%2C1%5D%2C%5Bnull%2C202%2C0%2C1%5D%2C%5Bnull%2C9315%2C0%2C1%5D%5D%2Cnull%2C1%2Cnull%2C1%2C1%2Cnull\
+                    %2Cnull%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5B%5B204%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2\
+                    C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C1%5D%2C%5B202%2C0%2Cnull%\
+                    2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email\
+                    %5C%22%2C1%5D%2C%5B9315%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22openid%5C%22%2C1%5D%5\
+                    D%2C1%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5\
+                    C%22%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D\
+                    %5D%22%2Cnull%2C%22generic%22%5D%5D%5D"
+                  at: AHRwiMAMi2DTK91zl0cY1KMMJC75%3A1769996902032
+                  "": ""
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/user_ip_info/get-country:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/user_ip_info/get-country
+      operationId: get_api_v1_vanij_gateway_user_ip_info_get_country
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/{id2}/get/{id3}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/{id2}/get/{id3}
+      operationId: get_api_v1_vanij_gateway_id_id2_get_id3
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: platform_assistance
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: copilot_workspace
+        - name: id3
+          in: path
+          required: true
+          schema:
+            type: string
+          example: 9854c3dc-cd06-40e9-a16c-a265cc8d6487
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/user/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/user/{id}
+      operationId: get_api_v1_vanij_gateway_backend_user_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: get_wallet_details
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/notification/{id}/count:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/notification/{id}/count
+      operationId: get_api_v1_vanij_gateway_backend_notification_id_count
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: notification_history
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/user/sessions/create:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/backend/user/sessions/create
+      operationId: post_api_v1_vanij_gateway_backend_user_sessions_create
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  session_id: 3a51c2f5-9881-4f27-902a-906bd322c759
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/notification/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/notification/{id}
+      operationId: get_api_v1_vanij_gateway_backend_notification_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: notification_history
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/dashboard/projects/metrics:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/dashboard/projects/metrics
+      operationId: get_api_v1_vanij_gateway_backend_dashboard_projects_metrics
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/core/{id}:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/core/{id}
+      operationId: post_api_v1_vanij_gateway_core_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: registry_validation
+        - name: feature_code
+          in: query
+          required: false
+          schema:
+            type: string
+          example: MAX_MAN_PROJECTS
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: folder_id
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "500273"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value: {}
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/projects:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/projects
+      operationId: get_api_v1_vanij_gateway_id_projects
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: multi_agent_network
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: gateway_token
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: is_prebuilt
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/user/sessions/update:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/backend/user/sessions/update
+      operationId: post_api_v1_vanij_gateway_backend_user_sessions_update
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  is_logout: false
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/{id2}/list:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/{id2}/list
+      operationId: get_api_v1_vanij_gateway_id_id2_list
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: platform_assistance
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: copilot_workspace
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "12"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/copilot/{id2}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/copilot/{id2}
+      operationId: get_api_v1_vanij_gateway_id_copilot_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: platform_assistance
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: sai_supported_files
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/user:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/user
+      operationId: get_api_v1_vanij_gateway_backend_user
+      parameters:
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: access_module
+          in: query
+          required: false
+          schema:
+            type: string
+          example: FILE_MANAGER
+        - name: except_role
+          in: query
+          required: false
+          schema:
+            type: string
+          example: GUEST_USER
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/dashboard/users_count:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/dashboard/users_count
+      operationId: get_api_v1_vanij_gateway_backend_dashboard_users_count
+      parameters:
+        - name: company_id
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "502682"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/{id}/role:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/{id}/role
+      operationId: get_api_v1_vanij_gateway_backend_id_role
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: module_and_roles
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/space:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/file_manager/space
+      operationId: get_api_v1_vanij_gateway_file_manager_space
+      parameters:
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/ALL_APPS:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/ALL_APPS
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_ALL_APPS
+      parameters:
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "-1"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/AUDIT_CRUD:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/AUDIT_CRUD
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_AUDIT_CRUD
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/audit_trail:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/audit_trail
+      operationId: get_api_v1_vanij_gateway_backend_audit_trail
+      parameters:
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: app_type
+          in: query
+          required: false
+          schema:
+            type: string
+          example: CORE
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/key_vault/list:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/component/key_vault/list
+      operationId: get_api_v1_vanij_gateway_id_component_key_vault_list
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: is_key_vault
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/api_pricing:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/component/api_pricing
+      operationId: get_api_v1_vanij_gateway_id_component_api_pricing
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/key_vault/check_existing:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/component/key_vault/check_existing
+      operationId: get_api_v1_vanij_gateway_id_component_key_vault_check_existing
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: key_name
+          in: query
+          required: false
+          schema:
+            type: string
+          example: c
+        - name: is_key_vault
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/key_vault/create:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/{id}/component/key_vault/create
+      operationId: post_api_v1_vanij_gateway_id_component_key_vault_create
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: is_key_vault
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "true"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  name: cookie
+                  value: |-
+                    authorization
+                    Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjo1MDI2ODIsImVtYWlsIjoienViYWlydWxoYXNhbjIxMEBnbWFpbC5jb20iLCJleHAiOjE3NzAwNjkwNDMsImlkIjo1MDczODMsIm1vYmlsZV9udW1iZXIiOiIiLCJuYW1lIjoienViYWlyIHVsaGFzYW4iLCJyb2xlcyI6eyJuYW1lIjoiUm9vdCIsImNvZGUiOiJST09UIn19.Asw6jxMfL3Xn0Ns-eVClusriHJDTf2W1oc6-E-mwWDU
+                  type: Credential
+                  variable_access_members:
+                    view: []
+                    edit: []
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/dropdown_comp:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/component/dropdown_comp
+      operationId: get_api_v1_vanij_gateway_id_component_dropdown_comp
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: api_key_variable
+          in: query
+          required: false
+          schema:
+            type: string
+          example: cookie
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/all_keys/dropdown:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/component/all_keys/dropdown
+      operationId: get_api_v1_vanij_gateway_id_component_all_keys_dropdown
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/user_ip_info/get-info:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/user_ip_info/get-info
+      operationId: get_api_v1_vanij_gateway_user_ip_info_get_info
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/user/refresh_token:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/backend/user/refresh_token
+      operationId: post_api_v1_vanij_gateway_backend_user_refresh_token
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/component/api_pricing/create:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/{id}/component/api_pricing/create
+      operationId: post_api_v1_vanij_gateway_id_component_api_pricing_create
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: flows_and_components
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  component_key: MCP_CLIENT_AZURE_AI
+                  component_display_name: Azure AI
+                  component_type: MCP_CLIENTS
+                  component_variables_include:
+                    - cookie
+                  api_key_variable: cookie
+                  max_input_token: 3
+                  max_output_token: 4
+                  app_studio_limit_type: null
+                  app_studio_max_input_token: 0
+                  app_studio_max_output_token: 0
+                  app_studio_limit_usd_amount: 0
+                  app_studio_limit_inr_amount: 0
+                  is_component_enabled: true
+                  is_app_studio_enabled: false
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/APP_TYPE:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/APP_TYPE
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_APP_TYPE
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/{id}
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: ISSUE_CATEGORIES
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/PRIORITY:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/PRIORITY
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_PRIORITY
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm/ticket_count:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/igm/ticket_count
+      operationId: get_api_v1_vanij_gateway_id_igm_ticket_count
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/igm
+      operationId: get_api_v1_vanij_gateway_id_igm
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/backend/lookup_code/lookup_type/TICKET_STATUS:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/backend/lookup_code/lookup_type/TICKET_STATUS
+      operationId: get_api_v1_vanij_gateway_backend_lookup_code_lookup_type_TICKET_STATUS
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm/create:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/{id}/igm/create
+      operationId: post_api_v1_vanij_gateway_id_igm_create
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  app_type: SUTRA
+                  issue_category: Troubleshooting Agents/Copilots
+                  subject: api error
+                  description: fix it
+                  priority_options:
+                    p0: true
+                    p1: false
+                    p2: false
+                  images: []
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm/get_ticket/{id2}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/igm/get_ticket/{id2}
+      operationId: get_api_v1_vanij_gateway_id_igm_get_ticket_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: "500673"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm/{id2}/{id3}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/{id}/igm/{id2}/{id3}
+      operationId: get_api_v1_vanij_gateway_id_igm_id2_id3
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: issue_status_dropdown
+        - name: id3
+          in: path
+          required: true
+          schema:
+            type: string
+          example: "500673"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/{id}/igm/reply_comments/{id2}:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/{id}/igm/reply_comments/{id2}
+      operationId: post_api_v1_vanij_gateway_id_igm_reply_comments_id2
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: grievance_manager
+        - name: id2
+          in: path
+          required: true
+          schema:
+            type: string
+          example: "500673"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  description: fix it properly
+                  images_arr: []
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/space/check_exist:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/file_manager/space/check_exist
+      operationId: get_api_v1_vanij_gateway_file_manager_space_check_exist
+      parameters:
+        - name: folder_name
+          in: query
+          required: false
+          schema:
+            type: string
+          example: s
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/space/create:
+    post:
+      tags:
+        - api
+      summary: POST /api/v1/vanij/gateway/file_manager/space/create
+      operationId: post_api_v1_vanij_gateway_file_manager_space_create
+      parameters:
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApiPostRequest"
+            examples:
+              fromHar:
+                value:
+                  folder_name: security
+                  folder_icon: Security
+                  folder_access_members:
+                    view: []
+                    edit: []
+                  is_public: false
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/file/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/file_manager/file/{id}
+      operationId: get_api_v1_vanij_gateway_file_manager_file_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: get_restrictions
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/file:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/file_manager/file
+      operationId: get_api_v1_vanij_gateway_file_manager_file
+      parameters:
+        - name: per_page
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "10"
+        - name: folder_id
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "500273"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+        - name: page_no
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "1"
+        - name: file_name
+          in: query
+          required: false
+          schema:
+            type: string
+          example: hello.txt
+      responses:
+        "200":
+          description: Success
+  /api/v1/vanij/gateway/file_manager/space/get/{id}:
+    get:
+      tags:
+        - api
+      summary: GET /api/v1/vanij/gateway/file_manager/space/get/{id}
+      operationId: get_api_v1_vanij_gateway_file_manager_space_get_id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: "500273"
+        - name: is_generic
+          in: query
+          required: false
+          schema:
+            type: string
+          example: "false"
+      responses:
+        "200":
+          description: Success
+components:
+  schemas:
+    ApiPostRequest:
+      type: object
+      properties:
+        Data:
+          type: string
+      required:
+        - Data

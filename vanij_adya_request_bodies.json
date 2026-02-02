@@ -1,0 +1,2270 @@
+[
+  {
+    "id": "1",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/core/secure_api",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769996771228,
+    "requestBody": {
+      "Data": "9b0pOedRPX1Ow8MlyRTp6JKSAO7txKzqpnE5HlDjK9QqBmHVVVNsw/BtjifOStrdgnSRpuOs9l9SaCRyZMe8QYm78icWaTCDqi2n1NJ5RH51VmevXWecqLLKw2RU7RJvWAHZo4O17ckcH5lT83C9ZYfGsXOm2V4ebQ7agSd11g+nMGSKGZNC/SPuyNEC6hiK3IwODn/rBUDIpDB3oruxiO1AaTuj1iW3XultmwobnTBjIZKffsHRpyjkPNi9i5lIWuv9pMflkum4Vl1O2dBH/FMUcV9bYM1+7AYwHGHgxUOiu4dUcuBE06xEQS9xX8dpVHeJrYJ3FrKBFRGlbt3xMWxcMyDdBkKqrAnyqQOTOQWsjIhSBn4C31dZuA6llCNoK9N3kCFp5Cp2zPiii60f0t7wYz57mNxnPviwASu7DWEfc2ATpcO9JYolCgNiQrWbg7tvhcmfrCPHZXZdDlEe3DM63nzcV0iTkpkBqGtz+nbBpXNX3SPORIl3Kw+UtXBr8Sy7VkNPr8vY+3wCukP9zDxFOEeC8DzoGqyrpfLieXKAZONsNhS+qB6DORyAUMMKQL9g1Mim1CF7rZI6kIw0lPuNvrORbXpJ7eYQrf6cVh5wBje4h/FLcZUKFHyNi9umyd976CKhoYw7hKpZ1Sf+y2u8ZfY5F0A/+BltTgRr4w+6NFn3o1FV3cqRD4V7ndA/lxBntLZOZojFHpkUx5AXzEAz4KoZ5QIKt1HFjGBfmeBMCvt82n3rQiJkwnSviYlMJGHEb6A8YhfvRVtx8ZHRhN+j/neSMRGagPAS1b70AxrPxrujwbOqKs64jyet5nsgrsMclMXOJ1kArakRuJBRC813fD+0sVzssbuGsxyKqguVPwTlYBj8lwogJrzsBEvNZrZ5dQZaahXoDTVrJzRcCzkrFIMe7mcTdj2VwR8XpthzMLwcgid6Yc3B62/oQ1rrGWhiFAob1BculDhv0vidFy+C7W2eOKwYamviXGMACP5Y0/0XfJB03zbYLt2sYSHpJAI0fvVXlAF9g8gJcymF3gi832NitRxANZhPopDe6UHBNxkIeDoI2yw3LdMSSupfmwFRnYS0miKlMOfN/fV3GAFqkwmSSIm8UQZDGcudiWyZSGsTmEm/7x77VaTScQ9M/fP5P5I8aK023lbXX21RvrLELhEawOmiTEjoKO1MHvz/5/M0ZeDFz9toWxvXcSg44DZyS0bPYYkS6uORC+4Dt3klZ0lrQi3PLXCiWYPYU41piT2DNMTCcqhaAoQuI0z6"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "684"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=UTF-8"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:46:07 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "url": "https://k.clarity.ms/collect",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769996771351,
+    "requestBody": "[Binary/Compressed Data Removed]",
+    "status": 204,
+    "statusText": "No Content",
+    "responseHeaders": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "value": "true"
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "value": "https://vanij.adya.ai"
+      },
+      {
+        "name": "Connection",
+        "value": "keep-alive"
+      },
+      {
+        "name": "Date",
+        "value": "Mon, 02 Feb 2026 01:46:07 GMT"
+      },
+      {
+        "name": "Request-Context",
+        "value": "appId=cid-v1:e97341f6-8fff-46a6-9229-fbbfe0892c78"
+      },
+      {
+        "name": "Server",
+        "value": "nginx"
+      },
+      {
+        "name": "Vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "url": "https://accounts.google.com/ExpireGapsSession",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769996903078,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-length",
+        "value": "0"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "script-src 'report-sample' 'nonce-Pf1lt1xl1rrYJTF9m8OdMQ' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport;worker-src 'self'"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport/allowlist"
+      },
+      {
+        "name": "content-security-policy-report-only",
+        "value": "script-src 'unsafe-inline' 'unsafe-eval' blob: data:;report-uri /_/IdentityRotateCookiesDeviceBoundHttp/cspreport/fine-allowlist"
+      },
+      {
+        "name": "content-type",
+        "value": "text/html; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:48:18 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "reporting-endpoints",
+        "value": "default=\"/_/IdentityRotateCookiesDeviceBoundHttp/web-reports?context=eJzj0tDikmJw0ZBiKJK4wtoCxN-Kfdk4SnzZ1I4GsFkAsRdTIJsfEAvxcDxqaTjDJnDg6cwpzEomSfmF8ZkpqXklmSWVusn5-dmZqbpF-SWJJZn5ebppRfl5Jal5KfFGBkZmBoZGpnoGJvEFBgAWciK_\""
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "url": "https://accounts.google.com/v3/signin/_/AccountsSignInUi/data/batchexecute?rpcids=umJEY&source-path=%2Fv3%2Fsignin%2Faccountchooser&f.sid=-8531079869359608834&bl=boq_identityfrontendauthuiserver_20260127.05_p0&hl=en-GB&_reqid=26304&rt=c",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769996903735,
+    "requestBody": {
+      "f.req": "%5B%5B%5B%22umJEY%22%2C%22%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%22youtube%3A305%5C%22%2C%5C%22youtube%5C%22%2C1%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22111870875940986273683%5C%22%2Cnull%2Cnull%2C%5B%5C%22S1277576890%3A1769996896308472%5C%22%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1%2C0%2C1%2C%5C%22%5C%22%2Cnull%2Cnull%2C2%2C1%2C2%5D%2C%5B%5B%5C%22identity-signin-account-chooser%5C%22%2C%5C%22!s7ClsOjNAAZeabWMfmlC6Dqg19Cfkdo7ADQBEArZ1K7LdKr5CYusL2VHLssTdxiqUHroPYz0OyfTSuMeMTPGzX48n4d6kIrWrpEIHA6pAgAAARVSAAAA_2gBB34ASfTPaNJ_eGdxSAIHcQff9bcMR9m_eVf_dme7rdMUNdGn_ZI1EVTfD_M9Ld12NO7XQ0xRZvSlgfLjUEf9f_fKZRpbzK78ZvC7i-2ZBGjNZJ8wHNafh8CRsldRLSKvhjm7ZfxQBSuCLc5Rt1hLxeURy8CvB-E2wi0XFf06Ha4LA7n6aUrO5PeIh-120YmnAQPg_PXEAv5D9kza5VCFLXAOdF1eRGEELFZ9cFi3PhpIJEeLJYtnOJGq_vU1APNbUsbv5ysAQfDZ8IQ5UAbjYvMG7U0W-1t-rjoG3NCa6FOfoAM717K16sJe5DtidOzkYdV0RtqwJ9Mi1_5WXav1ICVq9Rc6MyePKY6pOWkpXEWsAr8dMdDWHyMFc44BRrPzrfc_0qiJAYGqvNxKHmsx2px1Pucql_gcMod2y6eb-JANYWmaA1JxUw5hVFN-jz85jvftJ8T87ZuxfyAbXJKim1SYkdOXl4-JsKLJO5JszLZBgd61MvMZDTeNaAGj_QmoHrxX3inKSBrzD8pM3wq1f2efxzXAKwGl1Bc5bzvgqEGMW9xnn2dqVOPvpGdavNYVzOvNn6z2Oqkk8FL9B-pBawnOYbbhFYIxEaxmG0BJjZLX0bpoHfOV_Gjx_mFREX2fufSHJA3IGU0eUMg8YuF5HSbYkzywNxM-9iSgNvTyBclAOkR-tMeFflAdHGqDgfr380XZFjTnDFeAgOpvShvTJynhl-snturgqzATzYiT4aKsc0zsNdva3uWCX-Af8Kcwp5M4CIJ8o0hUmEX6pvdwBShE_A4TvWbNEKEUIh6PDJh1ixhEwJdWeNzKndFVXtg3zOKQFMyHKeF_leM2AuYwbxyn8nrjU4gQzRFkJazOp5e_5d6bOA0pgWMHobjeoHTk-jwDc90EGkWemszu96niP2W9qf_BB6DjHL1PxyF8GR5-GNR1UVT7yZpyk--gPM9jJsHoGwJcNQEzBHO1DjTq50dx2VUpY0z2E7DU-V7aXDSkFyHrcOKEKD80P7086Zf026enIONVQHRleCdPJ8dGIEUIO5RcmBUhuabf0AdR_d5DFC-1OO5gZgchMOINeEXdB1IfjWSVFBEYyuFtEvrBYFJMLhh-Lr-TA4OewV-Skj7Ble9VWNdR1B3mPIEvIkhwk8Wva4XKMf2fCm83dgQMEmNj09J8JtxcXYdv449q7bxw0UwSrh2CxsCBmR4_IrJphURW7Dtk00KG2BlcQGw_8JV6A4JvotLY_KZ94dD2XBgUMhb1kw-zkaJABiL9Qapv-tFY5iEobx9QI7ngYo7Re9Hwyy2Wj-dMlfz33AFsGD5SYAoJQLXTjaWZOgFWDmIX28sp5UZLGSNfft4UDZTI_xU0znjkyVzdAhRazBDCbvmqKBH5pU0AJCXVAqdipfhq8LAdGtEkIrSSPMgcqn7pWofWWNdKAM7gP6k64pXstwYdxebrPdPwr3Blm0i5TOLAGRTA2yXa-7_wjtC48aNdEo6V9DiiiWNaknQdBG5ZcNxygZs76MS8Q0lui_Ez4UfeOTEaC79tOP-NJsO7hrGLJcAcHJH74A1uoQEb7R3o6-1b__9Q-JrP73dlLyAspsvyeoPefmHFm84%5C%22%5D%5D%2C%5B%5Bnull%2C%5C%22lso%5C%22%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2Cnull%2Cnull%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%2C%5Bnull%2Cnull%2C%5C%22S1277576890%3A1769996896308472%5C%22%2Cnull%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%2C%5C%22lso%5C%22%2C%5B%5B%5C%22access_type%5C%22%2C%5C%22offline%5C%22%5D%2C%5B%5C%22client_id%5C%22%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%2C%5B%5C%22redirect_uri%5C%22%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%2C%5B%5C%22response_type%5C%22%2C%5C%22code%5C%22%5D%2C%5B%5C%22scope%5C%22%2C%5C%22openid%20email%20profile%5C%22%5D%2C%5B%5C%22state%5C%22%2C%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBzOi8vdmFuaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ9%5C%22%5D%2C%5B%5C%22dsh%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%5D%2C%5B%5C%22o2v%5C%22%2C%5C%221%5C%22%5D%2C%5B%5C%22service%5C%22%2C%5C%22lso%5C%22%5D%2C%5B%5C%22flowName%5C%22%2C%5C%22GeneralOAuthFlow%5C%22%5D%2C%5B%5C%22opparams%5C%22%2C%5C%22%253F%5C%22%5D%2C%5B%5C%22continue%5C%22%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%2C%5B%5C%22app_domain%5C%22%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%5C%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%221%5C%22%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5B%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%2Cnull%2Cnull%2Cnull%2C%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5C%221%5C%22%2C%5B%5B%5C%22access_type%5C%22%2C%5B%5C%22offline%5C%22%5D%5D%2C%5B%5C%22client_id%5C%22%2C%5B%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%5D%5D%2C%5B%5C%22redirect_uri%5C%22%2C%5B%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%5D%2C%5B%5C%22response_type%5C%22%2C%5B%5C%22code%5C%22%5D%5D%2C%5B%5C%22scope%5C%22%2C%5B%5C%22openid%20email%20profile%5C%22%5D%5D%2C%5B%5C%22state%5C%22%2C%5B%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBzOi8vdmFuaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ9%5C%22%5D%5D%2C%5B%5C%22dsh%5C%22%2C%5B%5C%22S1277576890%3A1769996896308472%5C%22%5D%5D%2C%5B%5C%22o2v%5C%22%2C%5B%5C%221%5C%22%5D%5D%2C%5B%5C%22service%5C%22%2C%5B%5C%22lso%5C%22%5D%5D%2C%5B%5C%22flowName%5C%22%2C%5B%5C%22GeneralOAuthFlow%5C%22%5D%5D%2C%5B%5C%22opparams%5C%22%2C%5B%5C%22%253F%5C%22%5D%5D%2C%5B%5C%22continue%5C%22%2C%5B%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%5D%2C%5B%5C%22app_domain%5C%22%2C%5B%5C%22https%3A%2F%2Fvanijprod.adya.ai%5C%22%5D%5D%5D%2C%5C%22https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAN-y1ABKt53sO1_rYnUk9ElcgMJittsdoJAtUV7jqLE7yhPvBAnLVsKObs1dwNTwU7EmqdFh-Ezh1LNfeS0r606nXYcazlWhBqtBBz5kTvINV22pkdUj7OtPePthmI4qJZdSK3eD_7dKE6rxEokidnmg1-J3xiaMcmM6LxvzNUhGv2a-JP4Qin27_YuovTKisqys0QqSM4roX8WMlT58btRLinc8KYOJ4GR4K_kBtk7VVISzKWpReb858Xinis6csrllnf-XS32yHsZx9sYR1ZBiDTQj4h_aJxkINK6vh4OmhpA8XXITp9IXhMqz7vXBk_h9wRIxehnDj_-JFWOjlejYF2HqHz9bZ2frNzOHPMud_JL4TybgjBzfEz_DJIiNraJulc7T2ekU8t55Ts5scvy7BpnTIbBTb-eO1TvoiK-J6ncN3cLBQCyYpwiszD0MsjpPlzPgexRRzfIp5nDJnX2Y7CaWA%26flowName%3DGeneralOAuthFlow%26as%3DS1277576890%253A1769996896308472%26client_id%3D887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23%5C%22%5D%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%2C%5C%22openid%20email%20profile%5C%22%2Cnull%2C%5B%5D%2Cnull%2Cnull%2C%5C%22code%5C%22%2C%5C%22eyJmcm9udGVuZHVybCI6Imh0dHBzOi8vdmFuaWouYWR5YS5haSIsInJlZmVycmFsX2NvZGUiOiIiLCJpc19ldmVudF91cmwiOmZhbHNlLCJldmVudF9yb3V0ZSI6IiJ9%5C%22%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%2Fapi%2Fv1%2Fvanij%2Fgateway%2Fbackend%2Fuser%2Fauth%2Fgoogle%2Fcallback%5C%22%5D%5D%2C%5C%22BEK2M5FHWUOcOue6ARjrKalZm3huE9YNDWYNInV%2BaRKv%2Fn%2FWtFiUpqQLZ%2FJ3drBFtzwJkwkUhaGDNbK1cu1wriA%3D%5C%22%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+      "at": "AFyvf4NqztR8kEURPuHw8pUPBOBX%3A1769996896484",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=\"AccountsSignInUi\""
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:48:19 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "url": "https://accounts.google.com/v3/signin/_/AccountsSignInUi/browserinfo?f.sid=-8531079869359608834&bl=boq_identityfrontendauthuiserver_20260127.05_p0&hl=en-GB&_reqid=126304&rt=j",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769996905344,
+    "requestBody": {
+      "f.req": "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C964%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C2%2C2%5D%5D",
+      "at": "AFyvf4NqztR8kEURPuHw8pUPBOBX%3A1769996896484",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy-report-only",
+        "value": "same-origin; report-to=\"AccountsSignInUi\""
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:48:21 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "report-to",
+        "value": "{\"group\":\"AccountsSignInUi\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi\"}]}"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769996908902,
+    "requestBody": "[Binary/Compressed Data Removed]",
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-credentials",
+        "value": "true"
+      },
+      {
+        "name": "access-control-allow-headers",
+        "value": "X-Playlog-Web"
+      },
+      {
+        "name": "access-control-allow-origin",
+        "value": "https://accounts.google.com"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "private"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-length",
+        "value": "131"
+      },
+      {
+        "name": "content-type",
+        "value": "text/plain; charset=UTF-8"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "cross-origin"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:48:24 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 02 Feb 2026 01:48:24 GMT"
+      },
+      {
+        "name": "server",
+        "value": "Playlog"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "url": "https://accounts.google.com/_/OAuthUi/browserinfo?f.sid=-3311989481175579448&bl=boq_identity-oauth-http_20260127.05_p0&hl=en-GB&authuser=0&soc-app=1&soc-platform=1&soc-device=1&_reqid=26312&rt=j",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769996911793,
+    "requestBody": {
+      "f.req": "%5B9%2C1%2C1%2C%5Bnull%2C768%2C1366%5D%2C%5Bnull%2C599%2C964%5D%2C%5B1%2C1%2Cnull%2C1%5D%2C%5B0%2C0%2C0%5D%5D",
+      "at": "AHRwiMAMi2DTK91zl0cY1KMMJC75%3A1769996902032",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/OAuthUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:48:27 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "url": "https://accounts.google.com/_/OAuthUi/data/batchexecute?rpcids=xyhAld&source-path=%2Fsignin%2Foauth%2Fid&f.sid=-3311989481175579448&bl=boq_identity-oauth-http_20260127.05_p0&hl=en-GB&authuser=0&soc-app=1&soc-platform=1&soc-device=1&_reqid=226312&rt=c",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997038980,
+    "requestBody": {
+      "f.req": "%5B%5B%5B%22xyhAld%22%2C%22%5B%5Bnull%2C%5C%22887275079222-c8eo4rlft9nbj3d9v5lfsiu5qf0r9nie.apps.googleusercontent.com%5C%22%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D%2C%5C%22!ChRUUlZDa2F6dW9DaWR1MzA1S0hMbBIfbzNqSmxtUjlfWlFZOEhuU1JuY2dubXFlMXBYQXdSaw%E2%88%99AKphhQwAAAAAaYFT5ZNwNZ_JnkPXA0PiS_r5-Ox68Fd3%5C%22%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fvanijprod.adya.ai%5C%22%2C%5C%22S1277576890%3A1769996896308472%5C%22%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C14%2Cnull%2C1%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5Bnull%2C204%2C0%2C1%5D%2C%5Bnull%2C202%2C0%2C1%5D%2C%5Bnull%2C9315%2C0%2C1%5D%5D%2Cnull%2C1%2Cnull%2C1%2C1%2Cnull%2Cnull%2Cnull%2C1%2Cnull%2C0%2Cnull%2C%5B%5B%5B204%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C1%5D%2C%5B202%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C1%5D%2C%5B9315%2C0%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5C%22openid%5C%22%2C1%5D%5D%2C1%5D%2Cnull%2C%5B%5D%5D%2C%5B%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%5C%22%2C%5C%22https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%5C%22%2C%5C%22openid%5C%22%5D%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+      "at": "AHRwiMAMi2DTK91zl0cY1KMMJC75%3A1769996902032",
+      "": ""
+    },
+    "status": 200,
+    "statusText": "H3 200",
+    "responseHeaders": [
+      {
+        "name": "accept-ch",
+        "value": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version"
+      },
+      {
+        "name": "alt-svc",
+        "value": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache, no-store, max-age=0, must-revalidate"
+      },
+      {
+        "name": "content-disposition",
+        "value": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin"
+      },
+      {
+        "name": "content-encoding",
+        "value": "gzip"
+      },
+      {
+        "name": "content-security-policy",
+        "value": "require-trusted-types-for 'script';report-uri /_/OAuthUi/cspreport"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "cross-origin-opener-policy",
+        "value": "same-origin"
+      },
+      {
+        "name": "cross-origin-resource-policy",
+        "value": "same-site"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:50:34 GMT"
+      },
+      {
+        "name": "expires",
+        "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+      },
+      {
+        "name": "permissions-policy",
+        "value": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "server",
+        "value": "ESF"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site"
+      },
+      {
+        "name": "x-content-type-options",
+        "value": "nosniff"
+      },
+      {
+        "name": "x-frame-options",
+        "value": "SAMEORIGIN"
+      },
+      {
+        "name": "x-xss-protection",
+        "value": "0"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/user_ip_info/get-country",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997050196,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "112"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:50:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/platform_assistance/copilot/execute?is_stream=true",
+    "method": "POST",
+    "type": "fetch",
+    "timeStamp": 1769997305457,
+    "requestBody": {
+      "query": "how agentic ai is developing and many ai tools are simply building api's with out cybersecurity",
+      "workspace_id": "9854c3dc-cd06-40e9-a16c-a265cc8d6487",
+      "files": [],
+      "config": {
+        "agents": []
+      }
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache"
+      },
+      {
+        "name": "content-type",
+        "value": "text/event-stream"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:55:01 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/platform_assistance/copilot_workspace/get/9854c3dc-cd06-40e9-a16c-a265cc8d6487",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997318916,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "532"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:55:14 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user/get_wallet_details",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997318917,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "498"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:55:14 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/notification/notification_history/count",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997415861,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "84"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:56:51 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user/sessions/create",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997415864,
+    "requestBody": {
+      "session_id": "3a51c2f5-9881-4f27-902a-906bd322c759"
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:56:51 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/notification/notification_history?page_no=1&per_page=10",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997426857,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1518"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:02 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/dashboard/projects/metrics?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997444193,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "142"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:19 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/core/registry_validation?feature_code=MAX_MAN_PROJECTS&is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997444195,
+    "requestBody": {},
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "82"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:19 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/multi_agent_network/projects?is_generic=false&gateway_token=false&is_prebuilt=true",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997444200,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:19 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user/sessions/update?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997445144,
+    "requestBody": {
+      "is_logout": false
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/platform_assistance/copilot_workspace/list?per_page=12&page_no=1&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997445323,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "534"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/platform_assistance/copilot/sai_supported_files?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997445325,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "413"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user?page_no=1&per_page=10&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997464430,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:40 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/dashboard/users_count?company_id=502682&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997464432,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "154"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:40 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/module_and_roles/role?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997464434,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:40 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/space?per_page=10&page_no=1&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997468615,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:44 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/ALL_APPS?per_page=-1&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997477545,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1326"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:53 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/AUDIT_CRUD?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997477546,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "689"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:57:53 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/audit_trail?per_page=10&app_type=CORE&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997477548,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:58:05 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/key_vault/list?per_page=10&page_no=1&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997494325,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:58:10 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/api_pricing?page_no=1&per_page=10&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997497297,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:58:13 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/key_vault/check_existing?key_name=c&is_key_vault=true&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997521508,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "82"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 01:58:37 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/key_vault/create?is_key_vault=true&is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997604358,
+    "requestBody": {
+      "name": "cookie",
+      "value": "authorization\nBearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjo1MDI2ODIsImVtYWlsIjoienViYWlydWxoYXNhbjIxMEBnbWFpbC5jb20iLCJleHAiOjE3NzAwNjkwNDMsImlkIjo1MDczODMsIm1vYmlsZV9udW1iZXIiOiIiLCJuYW1lIjoienViYWlyIHVsaGFzYW4iLCJyb2xlcyI6eyJuYW1lIjoiUm9vdCIsImNvZGUiOiJST09UIn19.Asw6jxMfL3Xn0Ns-eVClusriHJDTf2W1oc6-E-mwWDU",
+      "type": "Credential",
+      "variable_access_members": {
+        "view": [],
+        "edit": []
+      }
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "659"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:00 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/dropdown_comp?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997625815,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user/get_usd_to_inr_rate?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997625816,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "88"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/all_keys/dropdown?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997625818,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "635"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/user_ip_info/get-info?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997647953,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "512"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:43 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/user/refresh_token?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997648062,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "540"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:00:43 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/flows_and_components/component/api_pricing/create?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997697197,
+    "requestBody": {
+      "component_key": "MCP_CLIENT_AZURE_AI",
+      "component_display_name": "Azure AI",
+      "component_type": "MCP_CLIENTS",
+      "component_variables_include": [
+        "cookie"
+      ],
+      "api_key_variable": "cookie",
+      "max_input_token": 3,
+      "max_output_token": 4,
+      "app_studio_limit_type": null,
+      "app_studio_max_input_token": 0,
+      "app_studio_max_output_token": 0,
+      "app_studio_limit_usd_amount": 0,
+      "app_studio_limit_inr_amount": 0,
+      "is_component_enabled": true,
+      "is_app_studio_enabled": false
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "553"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:32 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/APP_TYPE?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710178,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1122"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/ISSUE_CATEGORIES?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710179,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1705"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/PRIORITY?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710181,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "690"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "42",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm/ticket_count?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710189,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "967"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm?page_no=1&per_page=10&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710191,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/backend/lookup_code/lookup_type/TICKET_STATUS?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997710410,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "902"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:01:46 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "45",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm/create?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997788673,
+    "requestBody": {
+      "app_type": "SUTRA",
+      "issue_category": "Troubleshooting Agents/Copilots",
+      "subject": "api error",
+      "description": "fix it",
+      "priority_options": {
+        "p0": true,
+        "p1": false,
+        "p2": false
+      },
+      "images": []
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "79"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:03:04 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "46",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm/get_ticket/500673?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997798562,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1518"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:03:14 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "47",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm/issue_status_dropdown/500673?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997798563,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "116"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:03:14 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/grievance_manager/igm/reply_comments/500673?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997828355,
+    "requestBody": {
+      "description": "fix it properly",
+      "images_arr": []
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "79"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:03:44 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/space/check_exist?folder_name=s&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997865981,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "82"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:04:21 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "50",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/space/create?is_generic=false",
+    "method": "POST",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997870025,
+    "requestBody": {
+      "folder_name": "security",
+      "folder_icon": "Security",
+      "folder_access_members": {
+        "view": [],
+        "edit": []
+      },
+      "is_public": false
+    },
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "260"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:04:25 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/file/get_restrictions?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997875240,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "1240"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:04:31 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "52",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/file?per_page=10&folder_id=500273&is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997875247,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "147"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:04:31 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "url": "https://vanijprod.adya.ai/api/v1/vanij/gateway/file_manager/space/get/500273?is_generic=false",
+    "method": "GET",
+    "type": "xmlhttprequest",
+    "timeStamp": 1769997875248,
+    "requestBody": null,
+    "status": 200,
+    "statusText": "HTTP/2.0 200",
+    "responseHeaders": [
+      {
+        "name": "access-control-allow-origin",
+        "value": "*"
+      },
+      {
+        "name": "content-length",
+        "value": "600"
+      },
+      {
+        "name": "content-type",
+        "value": "application/json"
+      },
+      {
+        "name": "date",
+        "value": "Mon, 02 Feb 2026 02:04:31 GMT"
+      },
+      {
+        "name": "strict-transport-security",
+        "value": "max-age=31536000; includeSubDomains"
+      },
+      {
+        "name": "vary",
+        "value": "Origin"
+      }
+    ]
+  }
+]
